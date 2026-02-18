@@ -30,29 +30,44 @@
 | `beefy-dot-com` | Static site (Gatsby) | Separate Static Web App (future) |
 
 ### CI/CD via GitHub Actions
-A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on every push to `main` that touches `beefy-v2/`.
+A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on every push to `main`.
 
-**Setup steps:**
-1. In Azure Portal → `loin` App Service → **Deployment Center** → download the **Publish Profile**
-2. In GitHub → repo **Settings** → **Secrets and variables** → **Actions** → create secret:
-   - Name: `AZURE_WEBAPP_PUBLISH_PROFILE`
-   - Value: paste the entire publish profile XML
-3. Push to `main` — the workflow will build and deploy automatically
+**Authentication:** Uses OIDC (federated identity) — secrets are pre-configured in the repo:
+- `AZUREAPPSERVICE_CLIENTID_*`
+- `AZUREAPPSERVICE_TENANTID_*`
+- `AZUREAPPSERVICE_SUBSCRIPTIONID_*`
+
+**Deployment flow:**
+1. Checkout → Install deps → `npm run build` in `beefy-v2/`
+2. Copy `azure-server.js` + `package.json` into build output
+3. Upload as artifact → Download with `path: .` (extracts to root, not subdirectory)
+4. OIDC login → Deploy to Azure Web App via `azure/webapps-deploy@v3`
+5. Verify step confirms `server.js`, `index.html`, `package.json` exist before deploy
+
+Push to `main` — the workflow builds and deploys automatically (~5-8 minutes).
 
 ### Azure App Service Configuration
 Set these **Application Settings** in Azure Portal → `loin` → **Configuration** → **Application Settings**:
 
 | Name | Value | Purpose |
 |------|-------|---------|
-| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `false` | Skip Oryx build — we pre-build in GitHub Actions |
-| `WEBSITE_RUN_FROM_PACKAGE` | `1` | Run directly from deployed zip (faster cold starts) |
+| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `true` | Let Oryx detect `package.json` and run `npm install` + start script |
+
+> **Removed settings:** Do NOT set `WEBSITE_RUN_FROM_PACKAGE=1` — it creates a read-only filesystem that conflicts with file-based deploys.
 
 ### Startup Command
-The GitHub Actions workflow bundles a minimal Node.js static file server (`server.js`) and `package.json` into the build output. Azure automatically detects the `package.json` and runs `npm start` → `node server.js`, which serves the SPA on port `$PORT` (8080) with fallback routing.
+The GitHub Actions workflow bundles a minimal Node.js static file server (`server.js`) and `package.json` into the build output. Azure's Oryx detects the `package.json` `start` script and runs `node server.js`, which serves the SPA on port `$PORT` (8080) with fallback routing.
 
-**No startup command is needed** — clear it if previously set (Azure Portal → Configuration → General Settings → Startup Command → leave blank).
+**Recommended startup command:** `node server.js`
 
-> **Note:** If you need to override, set the startup command to `node server.js`.
+Set this in Azure Portal → Configuration → General Settings → Startup Command.
+
+> **Troubleshooting:** If the site doesn't load after deployment:
+> 1. Verify the startup command is `node server.js` (not a full path)
+> 2. Restart the App Service (Overview → Restart)
+> 3. Check Log Stream (Monitoring → Log stream) for `Loin serving on port 8080`
+> 4. Allow 2-3 minutes after restart — Azure pulls container images on first start
+> 5. If SSH is available (Development Tools → SSH), verify files: `ls -la /home/site/wwwroot/`
 
 ---
 
