@@ -1,7 +1,7 @@
 [
   {
     "id": "moo_venus-zksync-usdc.e",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "venus-zksync-usdc.e",
     "assets": ["USDCe"],
     "tokenAddress": "0xf3C2B394c2015E5394a5f97ab18B73a97976a650",
@@ -24,7 +24,7 @@
   },
   {
     "id": "moo_venus-zksync-usdt",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "venus-zksync-usdt",
     "assets": ["USDT"],
     "tokenAddress": "0x4dbC00B2534ea20a82b239b543c253c2F2ac609C",
@@ -47,7 +47,7 @@
   },
   {
     "id": "moo_venus-zksync-wbtc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "venus-zksync-wbtc",
     "assets": ["WBTC"],
     "tokenAddress": "0x5E9A02C0b587D8966D17ef73753204f457fB36AC",
@@ -70,7 +70,7 @@
   },
   {
     "id": "moo_venus-zksync-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "venus-zksync-weth",
     "assets": ["WETH"],
     "tokenAddress": "0x7b9643658d5A1516B5E22995819dF4d54b059D54",
@@ -93,7 +93,7 @@
   },
   {
     "id": "moo_venus-zksync-zk",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "venus-zksync-zk",
     "assets": ["ZK"],
     "tokenAddress": "0x6a839d7269734251C0C5EA73b6CCc0EE4E541B75",

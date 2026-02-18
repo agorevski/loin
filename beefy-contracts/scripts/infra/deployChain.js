@@ -25,9 +25,9 @@ const KEEPER = keeper;
 const config = {
   devMultisig: "0xc2cCdd61187b81cC56EcA985bbaf9da418e3d87f",
   treasuryMultisig: "0x2E52C94502f728A634a7b8eFf5941FB066d3eE76",
-  totalLimit: "95000000000000000",
-  callFee: "500000000000000",
-  strategist: "5000000000000000"
+  totalLimit: "1000000000000000",
+  callFee: "1000000000000000000",
+  strategist: "0"
 };
 
 const proposer = config.devMultisig || TRUSTED_EOA;

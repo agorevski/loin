@@ -19,11 +19,11 @@ const data: DataType = {
   singleAsset: [
     {
       title: 'Stake',
-      description: 'Invest your token in a Beefy single asset Vault.',
+      description: 'Invest your token in a Loin single asset Vault.',
     },
     {
       title: 'Earn',
-      description: 'Beefy stakes the token on an external, interest-bearing platform.',
+      description: 'Loin stakes the token on an external, interest-bearing platform.',
     },
     {
       title: 'Reinvest',
@@ -32,13 +32,13 @@ const data: DataType = {
     {
       title: 'Autocompound',
       description:
-        'Beefy regularly and automatically repeats the process, saving you time and fees.',
+        'Loin regularly and automatically repeats the process, saving you time and fees.',
     },
   ],
   lp: [
     {
       title: 'Deposit',
-      description: 'Stake LP tokens from external DEXs in a Beefy Vault.',
+      description: 'Stake LP tokens from external DEXs in a Loin Vault.',
     },
     {
       title: 'Earn Rewards',
@@ -52,7 +52,7 @@ const data: DataType = {
     {
       title: 'Autocompound',
       description:
-        'Beefy regularly and automatically repeats the process, saving you time and fees.',
+        'Loin regularly and automatically repeats the process, saving you time and fees.',
     },
   ],
   earningPools: [
@@ -70,7 +70,7 @@ const data: DataType = {
     },
     {
       title: 'Reward',
-      description: 'Beefy uses your interest to purchase another asset that becomes your reward',
+      description: 'Loin uses your interest to purchase another asset that becomes your reward',
     },
   ],
   zap: [
@@ -81,7 +81,7 @@ const data: DataType = {
     },
     {
       title: 'Create Pair',
-      description: 'Beefy uses half of your deposit to purchase the other token in the pair.',
+      description: 'Loin uses half of your deposit to purchase the other token in the pair.',
     },
     {
       title: 'Provide Liquidity',
@@ -143,7 +143,7 @@ export const EarnWithBeefy = memo(function EarnWithBeefy() {
   const handleSection = useCallback((value: string) => setSection(value), [setSection]);
 
   return (
-    <Section title="Earn with Beefy" contentContainer="none">
+    <Section title="Earn with Loin" contentContainer="none">
       <TogglesScroller>
         <TogglesContainer>
           <Toggles onChange={handleSection} value={section} options={toggleOptions} />

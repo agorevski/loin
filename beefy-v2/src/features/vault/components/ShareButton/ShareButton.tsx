@@ -57,10 +57,10 @@ export const ShareButton = memo(function ShareButton({
     return {
       vaultName: vault.names.singleMeta,
       vaultApy: formatLargePercent(apys.totalApy, 2),
-      vaultUrl: `https://app.beefy.com/vault/${vault.id}`,
+      vaultUrl: `https://app.loin.com/vault/${vault.id}`,
       chainName: chain.name,
       chainTag: '#' + chain.name.toLowerCase().replace(/[^a-z0-9-_]/gi, ''),
-      beefyHandle: '@beefyfinance',
+      beefyHandle: '@loinfinance',
     };
   }, [vault, chain, apys]);
   const additionalSelector = useMemo(

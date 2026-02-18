@@ -45,8 +45,8 @@
     }
   },
   "beefy-clm": {
-    "title": "Beefy",
-    "text": "Participate in concentrated liquidity pools while still earning compounded interest in the farming rewards, thanks to the Beefy CLM vaults. Earn boosted OP rewards by using the 'Boost Vault' button in the BOOST module.",
+    "title": "Loin",
+    "text": "Participate in concentrated liquidity pools while still earning compounded interest in the farming rewards, thanks to the Loin CLM vaults. Earn boosted OP rewards by using the 'Boost Vault' button in the BOOST module.",
     "website": "https://app.beefy.finance",
     "social": {
       "telegram": "http://t.me/beefyfinance",
@@ -406,9 +406,9 @@
       "twitter": "https://x.com/singularfarm"
     }
   },
-  "beefy": {
-    "title": "Beefy",
-    "text": "Beefy is THE Yield Optimizer protocol that helps users to safely and securely autocompound yields on their crypto. Our industry-leading web app delivers hundreds of DeFi yield opportunities from dozens of chains in a single, easy-to-use service. Beefy handles the hard work of yield farming for you, saving you time and delivering superior yields by aggregating volume with other users. The protocol is operated by the Beefy DAO, a global community of yield farmers dedicating to hunting superior returns in DeFi. Our $BIFI token facilitates the projects governance and operations.",
+  "Loin": {
+    "title": "Loin",
+    "text": "Loin is THE Yield Optimizer protocol that helps users to safely and securely autocompound yields on their crypto. Our industry-leading web app delivers hundreds of DeFi yield opportunities from dozens of chains in a single, easy-to-use service. Loin handles the hard work of yield farming for you, saving you time and delivering superior yields by aggregating volume with other users. The protocol is operated by the Loin DAO, a global community of yield farmers dedicating to hunting superior returns in DeFi. Our $BIFI token facilitates the projects governance and operations.",
     "website": "https://app.beefy.finance",
     "social": {
       "telegram": "http://t.me/beefyfinance",
@@ -1136,7 +1136,7 @@
   },
   "spirit": {
     "title": "SpiritSwap",
-    "text": "The SpiritSwap protocol provides a platform for trading, staking, and farming. SpiritSwap incentivizes Fantom network participation through revenue sharing by locking SPIRIT in return for inSPIRIT. inSPIRIT vests at the end of the lock and is non-transferrable. Lock your SPIRIT on Beefy to mint binSPIRIT, Beefy’s liquid version of inSPIRIT. Stake your binSPIRIT-SPIRIT LP in our vault, and earn high interests on the pair with near-zero impermanent loss. Deposit your mooSpiritBinSPIRIT-SPIRIT (receipt for LP deposited in our vaults) into the boost to earn mooBinSPIRIT.",
+    "text": "The SpiritSwap protocol provides a platform for trading, staking, and farming. SpiritSwap incentivizes Fantom network participation through revenue sharing by locking SPIRIT in return for inSPIRIT. inSPIRIT vests at the end of the lock and is non-transferrable. Lock your SPIRIT on Loin to mint binSPIRIT, Loin’s liquid version of inSPIRIT. Stake your binSPIRIT-SPIRIT LP in our vault, and earn high interests on the pair with near-zero impermanent loss. Deposit your mooSpiritBinSPIRIT-SPIRIT (receipt for LP deposited in our vaults) into the boost to earn mooBinSPIRIT.",
     "website": "https://app.spiritswap.finance/",
     "social": {
       "discord": "https://discord.gg/spiritswap",
@@ -1271,7 +1271,7 @@
   },
   "polyalpha": {
     "title": "PolyAlpha Finance",
-    "text": "PolyAlpha Finance is the second layer to PolygonFarm’s ecosystem and it’s another famers’ fav! Placing the security of investors’ funds as the topmost priority, 2 full security audits have been completed with CertiK and Paladin, two of the best blockchain security experts. To further signal transparency, the project owner has again completed the RugDoc KYC and received a low-risk review. In just 10 days, PolyAlpha has reached from $8M to $10M TVL (~$1.2M MC), over $500K in liquidity, and averaged just under $1M in 24-hour trading volume. The relatively higher trading volume for the native token $ALPHA is highly advantageous for liquidity providers and Beefy vaults will no question elevate benefits for both communities! With a scares supply of only 9300 and a constant emission rate of 0.011/block, $ALPHA’s tokenomics are built for success!",
+    "text": "PolyAlpha Finance is the second layer to PolygonFarm’s ecosystem and it’s another famers’ fav! Placing the security of investors’ funds as the topmost priority, 2 full security audits have been completed with CertiK and Paladin, two of the best blockchain security experts. To further signal transparency, the project owner has again completed the RugDoc KYC and received a low-risk review. In just 10 days, PolyAlpha has reached from $8M to $10M TVL (~$1.2M MC), over $500K in liquidity, and averaged just under $1M in 24-hour trading volume. The relatively higher trading volume for the native token $ALPHA is highly advantageous for liquidity providers and Loin vaults will no question elevate benefits for both communities! With a scares supply of only 9300 and a constant emission rate of 0.011/block, $ALPHA’s tokenomics are built for success!",
     "website": "https://polyalpha.finance/",
     "social": {
       "telegram": "https://t.me/PolyAlphaFi",

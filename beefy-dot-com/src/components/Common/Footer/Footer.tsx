@@ -13,7 +13,7 @@ import debank from '../../../images/footer/debank.svg';
 const data = [
   { name: 'github', img: github, link: 'https://github.com/beefyfinance' },
   { name: 'telegram', img: telegram, link: 'https://t.me/beefyfinance' },
-  { name: 'discord', img: discord, link: 'https://beefy.finance/discord' },
+  { name: 'discord', img: discord, link: 'https://loin.finance/discord' },
   { name: 'twitter', img: twitter, link: 'https://twitter.com/beefyfinance' },
   { name: 'reddit', img: reddit, link: 'https://www.reddit.com/r/Beefy/' },
   { name: 'debank', img: debank, link: 'https://debank.com/official/Beefy/' },
@@ -67,11 +67,11 @@ export const Footer = memo(function Footer() {
     <Outer>
       <Inner>
         <Links>
-          <ExternalLink href="https://vote.beefy.finance/" target="_blank">
+          <ExternalLink href="https://vote.loin.finance/" target="_blank">
             Proposals
           </ExternalLink>
           <InternalLink to="/articles">News</InternalLink>
-          <ExternalLink href="https://docs.beefy.finance" target="_blank">
+          <ExternalLink href="https://docs.loin.finance" target="_blank">
             Docs
           </ExternalLink>
           <ExternalLink href="https://github.com/beefyfinance/beefy-audits" target="_blank">

@@ -22,7 +22,7 @@
   },
   {
     "id": "moo_stargate-v2-arb-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "stargate-v2-arb-weth",
     "assets": ["ETH"],
     "tokenAddress": "0xe6EFe71fc3442343037B72776e02daFA2ee9aF1A",
@@ -45,7 +45,7 @@
   },
   {
     "id": "moo_compound-arbitrum-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "compound-arbitrum-usdc",
     "assets": ["USDC"],
     "tokenAddress": "0xb9A27ba529634017b12e3cbbbFFb6dB7908a8C8B",
@@ -68,7 +68,7 @@
   },
   {
     "id": "moo_silo-arb-silo",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "silo-arb-silo",
     "assets": ["SILO"],
     "tokenAddress": "0x92261402689559D3cF1435ecB28B8B87832c2468",
@@ -91,7 +91,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-usdc-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-usdc-usdt-vault",
     "assets": ["USDC", "USDT"],
     "tokenAddress": "0xf4ea976B260A498F26417B89f6dbdD555104a734",
@@ -114,7 +114,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usdc-usd+-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usdc-usd+-vault",
     "assets": ["USD+", "USDC"],
     "tokenAddress": "0x79Dd0113E1d0367Cf97A3A39005E5822a0A3f396",
@@ -137,7 +137,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usd+-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usd+-usdt-vault",
     "assets": ["USD+", "USDT"],
     "tokenAddress": "0x639976EE5FbcdAe1fB981a02F4372e2b289db844",
@@ -160,7 +160,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-usd+-500-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-usd+-500-vault",
     "assets": ["USD+", "WETH"],
     "tokenAddress": "0xe7ACd74a677fD37a2fa322190FdABb38D1CD4A0B",
@@ -183,7 +183,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-usd+-100-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-usd+-100-vault",
     "assets": ["USD+", "WETH"],
     "tokenAddress": "0x8dDf263D6B3960C0725Ef41A597568af7c75F5A7",
@@ -206,7 +206,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-zro-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-zro-weth-vault",
     "assets": ["ZRO", "WETH"],
     "tokenAddress": "0x913fDfDac7d7f20FD7a6aFbe8a868BD963092566",
@@ -229,7 +229,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-weth-arb-500-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-weth-arb-500-vault",
     "assets": ["ARB", "WETH"],
     "tokenAddress": "0x2EfdEEc0f4f51Ad8a92d87351B8d5979D994e40a",
@@ -252,7 +252,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-weth-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-weth-usdc-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0xf5C9c812fA046579D46Caf15133052eecDc9a8ce",
@@ -275,7 +275,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-wbtc-tbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-wbtc-tbtc-vault",
     "assets": ["WBTC", "tBTC"],
     "tokenAddress": "0xDfB581df5407f7176314327Ef10C0ba44AD16a9e",
@@ -298,7 +298,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-wsteth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-wsteth-weth-vault",
     "assets": ["wstETH", "WETH"],
     "tokenAddress": "0xACfB4a84712121bC665b59bCD3cD3bE5a8276856",
@@ -321,7 +321,7 @@
   },
   {
     "id": "moo_ramses-cl-rseth-ethx-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-rseth-ethx-vault",
     "assets": ["rsETH", "ETHx"],
     "tokenAddress": "0x4fCf6A05a7F1A5BA2781d7De4DB78Bd16F84F540",
@@ -344,7 +344,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-usdt-usdc.e-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-usdt-usdc.e-vault",
     "assets": ["USDT", "arbUSDCe"],
     "tokenAddress": "0x87310d10269B230C10E25d29748400534a94D723",
@@ -367,7 +367,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-wbtc-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-wbtc-usdc-vault",
     "assets": ["WBTC", "USDC"],
     "tokenAddress": "0x447CB3B354AB9D21f8E2100fE5dAd8b5F0bb11b9",
@@ -390,7 +390,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-arb-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-arb-usdc-vault",
     "assets": ["ARB", "USDC"],
     "tokenAddress": "0x6Ff9D7357634DA149E79D9E6C93E92B443e5BC0c",
@@ -413,7 +413,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-usdc-usdc.e-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-usdc-usdc.e-vault",
     "assets": ["USDC", "arbUSDCe"],
     "tokenAddress": "0xE40006077d8ba4D1e11902f99831eCB88B41782B",
@@ -436,7 +436,7 @@
   },
   {
     "id": "moo_sushi-cow-arb-weth-usdc-100-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "sushi-cow-arb-weth-usdc-100-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0x7d920D0B311F3897D4b862dBbe8CD8b759D9e1fe",
@@ -459,7 +459,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-weth-usdt-500-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-weth-usdt-500-vault",
     "assets": ["WETH", "USDT"],
     "tokenAddress": "0x329C8AbA35381169c9Ed4D0Cf522413157663Ca3",
@@ -482,7 +482,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-weth-usdc-500-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-weth-usdc-500-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0xaaec4162648AD644554E162c06B9230374d6Ebfc",
@@ -505,7 +505,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-wbtc-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-wbtc-usdc-vault",
     "assets": ["WBTC", "USDC"],
     "tokenAddress": "0x7fed8BC288E5f9a956D456F83B631D4f8E491c10",
@@ -528,7 +528,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-arb-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-arb-usdc-vault",
     "assets": ["ARB", "USDC"],
     "tokenAddress": "0x76126C8Da90bAC6A9ebb7b6dD0902D3e935449D8",
@@ -551,7 +551,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-zro-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-zro-weth-vault",
     "assets": ["ZRO", "WETH"],
     "tokenAddress": "0x8616935667303D9c5ffd8D4672F1b8a68f00A37f",
@@ -574,7 +574,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-weth-usd+-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-weth-usd+-vault",
     "assets": ["USD+", "WETH"],
     "tokenAddress": "0x2811B35D4e3a886fE5F30bdf6dBc91d10155d0bE",
@@ -597,7 +597,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-weth-reth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-weth-reth-vault",
     "assets": ["rETH", "WETH"],
     "tokenAddress": "0x337f278776650aaB0a1A6d136Ba0b535d8dc6BCf",
@@ -620,7 +620,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-wsteth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-wsteth-weth-vault",
     "assets": ["wstETH", "WETH"],
     "tokenAddress": "0xA66772e351e1B3BD917592887744cFe0BE900EE5",
@@ -643,7 +643,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-wbtc-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-wbtc-weth-vault",
     "assets": ["WBTC", "WETH"],
     "tokenAddress": "0xD52D5bC4e1135D8f73C5F141646172C451E4A76B",
@@ -666,7 +666,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-usdc-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-usdc-usdt-vault",
     "assets": ["USDC", "USDT"],
     "tokenAddress": "0x975e9dA3B2D32Dd6F33dA6521362ae2f26de1A40",
@@ -689,7 +689,7 @@
   },
   {
     "id": "moo_pancake-cow-arb-cake-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pancake-cow-arb-cake-weth-vault",
     "assets": ["CAKE", "WETH"],
     "tokenAddress": "0x8513c2835540bd4681f27c171c47a4B4D0c20a2a",
@@ -750,7 +750,7 @@
   },
   {
     "id": "moo_ramses-cl-weeth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-weeth-weth-vault",
     "assets": ["weETH", "WETH"],
     "tokenAddress": "0xc16a8425d27567fBeBDa82Bc005377cEDadbFa31",
@@ -773,7 +773,7 @@
   },
   {
     "id": "moo_ramses-cl-rseth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-rseth-weth-vault",
     "assets": ["rsETH", "WETH"],
     "tokenAddress": "0x45eAc6f86b974b0536Aa488eD8DDF3022F4C768E",
@@ -796,7 +796,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-rseth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-rseth-weth-vault",
     "assets": ["rsETH", "WETH"],
     "tokenAddress": "0x1Db8d743824bdaBA39b88D22b44bcEcf7179D413",
@@ -838,7 +838,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-rseth-wsteth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-rseth-wsteth-vault",
     "assets": ["rsETH", "wstETH"],
     "tokenAddress": "0x86b81747ffd477907F8dF2DAF67A82314B94ae36",
@@ -861,7 +861,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usdc-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usdc-usdt-vault",
     "assets": ["USDC", "USDT"],
     "tokenAddress": "0x195DE404648C4E9f8778816d1E31566272FBff6b",
@@ -884,7 +884,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usdv-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usdv-usdc-vault",
     "assets": ["USDV", "USDC"],
     "tokenAddress": "0x04Cd88f56Ea305816c02EBa9B1fCF4E0378424b7",
@@ -907,7 +907,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-comp-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-comp-weth-vault",
     "assets": ["COMP", "WETH"],
     "tokenAddress": "0x2ec7AF186583Ac9B5E0547709C48f999355768E7",
@@ -930,7 +930,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usdc-aave-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usdc-aave-vault",
     "assets": ["AAVE", "USDC"],
     "tokenAddress": "0xc714EbA873F3974f53BdCA44381a617ee07A83b7",
@@ -953,7 +953,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-ldo-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-ldo-usdc-vault",
     "assets": ["LDO", "USDC"],
     "tokenAddress": "0x817C5fb010E8ADAa3636ef326d628e185Db4c917",
@@ -976,7 +976,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-uni-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-uni-usdt-vault",
     "assets": ["UNI", "USDT"],
     "tokenAddress": "0xe29B19aCadE6ebE1CbE40D1b8c71cFBec600989D",
@@ -999,7 +999,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usdc-uni-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usdc-uni-vault",
     "assets": ["UNI", "USDC"],
     "tokenAddress": "0x21bf1E6736E7c5BF9ddc36F25f5cbfc5d465C154",
@@ -1022,7 +1022,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-wbtc-link-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-wbtc-link-vault",
     "assets": ["WBTC", "LINK"],
     "tokenAddress": "0x25Be9451F45390fBE5b6b748095787abc9a3110A",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-link-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-link-usdt-vault",
     "assets": ["LINK", "USDT"],
     "tokenAddress": "0x7aA6a7Cd7E090cb361667aa56F7bC7f443A0E3ab",
@@ -1068,7 +1068,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-usde-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-usde-usdt-vault",
     "assets": ["USDe", "USDT"],
     "tokenAddress": "0xAEF840055a3441F61D8Ef2F7d53fCAf61b9e46E0",
@@ -1091,7 +1091,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-frax-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-frax-usdt-vault",
     "assets": ["FRAX", "USDT"],
     "tokenAddress": "0x683AC256ed90f50EEC50691bAc538c96C5a52206",
@@ -1114,7 +1114,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-crv-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-crv-weth-vault",
     "assets": ["CRV", "WETH"],
     "tokenAddress": "0xD8b6b0ecFc8200F1E2aD594Dca0c524411eeF9F4",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-cbeth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-cbeth-weth-vault",
     "assets": ["cbETH", "WETH"],
     "tokenAddress": "0xd134De08D6874fE6A2ca3f2365881d720DCf85Ca",
@@ -1160,7 +1160,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-rpl-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-rpl-vault",
     "assets": ["RPL", "WETH"],
     "tokenAddress": "0x8F1382d1ef3A53bb3d736399dAe91f27cd07F4a9",
@@ -1183,7 +1183,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-reth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-reth-vault",
     "assets": ["rETH", "WETH"],
     "tokenAddress": "0xE336ac7DDd4155cf104e0Da78D35e78e2d2A56AC",
@@ -1206,7 +1206,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-pepe-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-pepe-weth-vault",
     "assets": ["PEPE", "WETH"],
     "tokenAddress": "0x5b7788943F11738FAb0080330faeB48A6b2738De",
@@ -1229,7 +1229,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-wsteth-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-wsteth-usdc-vault",
     "assets": ["wstETH", "USDC"],
     "tokenAddress": "0x9054f75dB6d5d4A64045195DC7805c450F41B05a",
@@ -1252,7 +1252,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-tbtc-weth-prod-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-tbtc-weth-prod-vault",
     "assets": ["tBTC", "WETH"],
     "tokenAddress": "0x96a0B5E64CDFb2dE26496D64a4de6Bc8e3953e7F",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-wbtc-tbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-wbtc-tbtc-vault",
     "assets": ["tBTC", "WBTC"],
     "tokenAddress": "0x0c63BBC3712c53214b5489C68cCDC5a9e3bB4800",
@@ -1298,7 +1298,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-wusdm-wsteth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-wusdm-wsteth-vault",
     "assets": ["wUSDM", "wstETH"],
     "tokenAddress": "0xDa2Fb8c737e0D1FdaA1B44aD1051aC8D4a1cB1eF",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "moo_ramses-zero-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-zero-weth-vault",
     "assets": ["ZRO", "WETH"],
     "tokenAddress": "0xDa42DA88EcDa377e3BA4930A393BE4043EC45C34",
@@ -1344,7 +1344,7 @@
   },
   {
     "id": "moo_ramses-cl-weth-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-weth-usdc-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0xeEE05484d1b2DCB2D528E29543b73Ce3aeE181c4",
@@ -1367,7 +1367,7 @@
   },
   {
     "id": "moo_ramses-cl-arb-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-arb-usdc-vault",
     "assets": ["ARB", "USDC"],
     "tokenAddress": "0x31d102B2c131aCd87C093678285E569fC4DDdfef",
@@ -1390,7 +1390,7 @@
   },
   {
     "id": "moo_ramses-ethfi-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-ethfi-weth-vault",
     "assets": ["ETHFI", "WETH"],
     "tokenAddress": "0x86c2D1f5D2Cee69D1924b7aF605A0E6473634b56",
@@ -1413,7 +1413,7 @@
   },
   {
     "id": "moo_ramses-cl-wbtc-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "ramses-cl-wbtc-weth-vault",
     "assets": ["WBTC", "WETH"],
     "tokenAddress": "0x34d07eEFf5aF38BcdD1CAbcF6C997A9D75A0d1B7",
@@ -1436,7 +1436,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-uni-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-uni-vault",
     "assets": ["UNI", "WETH"],
     "tokenAddress": "0xA2394625BFad0e4A018606BD4F1556d15F13a609",
@@ -1459,7 +1459,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-weth-dai-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-weth-dai-vault",
     "assets": ["DAI", "WETH"],
     "tokenAddress": "0x155aEbAe69B3Fa2D135146Df6fECa0F8D6FabDD6",
@@ -1482,7 +1482,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-wsteth-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-wsteth-weth-vault",
     "assets": ["wstETH", "WETH"],
     "tokenAddress": "0x749e0767C811a4AE867dDac6280aE8b2C57b75B1",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-eusd-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-eusd-usdc-vault",
     "assets": ["eUSD", "USDC"],
     "tokenAddress": "0x02dB67e732748027293C2eaeb21C949d8DF3F6a8",
@@ -1528,7 +1528,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-eusd-knox-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-eusd-knox-vault",
     "assets": ["KNOX", "eUSD"],
     "tokenAddress": "0x63f20920Bd886D7FDB0c64Fcd4ddF28Ba45055cB",
@@ -1551,7 +1551,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-eth+-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-eth+-weth-vault",
     "assets": ["ETH+", "WETH"],
     "tokenAddress": "0xDd84e4b6ec8A8c05c95f3eC3C7464029Cb900577",
@@ -1574,7 +1574,7 @@
   },
   {
     "id": "moo_uniswap-cow-arb-link-eth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "uniswap-cow-arb-link-eth-vault",
     "assets": ["LINK", "WETH"],
     "tokenAddress": "0xC40E0Aa87cdb75bEedeA8fbB5CBb7EaaA64CA0Ee",

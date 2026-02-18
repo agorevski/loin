@@ -8,7 +8,7 @@ export const DefaultMeta = memo(function DefaultMeta() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
   const canonical = useMemo(() => {
-    return `https://app.beefy.com${location.pathname}`;
+    return `https://app.loin.com${location.pathname}`;
   }, [location]);
 
   // @dev defaults should also be added to index.html with data-rh="true"
@@ -26,8 +26,8 @@ export const DefaultMeta = memo(function DefaultMeta() {
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@beefyfinance" />
-      <meta name="twitter:creator" content="@beefyfinance" />
+      <meta name="twitter:site" content="@loinfinance" />
+      <meta name="twitter:creator" content="@loinfinance" />
       <meta name="twitter:title" content={t('Meta-Default-Title')} />
       <meta name="twitter:description" content={t('Meta-Default-Description')} />
       <meta name="twitter:image" content={ogImageUrl} />

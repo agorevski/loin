@@ -11,7 +11,7 @@ import { getCowClmChains, getCowClms } from './getCowClms';
 const CACHE_KEY = 'COW_VAULTS_META';
 const INIT_DELAY = Number(process.env.COWCENTRATED_INIT_DELAY || 1000);
 const UPDATE_INTERVAL = 60000;
-const BEEFY_CLM_API = process.env.BEEFY_CLM_API || 'https://clm-api.beefy.finance';
+const BEEFY_CLM_API = process.env.BEEFY_CLM_API || 'https://clm-api.loin.finance';
 
 const chainToVaults: Partial<Record<ApiChain, CowClmsMeta>> = {};
 

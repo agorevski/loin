@@ -1094,12 +1094,12 @@
   },
   {
     "id": "moo_cake-cakev2",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "cake-cakev2-eol",
     "type": "boost",
     "contractAddress": "0xA17A86e836199489801A00B50b9C09525ddC232b",
     "status": "inactive",
-    "partners": ["beefy"],
+    "partners": ["Loin"],
     "rewards": [
       {
         "type": "token",

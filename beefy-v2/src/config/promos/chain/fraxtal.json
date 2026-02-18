@@ -1,7 +1,7 @@
 [
   {
     "id": "moo_curve-lend-fraxtal-sfrax-crvusd",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "curve-lend-fraxtal-sfrax-crvusd",
     "assets": ["crvUSD"],
     "tokenAddress": "0x971e5D920369B05B793a5c2Fd0539468ddf14f7a",

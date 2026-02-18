@@ -21,27 +21,27 @@ const CardList = styled.div`
 const data = [
   {
     title: 'BIFI Maxi',
-    description: 'BIFI holders share in our revenue by staking their BIFI in Beefy Maxi vaults. ',
-    link: 'https://app.beefy.com/',
+    description: 'BIFI holders share in our revenue by staking their BIFI in Loin Maxi vaults. ',
+    link: 'https://app.loin.com/',
     linkText: 'Earn BIFI',
   },
   {
     title: 'BIFI Earnings Pools',
     description:
       'Staking BIFI in a BIFI Earnings Pool rewards you with native tokens with the platform’s earnings.',
-    link: 'https://app.beefy.com/',
+    link: 'https://app.loin.com/',
     linkText: 'Earn Native',
   },
   {
     title: 'Vote',
-    description: 'Our Snapshot governance mechanism gives your BIFI voting power in Beefy’s DAO.',
-    link: 'https://vote.beefy.finance/#/',
+    description: 'Our Snapshot governance mechanism gives your BIFI voting power in Loin’s DAO.',
+    link: 'https://vote.loin.finance/#/',
     linkText: 'Vote',
   },
   {
     title: 'Fixed-Supply',
     description: 'A fixed supply of 80,000 BIFI acts as a control against token inflation.',
-    link: 'https://docs.beefy.finance/#what-is-usdbifi',
+    link: 'https://docs.loin.finance/#what-is-usdbifi',
     linkText: 'Learn More',
   },
 ];

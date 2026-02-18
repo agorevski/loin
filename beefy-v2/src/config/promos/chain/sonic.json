@@ -24,7 +24,7 @@
   },
   {
     "id": "moo_silov2-sonic-usdc-valamore-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "silov2-sonic-usdc-valamore",
     "assets": ["USDCe"],
     "tokenAddress": "0x24c8D7Dc7D1d2dc0e6f6AE97345c04450a174782",
@@ -47,7 +47,7 @@
   },
   {
     "id": "moo_swapx-ichi-bes-os-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "swapx-ichi-bes-os",
     "assets": ["beS", "oS"],
     "tokenAddress": "0x94755F33aBEdceF54823346085df6C7CF59511C2",
@@ -70,7 +70,7 @@
   },
   {
     "id": "moo_defive-ws-bes-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "defive-ws-bes",
     "assets": ["WS", "beS"],
     "tokenAddress": "0x3e3F36eE9EBd776ccDC32e8670CE37b9B00c0a45",
@@ -93,7 +93,7 @@
   },
   {
     "id": "moo_beets-sonic-sonic-quartet-audition-act-ii-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "beets-sonic-sonic-quartet-audition-act-ii",
     "assets": ["scETH", "scBTC", "scUSDC", "stS"],
     "tokenAddress": "0xD74FcA8DA8efAE7742C212Ce47aa26f6fcdC7e54",
@@ -116,7 +116,7 @@
   },
   {
     "id": "moo_euler-sonic-re7labs-usdc.e-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "euler-sonic-re7labs-usdc.e",
     "assets": ["USDCe"],
     "tokenAddress": "0x0356485CbFC04E69DAba736C29AFE0b90393d521",
@@ -139,7 +139,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-usdc.e-bes-vault-begems1",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "shadow-cow-sonic-usdc.e-bes-vault",
     "assets": ["USDCe", "beS"],
     "tokenAddress": "0x91D2cB866C64089B72AA749bAF69592b50ab724f",
@@ -162,7 +162,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-wbtc-weth-vault-shadow",
-    "title": "Shadow & Beefy",
+    "title": "Shadow & Loin",
     "vaultId": "shadow-cow-sonic-wbtc-weth-vault",
     "assets": ["wBTC", "WETH"],
     "tokenAddress": "0x0c750C226351efb59Cf4ac6E7c1ACE68b18A9052",
@@ -192,7 +192,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-wbtc-usdc.e-vault-shadow",
-    "title": "Shadow & Beefy",
+    "title": "Shadow & Loin",
     "vaultId": "shadow-cow-sonic-wbtc-usdc.e-vault",
     "assets": ["wBTC", "USDCe"],
     "tokenAddress": "0x920D88cA46041eFdB317c1a4150e8f0515e88D9B",
@@ -222,7 +222,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-ws-wbtc-vault-shadow",
-    "title": "Shadow & Beefy",
+    "title": "Shadow & Loin",
     "vaultId": "shadow-cow-sonic-ws-wbtc-vault",
     "assets": ["wBTC", "WS"],
     "tokenAddress": "0x06Cc456A3c54A19bC173d8c81839c7bE65E78B48",
@@ -252,7 +252,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-ws-bes-vault",
-    "title": "Shadow & Beefy",
+    "title": "Shadow & Loin",
     "vaultId": "shadow-cow-sonic-ws-bes-vault",
     "assets": ["beS", "S"],
     "tokenAddress": "0xB94932EdbD9406c0646c02bAAEa4F768F450f603",
@@ -289,7 +289,7 @@
   },
   {
     "id": "moo_swapx-ichi-bes-usdce",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "swapx-ichi-bes-usdce",
     "assets": ["beS", "USDCe"],
     "tokenAddress": "0x2Bf0F7A1850a704981E992B8fCf7F261313aA102",
@@ -312,7 +312,7 @@
   },
   {
     "id": "moo_beetsv3-sonic-beefyusdce-scusd2",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "beetsv3-sonic-beefyusdce-scusd",
     "assets": ["mooSiloSonicUSDCe", "scUSD"],
     "tokenAddress": "0x0aD8162B686af063073EABbEA9bC6FdA2D8184A4",
@@ -335,7 +335,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-ws-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "shadow-cow-sonic-ws-weth-vault",
     "assets": ["S", "WETH"],
     "tokenAddress": "0x7821Fc48A8E3547519b49853c8dDBa47b51f29Cd",
@@ -358,7 +358,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-ws-usdc.e-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "shadow-cow-sonic-ws-usdc.e-vault",
     "assets": ["S", "USDCe"],
     "tokenAddress": "0x90dEfd0D2D69FBFF5C5eC3D271A5D24b12FB96F1",
@@ -381,7 +381,7 @@
   },
   {
     "id": "moo_shadow-cow-sonic-usdc.e-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "shadow-cow-sonic-usdc.e-weth-vault",
     "assets": ["USDCe", "WETH"],
     "tokenAddress": "0xA233A41B4a2711b704b0daCeD3956f378a8cB6aA",
@@ -404,7 +404,7 @@
   },
   {
     "id": "moo_shadow-ws-shadow",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "shadow-ws-shadow",
     "assets": ["SHADOW", "S"],
     "tokenAddress": "0x9C243115b385d62FD2d20EA2c3798EA9Df0c0D44",
@@ -427,7 +427,7 @@
   },
   {
     "id": "moo_beetsv3-sonic-beefyusdce-scusd",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "beetsv3-sonic-beefyusdce-scusd",
     "assets": ["mooSiloSonicUSDCe", "scUSD"],
     "tokenAddress": "0x0aD8162B686af063073EABbEA9bC6FdA2D8184A4",
@@ -450,7 +450,7 @@
   },
   {
     "id": "moo_swapx-usdc.e-scusd",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "swapx-usdc.e-scusd",
     "assets": ["USDCe", "scUSD"],
     "tokenAddress": "0x7D881FE2288f2f0D77296F3be2D8f480D264f3fB",

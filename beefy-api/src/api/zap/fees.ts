@@ -12,7 +12,7 @@ export type ZapFee = {
 };
 
 /** in bps */
-const DEFAULT_ZAP_FEE = 0.0005;
+const DEFAULT_ZAP_FEE = 0;
 
 const getChainFeeReceiver = createCachedFactory(
   (chain: ApiChain): Address => {

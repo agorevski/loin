@@ -16,7 +16,7 @@ export class DatabarnApi implements IDatabarnApi {
 
   constructor() {
     this.databarnBase =
-      import.meta.env.VITE_DATABARN_URL || 'https://databarn.beefy.finance/api/v1';
+      import.meta.env.VITE_DATABARN_URL || 'https://databarn.loin.finance/api/v1';
   }
 
   public async getInvestorTimeline(address: string): Promise<Array<DatabarnTimelineEntry>> {

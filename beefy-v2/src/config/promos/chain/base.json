@@ -1,7 +1,7 @@
 [
     {
     "id": "moo_aerodrome-synd-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-synd-weth",
     "assets": ["WETH", "SYND"],
     "tokenAddress": "0xeE9DE934e0273556A3b4585abf6fCc29fE365dd6",
@@ -21,7 +21,7 @@
   },
   {
     "id": "moo_aerodrome-weth-bwell-axlop",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-bwell",
     "assets": ["WETH", "bWELL"],
     "tokenAddress": "0xacDBb7c90C0F764cA7BB5307d18C5b211Fbd9C00",
@@ -41,7 +41,7 @@
   },
   {
     "id": "moo_aerodrome-cbbtc-edge-axlop",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cbbtc-edge",
     "assets": ["cbBTC", "EDGE"],
     "tokenAddress": "0xb0fbF668CDd01548973B74dA2001B2f78B6da99e",
@@ -61,7 +61,7 @@
   },
   {
     "id": "moo_aerodrome-weth-vvv-axlop",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-vvv",
     "assets": ["WETH", "VVV"],
     "tokenAddress": "0x4794158d7587961B1C462c0774A06C95018a854B",
@@ -101,7 +101,7 @@
   },
   {
     "id": "moo_aerodrome-ousdt-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-ousdt-usdc",
     "assets": ["OUSDT", "USDC"],
     "tokenAddress": "0xfAde70ee9b3907Ace0A0B81603b9841c4E46C0F6",
@@ -140,7 +140,7 @@
   },
   {
     "id": "moo_aerodrome-tbtc-usdc-thresholdbeefy",
-    "title": "Threshold & Beefy",
+    "title": "Threshold & Loin",
     "vaultId": "aerodrome-tbtc-usdc",
     "assets": ["tBTC", "USDC"],
     "tokenAddress": "0xC3a5b142a144135D900FC5Ef2Bb7E92a3bcB46F1",
@@ -149,7 +149,7 @@
     "campaign": "threshold-boost",
     "contractAddress": "0x174FE81B9Ecc0EDd99E0E150fB6260051B306D1A",
     "tag": {
-      "text": "Threshold & Beefy Boost"
+      "text": "Threshold & Loin Boost"
     },
     "rewards": [
       {
@@ -170,7 +170,7 @@
   },
   {
     "id": "moo_aerodrome-tbtc-weth-thresholdbeefy",
-    "title": "Threshold & Beefy",
+    "title": "Threshold & Loin",
     "vaultId": "aerodrome-tbtc-weth",
     "assets": ["tBTC", "WETH"],
     "tokenAddress": "0x366E0CD6c5b8906e456432B0c8Fb62557E68282f",
@@ -179,7 +179,7 @@
     "campaign": "threshold-boost",
     "contractAddress": "0xc38DCb8d2B1475C78A110E68A6319B1f48e8dfE9",
     "tag": {
-      "text": "Threshold & Beefy Boost"
+      "text": "Threshold & Loin Boost"
     },
     "rewards": [
       {
@@ -200,7 +200,7 @@
   },
   {
     "id": "moo_aerodrome-tbtc-cbbtc-thresholdbeefy",
-    "title": "Threshold & Beefy",
+    "title": "Threshold & Loin",
     "vaultId": "aerodrome-tbtc-cbbtc",
     "assets": ["tBTC", "cbBTC"],
     "tokenAddress": "0x64AF54612646CcE0657374226e38B82B8001E674",
@@ -209,7 +209,7 @@
     "campaign": "threshold-boost",
     "contractAddress": "0xCD241A97aC92C3415fEfbe6f3d61A27b2C30acE7",
     "tag": {
-      "text": "Threshold & Beefy Boost"
+      "text": "Threshold & Loin Boost"
     },
     "rewards": [
       {
@@ -230,7 +230,7 @@
   },
   {
     "id": "moo_aerodrome-weth-vvv",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-vvv",
     "assets": ["VVV", "WETH"],
     "tokenAddress": "0x4794158d7587961B1C462c0774A06C95018a854B",
@@ -253,7 +253,7 @@
   },
   {
     "id": "moo_aerodrome-weth-champ",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-champ",
     "assets": ["CHAMP", "WETH"],
     "tokenAddress": "0x2E640eBa7e3b6Ec59A6D5b4A3ca40D8D7c6747e8",
@@ -276,7 +276,7 @@
   },
   {
     "id": "moo_aerodrome-cbbtc-champ",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cbbtc-champ",
     "assets": ["CHAMP", "cbBTC"],
     "tokenAddress": "0xf106B00465355e2e2b7096EAf713c12E3BFEFAda",
@@ -299,7 +299,7 @@
   },
   {
     "id": "moo_aerodrome-cow-weth-drv-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-weth-drv-vault",
     "assets": ["WETH", "DRV"],
     "tokenAddress": "0x22040f9dce15a8c9822764B2110900E933b4B2e6",
@@ -322,7 +322,7 @@
   },
   {
     "id": "moo_aerodrome-weth-fai",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-fai",
     "assets": ["FAI", "WETH"],
     "tokenAddress": "0xB12B638006Bf9AcBF3e7Ee195988aa5a1E276053",
@@ -345,7 +345,7 @@
   },
   {
     "id": "moo_aerodrome-tbtc-cbbtc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-tbtc-cbbtc",
     "assets": ["tBTC", "cbBTC"],
     "tokenAddress": "0x64AF54612646CcE0657374226e38B82B8001E674",
@@ -368,7 +368,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-usei-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-usei-vault",
     "assets": ["WETH", "uSEI"],
     "tokenAddress": "0xf092CA55c282923d96b0E1f19EAa0372F19AAfa8",
@@ -391,7 +391,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-uapt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-uapt-vault",
     "assets": ["WETH", "uAPT"],
     "tokenAddress": "0x1D28D47b547A2295c00Ba48Ab0FEa509b7b4Ad22",
@@ -414,7 +414,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-unear-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-unear-vault",
     "assets": ["WETH", "uNEAR"],
     "tokenAddress": "0xe759D40f8a8B57C7CA5806D13aF88974e396D1e6",
@@ -437,7 +437,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-udoge-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-udoge-weth-vault",
     "assets": ["uDOGE", "WETH"],
     "tokenAddress": "0x2d41b29B365e0737F2f5f01Bf668e27485A66588",
@@ -460,7 +460,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-ulink-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-ulink-vault",
     "assets": ["WETH", "uLINK"],
     "tokenAddress": "0xE4BFDCcdDaabf11ef80347dF5C29A6833B8D6f92",
@@ -483,7 +483,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-uada-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-uada-vault",
     "assets": ["WETH", "uADA"],
     "tokenAddress": "0xDe4E2cF3D45ce4800b307C1A571f771f74ac6c06",
@@ -506,7 +506,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-uxrp-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-uxrp-weth-vault",
     "assets": ["uXRP", "WETH"],
     "tokenAddress": "0x22d0D6a733d392DaCAa0CF97F5875314B5cF6841",
@@ -529,7 +529,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-usol-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-usol-vault",
     "assets": ["WETH", "uSOL"],
     "tokenAddress": "0x58F80e976d181CA3c6c3C9C2C962109f3a06F1Df",
@@ -552,7 +552,7 @@
   },
   {
     "id": "moo_aerodrome-cow-base-weth-usui-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-base-weth-usui-vault",
     "assets": ["WETH", "uSUI"],
     "tokenAddress": "0xE403c2b36849d005d190669f775858259571705e",
@@ -575,7 +575,7 @@
   },
   {
     "id": "moo_compound-base-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "compound-base-usdc",
     "assets": ["USDC"],
     "tokenAddress": "0xeF6ED674486E54507d0f711C0d388BD8a1552E6F",
@@ -618,7 +618,7 @@
   },
   {
     "id": "moo_aerodrome-weth-klima",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-klima",
     "assets": ["KLIMA", "ETH"],
     "tokenAddress": "0x24E68be7Bd0b95dd5757Eaa2799A55b08a2DE061",
@@ -641,7 +641,7 @@
   },
   {
     "id": "moo_alienbase-alb-usdc-wide",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "alienbase-alb-usdc-wide",
     "assets": ["ALB", "USDC"],
     "tokenAddress": "0x3fCb8351d54A25D4693be19049045070E10ED1B4",
@@ -664,7 +664,7 @@
   },
   {
     "id": "moo_alienbase-alb-eth-wide",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "alienbase-alb-eth-wide",
     "assets": ["ALB", "ETH"],
     "tokenAddress": "0xafFca577bF4322D608bc0DcCA8D4722EADCD4EEB",
@@ -687,7 +687,7 @@
   },
   {
     "id": "moo_alienbase-cbeth-eth-narrow",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "alienbase-cbeth-eth-narrow",
     "assets": ["cbETH", "ETH"],
     "tokenAddress": "0xc7197c0491661f9862Fb7fd59E309d31B1a8698A",
@@ -710,7 +710,7 @@
   },
   {
     "id": "moo_alienbase-usdc-usdbc-narrow",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "alienbase-usdc-usdbc-narrow",
     "assets": ["USDC", "USDbC"],
     "tokenAddress": "0xaD0e368CF29bA315Aba0adDdBC6BA2306De2F30e",
@@ -733,7 +733,7 @@
   },
   {
     "id": "moo_aerodrome-msusd-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-msusd-usdc",
     "assets": ["msUSD", "USDC"],
     "tokenAddress": "0x753Ff04FF5DD67e756405b2eDD9bba41aa63C5e9",
@@ -756,7 +756,7 @@
   },
   {
     "id": "moo_aerodrome-usd+-mai",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-usd+-mai",
     "assets": ["USD+", "MAI"],
     "tokenAddress": "0x36687C7b4A84a718eaC32A62722E01A5eE43abC1",
@@ -779,7 +779,7 @@
   },
   {
     "id": "moo_aerodrome-weth-qi",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-qi",
     "assets": ["baseQI", "WETH"],
     "tokenAddress": "0x8d2795767E17C3d0944101d1DCDF79b625601cd6",
@@ -802,7 +802,7 @@
   },
   {
     "id": "moo_aerodrome-virtual-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-virtual-weth",
     "assets": ["VIRTUAL", "WETH"],
     "tokenAddress": "0x56c47a9dB54f6A01c07bb4f668DbB6e8bb0644Ae",
@@ -825,7 +825,7 @@
   },
   {
     "id": "moo_aerodrome-virtual-cbbtc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-virtual-cbbtc",
     "assets": ["VIRTUAL", "cbBTC"],
     "tokenAddress": "0x6b3ad868f29230357419b2c31bA08Dd9B9622dca",
@@ -848,7 +848,7 @@
   },
   {
     "id": "moo_aero-cow-weth-luna-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-luna-vault",
     "assets": ["LUNA", "WETH"],
     "tokenAddress": "0x5407D715d43A6988775290D3587ADe4C54C5a5Ae",
@@ -871,7 +871,7 @@
   },
   {
     "id": "moo_aerodrome-usdc-mai",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-usdc-mai",
     "assets": ["USDC", "MAI"],
     "tokenAddress": "0x22F8ff24861a7F7e2ec9b19C5668b43bB69202E3",
@@ -894,7 +894,7 @@
   },
   {
     "id": "moo_aerodrome-usdc-cbbtc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-usdc-cbbtc",
     "assets": ["USDC", "cbBTC"],
     "tokenAddress": "0x45E6a2b7B6c8F61B31784CB2da3C7ec3d62F39CD",
@@ -917,7 +917,7 @@
   },
   {
     "id": "moo_aerodrome-weth-cbbtc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-cbbtc",
     "assets": ["WETH", "cbBTC"],
     "tokenAddress": "0x6439e803d0007697715023A791F6A1bb4872e19F",
@@ -940,7 +940,7 @@
   },
   {
     "id": "moo_aerodrome-weth-silo",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-silo",
     "assets": ["SILO", "WETH"],
     "tokenAddress": "0x3da1414E49861B170408e9eB53Fe4960b25CD8d9",
@@ -963,7 +963,7 @@
   },
   {
     "id": "moo_aero-cow-tbtc-cbbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-tbtc-cbbtc-vault",
     "assets": ["tBTC", "cbBTC"],
     "tokenAddress": "0xcdaf1dBD0cedb5eB2D3daCd2528F75DE6970ad97",
@@ -986,7 +986,7 @@
   },
   {
     "id": "moo_aerodrome-cow-weth-eurc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-weth-eurc-vault",
     "assets": ["WETH", "EURC"],
     "tokenAddress": "0x4cB1b014b77Fef9f1Ef55BCD71D1E357De1c7530",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "moo_aerodrome-cow-usdz-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-usdz-weth-vault",
     "assets": ["USDz", "WETH"],
     "tokenAddress": "0xe025C78f41B43F24E641Ddff6e2529D6332d3113",
@@ -1032,7 +1032,7 @@
   },
   {
     "id": "moo_aerodrome-weth-degen",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-degen",
     "assets": ["DEGEN", "WETH"],
     "tokenAddress": "0x2dD25447f7870AEf9095b3422A8B793dC5e4031F",
@@ -1055,7 +1055,7 @@
   },
   {
     "id": "moo_aerodrome-cow-weth-degen-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-weth-degen-vault",
     "assets": ["WETH", "DEGEN"],
     "tokenAddress": "0xcBb6BdbFea936F666084Efc1665880FfE13811C2",
@@ -1078,7 +1078,7 @@
   },
   {
     "id": "moo_aerodrome-cow-degen-usd+-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cow-degen-usd+-vault",
     "assets": ["DEGEN", "USD+"],
     "tokenAddress": "0xfC6DD6b9891Eb8abacF5b7DCB58F327Ab148910e",
@@ -1101,7 +1101,7 @@
   },
   {
     "id": "moo_aerodrome-jeur-eurc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-jeur-eurc",
     "assets": ["jEUR", "EURC"],
     "tokenAddress": "0xD8491D0F4339adB074fb85948ce5f8bAF23F09A2",
@@ -1124,7 +1124,7 @@
   },
   {
     "id": "moo_aerodrome-crvusd-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-crvusd-usdc",
     "assets": ["crvUSD", "USDC"],
     "tokenAddress": "0xa9Fa1c5eC681BCFdF7ff43250eCB314320Bfe9bF",
@@ -1147,7 +1147,7 @@
   },
   {
     "id": "moo_aero-cow-weth-ovn-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-ovn-vault",
     "assets": ["WETH", "OVN"],
     "tokenAddress": "0xC8945e5a767BA771669aFc09b1Ee17b7A19C5245",
@@ -1170,7 +1170,7 @@
   },
   {
     "id": "moo_aerodrome-weth-spx",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-spx",
     "assets": ["SPX", "WETH"],
     "tokenAddress": "0xe5133a7E6581f6FDcDF93135635BB1B385111284",
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "moo_aero-cow-doginme-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-doginme-weth-vault",
     "assets": ["doginme", "WETH"],
     "tokenAddress": "0x3FcdA716a72037454a467c67252677756Fc2C546",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "moo_aero-cow-mog-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-mog-weth-vault",
     "assets": ["Mog", "WETH"],
     "tokenAddress": "0xbcCd295367E2c0a846af1065142C3ba3B2b88111",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "moo_aero-cow-weth-moobifi-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-moobifi-vault",
     "assets": ["WETH", "mooBIFI"],
     "tokenAddress": "0xe5Aaa3eCA99a49DF11361aDc425B9FA3ea9Debf8",
@@ -1262,7 +1262,7 @@
   },
   {
     "id": "moo_aerodrome-ovn-usd+",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-ovn-usd+",
     "assets": ["OVN", "USD+"],
     "tokenAddress": "0x98bEAa72230788572e3e3Be58D91C232dda315d4",
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "moo_aerodrome-aero-l2ve",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-aero-l2ve",
     "assets": ["L2VE", "AERO"],
     "tokenAddress": "0x24B455e93cC41cBAC6Cde53F942Fb13db8691CBe",
@@ -1308,7 +1308,7 @@
   },
   {
     "id": "moo_aerodrome-aero-wsteth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-aero-wsteth",
     "assets": ["AERO", "wstETH"],
     "tokenAddress": "0x06a613d3a056d4b04D7523C11d82c67Bebf9d850",
@@ -1331,7 +1331,7 @@
   },
   {
     "id": "moo_aerodrome-aero-usdbc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-aero-usdbc",
     "assets": ["AERO", "USDbC"],
     "tokenAddress": "0xaB4Eb7D54A3282878A476F5a137b8C4756829479",
@@ -1354,7 +1354,7 @@
   },
   {
     "id": "moo_aerodrome-weth-aero",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-aero",
     "assets": ["AERO", "WETH"],
     "tokenAddress": "0x92868C059CfCd035ea204e3163Bd84b308dD358e",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": "moo_aerodrome-usdc-aero",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-usdc-aero",
     "assets": ["USDC", "AERO"],
     "tokenAddress": "0xc005B9833deBcF5fe6cc5bC9ba4fD74Bb382ae55",
@@ -1400,7 +1400,7 @@
   },
   {
     "id": "moo_aerodrome-usdz-susdz",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-usdz-susdz",
     "assets": ["USDz", "sUSDz"],
     "tokenAddress": "0xd4F3e6FaD95Af2512462FeCe507be3C29FE7960C",
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "moo_aero-cow-usd+-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-usd+-weth-vault",
     "assets": ["USD+", "WETH"],
     "tokenAddress": "0xDB1cA690f569BD06Dcd635f66937041be94f8414",
@@ -1446,7 +1446,7 @@
   },
   {
     "id": "moo_aerodrome-cbbtc-susdz",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-cbbtc-susdz",
     "assets": ["cbBTC", "sUSDz"],
     "tokenAddress": "0x4B1D0b4C25b18066dE0Dc70fb61e082331619e92",
@@ -1469,7 +1469,7 @@
   },
   {
     "id": "moo_aero-cow-weth-zro-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-zro-vault",
     "assets": ["WETH", "ZRO"],
     "tokenAddress": "0x8B1f5874E0B5aa3Eeb117B82aF8d59fCb52d122a",
@@ -1492,7 +1492,7 @@
   },
   {
     "id": "moo_aero-cow-wif-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-wif-weth-vault",
     "assets": ["WIF", "WETH"],
     "tokenAddress": "0x30f82831A521A9dfE52a5740F64587bdDa8aa277",
@@ -1515,7 +1515,7 @@
   },
   {
     "id": "moo_aero-cow-eurc-cbbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-eurc-cbbtc-vault",
     "assets": ["EURC", "cbBTC"],
     "tokenAddress": "0xcdE6acB858f291B914c9fFCeb5445CD9e8A747B6",
@@ -1538,7 +1538,7 @@
   },
   {
     "id": "moo_aero-cow-tbtc-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-tbtc-usdc-vault",
     "assets": ["tBTC", "USDC"],
     "tokenAddress": "0x8a0DF555768Dc1BF4b719cB7494Ac472a1748923",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "moo_aero-cow-weth-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-usdt-vault",
     "assets": ["WETH", "USDT"],
     "tokenAddress": "0x8FB5FBd1CD68f6708c2b797fd044733cab3F51fe",
@@ -1584,7 +1584,7 @@
   },
   {
     "id": "moo_baseswap-cow-weth-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "baseswap-cow-weth-usdc-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0x60fbbCea5c3C76D489Fc69c60f9E0a2F66E5d87f",
@@ -1607,7 +1607,7 @@
   },
   {
     "id": "moo_aero-cow-weth-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-usdc-vault",
     "assets": ["WETH", "USDC"],
     "tokenAddress": "0xA20382dC7C06E7e2850f1154e7ED1D06Aeb47a0A",
@@ -1630,7 +1630,7 @@
   },
   {
     "id": "moo_aerodrome-weth-bwell",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-bwell",
     "assets": ["bWELL", "WETH"],
     "tokenAddress": "0xacDBb7c90C0F764cA7BB5307d18C5b211Fbd9C00",
@@ -1653,7 +1653,7 @@
   },
   {
     "id": "moo_aerodrome-weth-usdbc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-weth-usdbc",
     "assets": ["ETH", "USDbC"],
     "tokenAddress": "0x961A5ba3E52c77F69e642aC18cB35650b43bC329",
@@ -1676,7 +1676,7 @@
   },
   {
     "id": "moo_aero-cow-weth-cbbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-weth-cbbtc-vault",
     "assets": ["cbBTC", "WETH"],
     "tokenAddress": "0x62eb0ED97386DA1e601C53B4a095Fa509aA24785",
@@ -1699,7 +1699,7 @@
   },
   {
     "id": "moo_aero-cow-usdc-cbbtc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aero-cow-usdc-cbbtc-vault",
     "assets": ["cbBTC", "USDC"],
     "tokenAddress": "0x9b4A58FddC209C66ceF30F786c6FE3B8189C6c04",
@@ -1722,7 +1722,7 @@
   },
   {
     "id": "moo_aerodrome-tbtc-usdc",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aerodrome-tbtc-usdc",
     "assets": ["tBTC", "USDC"],
     "tokenAddress": "0xC3a5b142a144135D900FC5Ef2Bb7E92a3bcB46F1",

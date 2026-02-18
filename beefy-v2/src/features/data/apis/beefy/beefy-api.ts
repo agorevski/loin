@@ -15,7 +15,7 @@ import type {
 } from './beefy-api-types.ts';
 import { getJson } from '../../../../helpers/http/http.ts';
 
-export const API_URL = import.meta.env.VITE_API_URL || 'https://api.beefy.finance';
+export const API_URL = import.meta.env.VITE_API_URL || 'https://api.loin.finance';
 export const API_ZAP_URL = import.meta.env.VITE_API_ZAP_URL || `${API_URL}/zap`;
 
 export class BeefyAPI {

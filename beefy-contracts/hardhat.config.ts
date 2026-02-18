@@ -68,6 +68,11 @@ const config: HardhatUserConfig = {
       chainId: 42161,
       accounts,
     },
+    tenderly_arbitrum: {
+      url: process.env.TENDERLY_ARBITRUM_RPC || "https://virtual.arbitrum.us-west.rpc.tenderly.co/4fe3dd95-4a71-4a2c-b92a-94b277389bcb",
+      chainId: 42161,
+      accounts,
+    },
     moonriver: {
       url: process.env.MOONRIVER_RPC || "https://rpc.moonriver.moonbeam.network",
       chainId: 1285,

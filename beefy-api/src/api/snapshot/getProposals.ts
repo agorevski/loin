@@ -8,7 +8,7 @@ import { retryPromiseWithBackOff } from '../../utils/promise';
 const SPACES = {
   'beefydao.eth': {
     proposalUrl: (proposalId: string, _spaceId: string) =>
-      `https://vote.beefy.finance/#/proposal/${proposalId}`,
+      `https://vote.loin.finance/#/proposal/${proposalId}`,
   },
   'profit.beefy.eth': {
     proposalUrl: (proposalId: string, spaceId: string) =>

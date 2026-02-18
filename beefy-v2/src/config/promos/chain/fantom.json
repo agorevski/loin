@@ -1,11 +1,11 @@
 [
   {
     "id": "moo_beets-guqin-qi-2-qidao",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "beets-guqin-qi-2",
     "type": "boost",
     "contractAddress": "0x0eEeefE7e7f5361b7410f9e50FD1B329b81896b7",
-    "partners": ["beefy"],
+    "partners": ["Loin"],
     "rewards": [
       {
         "type": "token",
@@ -70,12 +70,12 @@
   },
   {
     "id": "boo-bifi-ftm-bifi",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "boo-bifi-ftm",
     "assets": ["oldBIFI", "FTM"],
     "type": "boost",
     "contractAddress": "0xa8b86b9AF7e844DA90A2e72840Ad01CCBD11EdC3",
-    "partners": ["beefy"],
+    "partners": ["Loin"],
     "rewards": [
       {
         "type": "token",
@@ -124,11 +124,11 @@
   },
   {
     "id": "moo_binSPIRIT-beefy",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "beefy-binspirit",
     "type": "boost",
     "contractAddress": "0xB883FE481d4442EEe83BA4eCF358D7F9f624fB40",
-    "partners": ["beefy"],
+    "partners": ["Loin"],
     "rewards": [
       {
         "type": "token",

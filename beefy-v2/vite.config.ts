@@ -20,7 +20,7 @@ function getMiniAppDomain() {
     }
   }
 
-  return domain || 'app.beefy.com';
+  return domain || 'app.loin.com';
 }
 
 const optionalPlugins: Plugin[] = [];

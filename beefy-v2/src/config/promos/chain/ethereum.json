@@ -115,7 +115,7 @@
   },
   {
     "id": "moo_convex-oeth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-oeth",
     "assets": ["OETH", "ETH"],
     "tokenAddress": "0x31C0dac4c896cb84adFEF2F8e41cb9295EEc93c2",
@@ -137,7 +137,7 @@
   },
   {
     "id": "moo_stargate-v2-eth-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "stargate-v2-eth-weth",
     "assets": ["WETH"],
     "tokenAddress": "0xc8C1351C63D70f6A4dc13C66631764fa1Db0Ac9D",
@@ -159,7 +159,7 @@
   },
   {
     "id": "moo_aura-reth-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aura-reth-weth",
     "assets": ["rETH", "ETH"],
     "tokenAddress": "0xe17D6212eAa54D98187026A770dee96f7C264feC",
@@ -181,7 +181,7 @@
   },
   {
     "id": "moo_aura-ezeth-eth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aura-ezeth-eth",
     "assets": ["ezETH", "ETH"],
     "tokenAddress": "0x3E1c2C604f60ef142AADAA51aa864f8438f2aaC1",
@@ -203,7 +203,7 @@
   },
   {
     "id": "moo_aura-pxeth-weth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aura-pxeth-weth",
     "assets": ["pxETH", "WETH"],
     "tokenAddress": "0x3Dc441e6139e4aF547F48bA672bD9800E6F30b7c",
@@ -225,7 +225,7 @@
   },
   {
     "id": "moo_convex-eth+",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-eth+",
     "assets": ["ETH+", "ETH"],
     "tokenAddress": "0x8cFE2f46052efE1a0784b0a28C802474C1dfd9D0",
@@ -247,7 +247,7 @@
   },
   {
     "id": "moo_convex-cvxcrv",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-cvxcrv",
     "assets": ["cvxCRV", "CRV"],
     "tokenAddress": "0x5Bcd31a28D77a1A5Ef5e0146Ab91e6f43D7100b7",
@@ -270,7 +270,7 @@
   },
   {
     "id": "moo_convex-cvxeth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-cvxeth",
     "assets": ["CVX", "ETH"],
     "tokenAddress": "0xb9548238d875fB4e12727B2750D8a0bDbc7171c7",
@@ -293,7 +293,7 @@
   },
   {
     "id": "moo_fx-fxn-eth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "fx-fxn-eth",
     "assets": ["FXN", "ETH"],
     "tokenAddress": "0x6d6947aeD08C3407bDFF56cfA509Eda98Df2E996",
@@ -316,7 +316,7 @@
   },
   {
     "id": "moo_convex-geareth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-geareth",
     "assets": ["GEAR", "ETH"],
     "tokenAddress": "0x8448758c3Cad93675eACe770847aA9507f8bDe0B",
@@ -339,7 +339,7 @@
   },
   {
     "id": "moo_aura-reth-rpl",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aura-reth-rpl",
     "assets": ["RPL", "rETH"],
     "tokenAddress": "0xAB28C317B34084f29d7623208b5F09C0Dd566a18",
@@ -362,7 +362,7 @@
   },
   {
     "id": "moo_convex-t",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-t",
     "assets": ["T", "ETH"],
     "tokenAddress": "0x03D0F88aDc096259b49079073aED693Ba5f425EE",
@@ -385,7 +385,7 @@
   },
   {
     "id": "moo_convex-staked-cvxFXN",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-staked-cvxFXN",
     "assets": ["cvxFXN"],
     "tokenAddress": "0x7A7978523DA75b469F4D745714FE55eCe6a4D5a9",
@@ -408,7 +408,7 @@
   },
   {
     "id": "moo_convex-staked-cvx",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-staked-cvx",
     "assets": ["CVX"],
     "tokenAddress": "0xf12DD69a5ab0cfbf41758052D871B881DC0fC8e0",
@@ -431,7 +431,7 @@
   },
   {
     "id": "moo_convex-staked-cvxCRV",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "convex-staked-cvxCRV",
     "assets": ["cvxCRV"],
     "tokenAddress": "0x4115150523599D1F6C6Fa27F5A4C27D578Fd8ce5",
@@ -454,7 +454,7 @@
   },
   {
     "id": "moo_aura-alcx-eth",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "aura-alcx-eth",
     "assets": ["ALCX", "WETH"],
     "tokenAddress": "0x9E90aD4810C9eaE0ADFc15801838Dc53cC6ed48a",

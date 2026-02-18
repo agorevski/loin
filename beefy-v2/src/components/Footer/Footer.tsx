@@ -14,59 +14,59 @@ import { ExternalLink } from '../Links/ExternalLink.tsx';
 const navLinks = [
   {
     title: ['Footer-Proposals', 'Header-Proposals'],
-    path: 'https://vote.beefy.finance',
+    path: 'https://vote.loin.finance',
   },
   {
     title: ['Footer-News', 'Header-News'],
-    path: 'https://beefy.com/articles/',
+    path: 'https://loin.com/articles/',
   },
   {
     title: ['Footer-Docs', 'Header-Docs'],
-    path: 'https://docs.beefy.finance',
+    path: 'https://docs.loin.finance',
   },
   {
     title: 'Footer-Audit',
-    path: 'https://github.com/beefyfinance/beefy-audits',
+    path: 'https://github.com/loinfinance/beefy-audits',
   },
   {
     title: 'Footer-MediaKit',
-    path: 'https://beefy.com/media-kit/',
+    path: 'https://loin.com/media-kit/',
   },
   {
     title: 'Footer-Partners',
-    path: 'https://beefy.com/partners/',
+    path: 'https://loin.com/partners/',
   },
 ];
 
 const socialLinks = [
   {
     title: 'GitHub',
-    path: 'https://github.com/beefyfinance',
+    path: 'https://github.com/loinfinance',
     Icon: IconGithub,
   },
   {
     title: 'Telegram',
-    path: 'https://t.me/beefyfinance',
+    path: 'https://t.me/loinfinance',
     Icon: IconTelegram,
   },
   {
     title: 'Discord',
-    path: 'https://beefy.finance/discord',
+    path: 'https://loin.finance/discord',
     Icon: IconDiscord,
   },
   {
     title: 'Twitter',
-    path: 'https://x.com/beefyfinance',
+    path: 'https://x.com/loinfinance',
     Icon: IconTwitter,
   },
   {
     title: 'Reddit',
-    path: 'https://www.reddit.com/r/Beefy/',
+    path: 'https://www.reddit.com/r/Loin/',
     Icon: IconReddit,
   },
   {
     title: 'Debank',
-    path: 'https://debank.com/official/Beefy',
+    path: 'https://debank.com/official/Loin',
     Icon: IconDebank,
   },
 ];

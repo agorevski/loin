@@ -1,7 +1,7 @@
 [
   {
     "id": "moo_curve-poly-mai-usdc.e",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "curve-poly-mai-usdc.e",
     "assets": ["MAI", "pUSDCe"],
     "tokenAddress": "0x378FcE425239B0c6B43eF79E773794dd2e9979AD",

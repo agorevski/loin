@@ -1,7 +1,7 @@
 [
   {
     "id": "moo_nuri-cow-scroll-wbtc-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-wbtc-weth-vault",
     "assets": ["WBTC", "WETH"],
     "tokenAddress": "0x65A360bb4E4C8Fc6134dcFE645B1bd5FB11D36CB",
@@ -24,7 +24,7 @@
   },
   {
     "id": "moo_nuri-cow-scroll-weth-wsteth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-weth-wsteth-vault",
     "assets": ["WETH", "wstETH"],
     "tokenAddress": "0x215886A8DBF3eB528a95A21eF3bbeac18f2b2fE3",
@@ -47,7 +47,7 @@
   },
   {
     "id": "moo_nuri-cow-scroll-weth-usdt-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-weth-usdt-vault",
     "assets": ["WETH", "USDT"],
     "tokenAddress": "0x50fF3200afefd39e2bd4ad45bfEbD74C6f1C4377",
@@ -70,7 +70,7 @@
   },
   {
     "id": "moo_nuri-cow-scroll-usdc-weth-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-usdc-weth-vault",
     "assets": ["USDC", "WETH"],
     "tokenAddress": "0x2b88C84022415D5c03160D8c1E1a3D08b5Ceb292",
@@ -93,7 +93,7 @@
   },
   {
     "id": "moo_nuri-cow-scroll-usdc-scr-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-usdc-scr-vault",
     "assets": ["USDC", "SCR"],
     "tokenAddress": "0xb72AfbdAFBBa235776C93a1a58D29A479fE8D863",
@@ -116,7 +116,7 @@
   },
   {
     "id": "moo_nuri-cow-scroll-weth-scr-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-cow-scroll-weth-scr-vault",
     "assets": ["WETH", "SCR"],
     "tokenAddress": "0x9cDcfD900E08bb4580EA79B0A8CdE4F69D0Dec3d",
@@ -139,7 +139,7 @@
   },
   {
     "id": "moo_nuri-usdc-loreusd",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-usdc-loreusd",
     "assets": ["loreUSD", "USDC"],
     "tokenAddress": "0xE7296b1FC3Df47B4E6d7AefaF5a289b405268D8E",
@@ -162,7 +162,7 @@
   },
   {
     "id": "moo_nuri-weth-nuri",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "nuri-weth-nuri",
     "assets": ["NURI", "ETH"],
     "tokenAddress": "0x01Fbf9B624a6133Ab04Fc4000ae513AC97e4d114",

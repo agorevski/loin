@@ -15,7 +15,7 @@ export const LatestArticles = memo(function LatestArticles() {
   const articles = useLatestArticles();
 
   return (
-    <Section title="News" subtitle="Keep up to date with Beefy">
+    <Section title="News" subtitle="Keep up to date with Loin">
       <ArticleGrid articles={articles} />
       <Buttons>
         <PrimaryLink to="/articles">View all Articles</PrimaryLink>

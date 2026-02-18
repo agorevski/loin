@@ -4,12 +4,12 @@ import { createCloudRedirectsAdapter } from './adapter-cloud-redirects';
 const config: GatsbyConfig = {
   trailingSlash: 'always',
   siteMetadata: {
-    title: 'Beefy',
-    titleTemplate: '{title} - Beefy',
-    siteUrl: 'https://beefy.com',
+    title: 'Loin',
+    titleTemplate: '{title} - Loin',
+    siteUrl: 'https://loin.com',
     description:
-      'Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.',
-    twitterUsername: '@beefyfinance',
+      'Loin is a Decentralized, Multichain Yield Optimizer that trims the fat from DeFi yield farming. Near-zero fees, maximum returns.',
+    twitterUsername: '@loinfinance',
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -23,8 +23,8 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Beefy',
-        short_name: 'Beefy',
+        name: 'Loin',
+        short_name: 'Loin',
         start_url: '/',
         background_color: '#121420',
         theme_color: '#121420',

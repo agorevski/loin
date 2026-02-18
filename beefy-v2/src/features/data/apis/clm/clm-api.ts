@@ -57,7 +57,7 @@ export class ClmApi implements IClmApi {
   public clmBase: string;
 
   constructor() {
-    this.clmBase = import.meta.env.VITE_CLM_URL || 'https://clm-api.beefy.finance';
+    this.clmBase = import.meta.env.VITE_CLM_URL || 'https://clm-api.loin.finance';
   }
 
   public async getInvestorTimeline(address: string): Promise<ClmInvestorTimelineResponse> {

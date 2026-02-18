@@ -48,7 +48,7 @@ contract StratFeeManagerInitializable is OwnableUpgradeable, PausableUpgradeable
         strategist = _commonAddresses.strategist;
         beefyFeeRecipient = _commonAddresses.beefyFeeRecipient;
         beefyFeeConfig = IFeeConfig(_commonAddresses.beefyFeeConfig);
-        withdrawalFee = 10;
+        withdrawalFee = 0;
     }
 
     // checks that caller is either owner or keeper.

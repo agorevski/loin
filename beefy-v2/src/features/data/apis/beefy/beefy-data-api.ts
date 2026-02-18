@@ -19,7 +19,7 @@ export class BeefyDataApi implements IBeefyDataApi {
   private readonly data: string;
 
   constructor() {
-    this.data = `${import.meta.env.VITE_DATA_URL || 'https://data.beefy.finance'}/api/${
+    this.data = `${import.meta.env.VITE_DATA_URL || 'https://data.loin.finance'}/api/${
       this.version
     }`;
   }

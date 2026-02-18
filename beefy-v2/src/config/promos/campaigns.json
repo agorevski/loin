@@ -7,15 +7,15 @@
     }
   },
   "begems-boost": {
-    "title": "Beefy beGEMS1 Boost",
-    "description": "Sonic Gems are airdrop points awarded exclusively by Sonic to apps building on its chain. They’re distributed based on various factors and are [redeemable for S tokens](/campaigns/begems/) at the end of each season. Beefy is issuing 80,000,000 beGEMS each season, representing its share of earned S tokens. beGEMS are liquid ERC-20 tokens — transferable, tradeable, and open to speculation.",
+    "title": "Loin beGEMS1 Boost",
+    "description": "Sonic Gems are airdrop points awarded exclusively by Sonic to apps building on its chain. They’re distributed based on various factors and are [redeemable for S tokens](/campaigns/begems/) at the end of each season. Loin is issuing 80,000,000 beGEMS each season, representing its share of earned S tokens. beGEMS are liquid ERC-20 tokens — transferable, tradeable, and open to speculation.",
     "social": {
       "discord": "https://beefy.finance/discord",
       "twitter": "https://x.com/beefyfinance"
     }
   },
   "shadow-beefy": {
-    "title": "Shadow × Beefy",
+    "title": "Shadow × Loin",
     "description": "Shadow Exchange is a concentrated liquidity layer and exchange built on the Sonic network, powered by x(3,3)—a more fluid and accessible incentive model.",
     "social": {
       "discord": "https://discord.com/invite/shadowexchange",
@@ -24,26 +24,26 @@
   },
   "renzo-lido": {
     "title": "Renzo × Lido",
-    "description": "Lido and Renzo joined forces with Beefy to bring users earnings completely denominated in ETH. Earn ezETH and wstETH on top of your ezETH-wstETH position.",
+    "description": "Lido and Renzo joined forces with Loin to bring users earnings completely denominated in ETH. Earn ezETH and wstETH on top of your ezETH-wstETH position.",
     "social": {
       "discord": "https://beefy.com/discord",
       "twitter": "https://x.com/beefyfinance"
     }
   },
   "rootstock-grant": {
-    "title": "Beefy × Rootstock",
+    "title": "Loin × Rootstock",
     "tag": {
       "text": "Rootstock Grant"
     },
-    "description": "Celebrate the launch of Beefy on Rootstock, Bitcoin's first and longest-lasting sidechain. Beefy users can earn grant-funded $rBTC tokens for trying out new products on Rootstock. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
+    "description": "Celebrate the launch of Loin on Rootstock, Bitcoin's first and longest-lasting sidechain. Loin users can earn grant-funded $rBTC tokens for trying out new products on Rootstock. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
     "social": {
       "discord": "https://beefy.com/discord",
       "twitter": "https://x.com/beefyfinance"
     }
   },
   "arb-ltipp": {
-    "title": "Beefy × Arbitrum LTIPP",
-    "description": "Earn extra incentives awarded to Beefy CLM vaults through Arbitrum's Long Term Incentives Pilot Program ('LTIPP'). Beefy users earn additional $ARB tokens for trying out selected CLM products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your LTIPP rewards whenever you're ready.",
+    "title": "Loin × Arbitrum LTIPP",
+    "description": "Earn extra incentives awarded to Loin CLM vaults through Arbitrum's Long Term Incentives Pilot Program ('LTIPP'). Loin users earn additional $ARB tokens for trying out selected CLM products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your LTIPP rewards whenever you're ready.",
     "learn": "https://beefy.com/articles/ltipp/",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -51,12 +51,12 @@
     }
   },
   "zap-v3": {
-    "title": "Beefy × Optimism Governance Fund",
+    "title": "Loin × Optimism Governance Fund",
     "tag": {
       "text": "Zap Boost",
       "icon": "zap"
     },
-    "description": "Celebrate the launch of ZAP V3 with Beefy's Optimism Governance Fund grant. Beefy users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
+    "description": "Celebrate the launch of ZAP V3 with Loin's Optimism Governance Fund grant. Loin users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
     "learn": "https://beefy.com/articles/zap-v3/",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -64,12 +64,12 @@
     }
   },
   "offchain-zap-v3": {
-    "title": "Beefy × Optimism Governance Fund",
+    "title": "Loin × Optimism Governance Fund",
     "tag": {
       "text": "Zap Boost",
       "icon": "zap"
     },
-    "description": "Celebrate the launch of ZAP V3 with Beefy's Optimism Governance Fund grant. Beefy users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "description": "Celebrate the launch of ZAP V3 with Loin's Optimism Governance Fund grant. Loin users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
     "learn": "https://beefy.com/articles/zap-v3/",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -77,22 +77,22 @@
     }
   },
   "offchain-mode-grant": {
-    "title": "Beefy × Mode Governance Fund",
+    "title": "Loin × Mode Governance Fund",
     "tag": {
       "text": "Mode Grant"
     },
-    "description": "Earn $OP on Optimism network for participating in Beefy vaults on Mode. Beefy users earn additional $OP tokens for using products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "description": "Earn $OP on Optimism network for participating in Loin vaults on Mode. Loin users earn additional $OP tokens for using products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
     "social": {
       "discord": "https://beefy.com/discord",
       "twitter": "https://x.com/beefyfinance"
     }
   },
   "dao-rewards": {
-    "title": "Beefy DAO Distribution",
+    "title": "Loin DAO Distribution",
     "tag": {
       "text": "DAO Boost"
     },
-    "description": "Earn extra incentives awarded by the Beefy DAO from its recent quarterly earnings. Beefy users earn additional tokens for using products boosted by the Beefy DAO Distribution program. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
+    "description": "Earn extra incentives awarded by the Loin DAO from its recent quarterly earnings. Loin users earn additional tokens for using products boosted by the Loin DAO Distribution program. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
     "learn": "https://snapshot.org/#/beefydao.eth/proposal/0xefe70f50c7743085e72f4c2421cc8e92c8b82fa14bfd479a26bd0a0c14c5f07e",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -100,11 +100,11 @@
     }
   },
   "pool-dao-rewards": {
-    "title": "Beefy DAO Distribution",
+    "title": "Loin DAO Distribution",
     "tag": {
       "text": "DAO Boost"
     },
-    "description": "Earn extra incentives awarded by the Beefy DAO from its recent quarterly earnings. Beefy users earn additional tokens for using products boosted by the Beefy DAO Distribution program. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "description": "Earn extra incentives awarded by the Loin DAO from its recent quarterly earnings. Loin users earn additional tokens for using products boosted by the Loin DAO Distribution program. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
     "learn": "https://snapshot.org/#/beefydao.eth/proposal/0xefe70f50c7743085e72f4c2421cc8e92c8b82fa14bfd479a26bd0a0c14c5f07e",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -112,8 +112,8 @@
     }
   },
   "optimism-grant": {
-    "title": "Beefy × Optimism Governance Fund",
-    "description": "Earn extra incentives awarded to Beefy products on the Superchain through the first Beefy Optimism Governance Fund grant. Beefy users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
+    "title": "Loin × Optimism Governance Fund",
+    "description": "Earn extra incentives awarded to Loin products on the Superchain through the first Loin Optimism Governance Fund grant. Loin users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
     "learn": "https://beefy.com/articles/beefy-helps-grow-the-optimism-community-with-a-650-000-op-grant/",
     "social": {
       "discord": "https://beefy.com/discord",
@@ -121,19 +121,19 @@
     }
   },
   "pool-optimism-grant": {
-    "title": "Beefy × Optimism",
-    "description": "Earn extra incentives awarded to Beefy products on the Superchain through the Beefy Optimism Governance Fund grant. Beefy users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "title": "Loin × Optimism",
+    "description": "Earn extra incentives awarded to Loin products on the Superchain through the Loin Optimism Governance Fund grant. Loin users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
     "social": {
       "discord": "https://beefy.com/discord",
       "twitter": "https://x.com/beefyfinance"
     }
   },
   "airdrop-gnosis-safe": {
-    "title": "Beefy × Safe",
+    "title": "Loin × Safe",
     "tag": {
       "text": "SafeBoost"
     },
-    "description": "Accelerating the adoption of Safe Smart Accounts and earning SAFE tokens in the process! SafeBoost is a 6-month campaign hosted by Safe and Gnosis, where Safe users are incentivized for their activities on Gnosis Chain. Users earn points based on their assets, volume, transactions and completing highlighted activities. Points translate into SAFE token rewards. As a launch partner, Beefy is pleased to be contributing incentives for Safe users on Gnosis Chain who interact with Beefy products.",
+    "description": "Accelerating the adoption of Safe Smart Accounts and earning SAFE tokens in the process! SafeBoost is a 6-month campaign hosted by Safe and Gnosis, where Safe users are incentivized for their activities on Gnosis Chain. Users earn points based on their assets, volume, transactions and completing highlighted activities. Points translate into SAFE token rewards. As a launch partner, Loin is pleased to be contributing incentives for Safe users on Gnosis Chain who interact with Loin products.",
     "learn": "https://beefy.com/articles/safeboost/",
     "social": {
       "discord": "https://chat.safe.global/",
@@ -141,11 +141,11 @@
     }
   },
   "degen-boost": {
-    "title": "Beefy × Degen",
+    "title": "Loin × Degen",
     "tag": {
       "text": "Boost"
     },
-    "description": "Beefy is teaming up with Degen to reward liquidity providers who deposit in this CLM Pool with 1.5M $DEGEN in daily rewards, in addition to trading fees.",
+    "description": "Loin is teaming up with Degen to reward liquidity providers who deposit in this CLM Pool with 1.5M $DEGEN in daily rewards, in addition to trading fees.",
     "learn": "https://paragraph.xyz/@degentokenbase/degen-beefy-rewards",
     "social": {
       "telegram": "https://t.me/degentokenbase",
@@ -153,11 +153,11 @@
     }
   },
   "threshold-boost": {
-    "title": "Beefy × Threshold",
+    "title": "Loin × Threshold",
     "tag": {
       "text": "Boost"
     },
-    "description": "Beefy is teaming up with Threshold to reward liquidity providers who deposit in this tBTC vault with mooBIFI and T rewards.",
+    "description": "Loin is teaming up with Threshold to reward liquidity providers who deposit in this tBTC vault with mooBIFI and T rewards.",
     "social": {
       "telegram": "https://t.me/thresholdnetwork",
       "twitter": "https://twitter.com/TheTNetwork"

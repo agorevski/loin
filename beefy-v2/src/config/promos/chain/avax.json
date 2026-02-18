@@ -38,11 +38,11 @@
   },
   {
     "id": "moo_joe-bifi",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "joe-joe",
     "type": "boost",
     "contractAddress": "0x90e91cAf13F6C06fD04031cF5f398F8b3BAB794B",
-    "partners": ["beefy"],
+    "partners": ["Loin"],
     "rewards": [
       {
         "type": "token",
@@ -106,7 +106,7 @@
   },
   {
     "id": "moo_pharaoh-cow-wavax-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pharaoh-cow-wavax-usdc-vault",
     "assets": ["WAVAX", "USDC"],
     "tokenAddress": "0xD4b02859D25D4a641258562045967f58B84fF352",
@@ -129,7 +129,7 @@
   },
   {
     "id": "moo_pharaoh-cow-btc.b-wavax-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pharaoh-cow-btc.b-wavax-vault",
     "assets": ["BTCb", "WAVAX"],
     "tokenAddress": "0x1620AA830C30bBadb8a4D59054c3020fe84E3274",
@@ -152,7 +152,7 @@
   },
   {
     "id": "moo_pharaoh-cow-weth.e-wavax-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pharaoh-cow-weth.e-wavax-vault",
     "assets": ["WETHe", "WAVAX"],
     "tokenAddress": "0x1F074dAa9d328B8f9d32132c35A381bc1285a30D",
@@ -175,7 +175,7 @@
   },
   {
     "id": "moo_pharaoh-cow-usdt-usdc-vault",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "pharaoh-cow-usdt-usdc-vault",
     "assets": ["USDT", "USDC"],
     "tokenAddress": "0x2578EBB3424c59207771Bce2dA044C483CF25657",
@@ -198,7 +198,7 @@
   },
   {
     "id": "moo_gmx-avax-gmx",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "gmx-avax-gmx",
     "assets": ["GMX"],
     "tokenAddress": "0x408835a5616baE0ECE4d3eF821C1D1CC88a2179E",
@@ -221,7 +221,7 @@
   },
   {
     "id": "moo_joe-joe",
-    "title": "Beefy",
+    "title": "Loin",
     "vaultId": "joe-joe",
     "assets": ["JOE"],
     "tokenAddress": "0x282B11E65f0B49363D4505F91c7A44fBEe6bCc0b",

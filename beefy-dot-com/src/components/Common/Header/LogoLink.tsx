@@ -18,7 +18,7 @@ export type LogoLinkProps = { className?: string };
 export const LogoLink = memo<LogoLinkProps>(function LogoLink({ className }) {
   return (
     <HomeLink to="/" className={className}>
-      <Logo src={logoImg} height="40" alt="Beefy" />
+      <Logo src={logoImg} height="40" alt="Loin" />
     </HomeLink>
   );
 });
