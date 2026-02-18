@@ -46,13 +46,30 @@ VITE_API_URL=https://api.loin.finance
 VITE_API_ZAP_URL=https://api.loin.finance/zap
 ```
 
-### Startup Command
-Since this is a static SPA, configure the startup command to serve the built files.
+### Startup Command (Required)
+Azure Linux Node containers expect a Node.js server by default. Since we deploy a static SPA (just HTML/JS/CSS), you **must** set a startup command or the site will hang.
+
 In Azure Portal → `loin` → **Configuration** → **General Settings** → **Startup Command**:
 ```
 pm2 serve /home/site/wwwroot --no-daemon --spa
 ```
-This serves the static build with SPA fallback routing (all routes → `index.html`).
+
+This uses `pm2` (pre-installed on Azure Node images) to serve the static build with SPA fallback routing (all routes → `index.html`).
+
+> **⚠️ After setting the startup command, restart the App Service** (Azure Portal → `loin` → Overview → Restart). The first boot takes 1-2 minutes.
+
+If `pm2 serve` doesn't work on your Node image, use this alternative:
+```
+npx serve /home/site/wwwroot -s -l 8080
+```
+Azure Linux Node containers listen on port `8080` by default.
+
+You can also set this via Azure CLI:
+```bash
+az webapp config set --name loin --resource-group Websites \
+  --startup-file "pm2 serve /home/site/wwwroot --no-daemon --spa"
+az webapp restart --name loin --resource-group Websites
+```
 
 ---
 
