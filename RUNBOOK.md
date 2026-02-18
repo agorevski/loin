@@ -25,12 +25,12 @@
 ### Project → Azure Mapping
 | Project | Type | Deployment Target |
 |---------|------|-------------------|
-| `beefy-v2` | Static SPA (Vite/React) | Azure Web App `loin` — serves `build/` output |
-| `beefy-api` | Node.js server (Koa) | Separate App Service or container (future) |
+| `beefy-v2` | Static SPA (Vite/React) | Azure Web App `loin` — served from `beefy-api/public/` |
+| `beefy-api` | Node.js server (Koa) | Azure Web App `loin` — serves both API routes and frontend |
 | `beefy-dot-com` | Static site (Gatsby) | Separate Static Web App (future) |
 
 ### CI/CD via GitHub Actions
-A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on every push to `main`.
+A workflow at `.github/workflows/azure-deploy.yml` auto-deploys on every push to `main` that touches `beefy-v2/`, `beefy-api/`, or the workflow file.
 
 **Authentication:** Uses OIDC (federated identity) — secrets are pre-configured in the repo:
 - `AZUREAPPSERVICE_CLIENTID_*`
@@ -38,36 +38,39 @@ A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on 
 - `AZUREAPPSERVICE_SUBSCRIPTIONID_*`
 
 **Deployment flow:**
-1. Checkout → Install deps → `npm run build` in `beefy-v2/`
-2. Copy `azure-server.js` + `package.json` into build output
-3. Upload as artifact → Download with `path: .` (extracts to root, not subdirectory)
-4. OIDC login → Deploy to Azure Web App via `azure/webapps-deploy@v3`
-5. Verify step confirms `server.js`, `index.html`, `package.json` exist before deploy
+1. Checkout → Install frontend deps → `npm run build` in `beefy-v2/`
+2. Copy frontend build into `beefy-api/public/`
+3. Deploy `beefy-api/` directory (source + frontend, no node_modules) to Azure
+4. Azure Oryx detects `package.json`, runs `npm install` (with `.npmrc` for legacy-peer-deps)
+5. Oryx runs `postinstall` script to install `packages/address-book` dependencies
+6. App starts via `npm start` → `ts-node --transpile-only src/app.ts`
 
-Push to `main` — the workflow builds and deploys automatically (~5-8 minutes).
+Push to `main` — the workflow builds and deploys automatically (~8-12 minutes).
 
 ### Azure App Service Configuration
 Set these **Application Settings** in Azure Portal → `loin` → **Configuration** → **Application Settings**:
 
 | Name | Value | Purpose |
 |------|-------|---------|
-| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `true` | Let Oryx detect `package.json` and run `npm install` + start script |
+| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `true` | Let Oryx run `npm install` to install API dependencies on the server |
 
 > **Removed settings:** Do NOT set `WEBSITE_RUN_FROM_PACKAGE=1` — it creates a read-only filesystem that conflicts with file-based deploys.
 
 ### Startup Command
-The GitHub Actions workflow bundles a minimal Node.js static file server (`server.js`) and `package.json` into the build output. Azure's Oryx detects the `package.json` `start` script and runs `node server.js`, which serves the SPA on port `$PORT` (8080) with fallback routing.
+The `beefy-api` serves both the API routes (e.g., `/apy`, `/vaults`, `/prices`) and the static frontend (from `public/`). Azure's Oryx detects the `package.json` `start` script and runs `ts-node --transpile-only src/app.ts`.
 
-**Recommended startup command:** `node server.js`
+**Recommended startup command:** `npx ts-node --transpile-only src/app.ts`
 
 Set this in Azure Portal → Configuration → General Settings → Startup Command.
 
 > **Troubleshooting:** If the site doesn't load after deployment:
-> 1. Verify the startup command is `node server.js` (not a full path)
+> 1. Verify the startup command is `npx ts-node --transpile-only src/app.ts`
 > 2. Restart the App Service (Overview → Restart)
-> 3. Check Log Stream (Monitoring → Log stream) for `Loin serving on port 8080`
-> 4. Allow 2-3 minutes after restart — Azure pulls container images on first start
+> 3. Check Log Stream (Monitoring → Log stream) for `Loin API running! (:8080)`
+> 4. Allow 3-5 minutes after restart — Azure pulls container images and installs deps on first start
 > 5. If SSH is available (Development Tools → SSH), verify files: `ls -la /home/site/wwwroot/`
+> 6. Check `/home/site/wwwroot/public/index.html` exists (frontend files)
+> 7. Check `/home/site/wwwroot/node_modules/` exists (API dependencies installed)
 
 ---
 

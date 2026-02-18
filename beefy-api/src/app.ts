@@ -27,6 +27,9 @@ const body = require('koa-bodyparser');
 const cors = require('@koa/cors');
 const conditional = require('koa-conditional-get');
 const etag = require('koa-etag');
+const serve = require('koa-static');
+const path = require('path');
+const fs = require('fs');
 
 const rt = require('./middleware/rt');
 const powered = require('./middleware/powered');
@@ -37,7 +40,9 @@ const app = new Koa();
 app.use(rt);
 app.use(conditional());
 app.use(etag());
-app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: false,
+}));
 app.use(cors({ origin: '*' }));
 app.use(powered);
 app.use(body());
@@ -46,6 +51,21 @@ app.context.cache = {};
 
 app.use(router.routes());
 app.use(router.allowedMethods());
+
+// Serve static frontend files from public/ directory
+const publicDir = path.join(__dirname, '..', 'public');
+if (fs.existsSync(publicDir)) {
+  app.use(serve(publicDir));
+
+  // SPA fallback: serve index.html for unmatched routes
+  const indexPath = path.join(publicDir, 'index.html');
+  app.use(async (ctx: any) => {
+    if (ctx.method === 'GET' && !ctx.path.startsWith('/api') && fs.existsSync(indexPath)) {
+      ctx.type = 'html';
+      ctx.body = fs.createReadStream(indexPath);
+    }
+  });
+}
 
 const port = process.env.PORT || 3000;
 
@@ -71,7 +91,10 @@ const start = async () => {
   initPointsStructureService();
 
   app.listen(port);
-  console.log(`> beefy-api running! (:${port})`);
+  console.log(`> Loin API running! (:${port})`);
+  if (fs.existsSync(publicDir)) {
+    console.log(`> Serving frontend from ${publicDir}`);
+  }
 };
 
 start();

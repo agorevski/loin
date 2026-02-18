@@ -7,7 +7,7 @@ import {
   SubmitStatus,
 } from './types.ts';
 
-export const API_URL = import.meta.env.VITE_API_URL || 'https://api.loin.finance';
+export const API_URL = import.meta.env.VITE_API_URL || '';
 
 export class DivviApi implements IDivviApi {
   private pending: Map<Hash, number> = new Map();
