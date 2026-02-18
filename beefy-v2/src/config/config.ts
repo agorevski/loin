@@ -66,7 +66,10 @@ export const config = {
   arbitrum: {
     name: 'Arbitrum',
     chainId: 42161,
-    rpc: ['https://arb1.arbitrum.io/rpc'],
+    rpc: [
+      'https://virtual.arbitrum.us-west.rpc.tenderly.co/4fe3dd95-4a71-4a2c-b92a-94b277389bcb',
+      'https://arb1.arbitrum.io/rpc',
+    ],
     explorerUrl: 'https://arbiscan.io',
     multicall3Address: '0xcA11bde05977b3631167028862bE2a173976CA11',
     appMulticallContractAddress: '0x050b4081e41aB8474a24Dc8C5c50144c65F1b108',

@@ -74,6 +74,7 @@ const rpcs: Record<ChainId, string[]> = {
     'https://api.zan.top/node/v1/bsc/mainnet/public',
   ],
   [ChainId.arbitrum]: [
+    'https://virtual.arbitrum.us-west.rpc.tenderly.co/4fe3dd95-4a71-4a2c-b92a-94b277389bcb',
     'https://arbitrum.llamarpc.com',
     'https://endpoints.omniatech.io/v1/arbitrum/one/public',
     'https://arbitrum-one.public.blastapi.io',

@@ -34,7 +34,7 @@ const DEFAULT_RPCS: ApiChainToRpcs = {
   avax: ['https://avalanche-public.nodies.app/ext/bc/C/rpc'],
   polygon: ['https://polygon-rpc.com/'],
   fantom: ['https://fantom-mainnet.public.blastapi.io'],
-  arbitrum: ['https://arbitrum.gateway.tenderly.co'],
+  arbitrum: ['https://virtual.arbitrum.us-west.rpc.tenderly.co/4fe3dd95-4a71-4a2c-b92a-94b277389bcb', 'https://arbitrum.gateway.tenderly.co'],
   celo: ['https://forno.celo.org'],
   moonriver: ['https://rpc.api.moonriver.moonbeam.network'],
   cronos: ['https://cronos-evm-rpc.publicnode.com'],

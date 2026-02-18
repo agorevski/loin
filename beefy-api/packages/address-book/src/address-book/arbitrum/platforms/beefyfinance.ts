@@ -1,3 +1,5 @@
+// Loin testnet addresses — replace with your own deployer/multisig addresses
+// For testnet, a single deployer address can serve all roles
 const treasuryMultisig = '0x3f5eddad52C665A4AA011cd11A21E1d5107d7862';
 const devMultisig = '0xf7EC8986c660Fa8269f6440A631B22337f398Ccd';
 
