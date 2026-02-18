@@ -1,0 +1,5 @@
+{
+  // we develop in CommonJS because the api imports from source
+  // however we build for both CommonJS and ES modules when the package is published
+  "extends": "./tsconfig.cjs.json",
+}

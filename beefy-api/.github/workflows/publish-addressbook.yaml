@@ -1,0 +1,47 @@
+name: Publish Address Book Package
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - packages/address-book/**
+      - '!packages/address-book/package.json'
+      - '!packages/address-book/CHANGELOG.md'
+      - '!packages/address-book/README.md'
+
+jobs:
+  build:
+    name: 'Build and Publish Address Book Package'
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC
+      contents: write
+      packages: write
+    defaults:
+      run:
+        working-directory: packages/address-book
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+      - name: 'Setup Node'
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+          scope: 'beefyfinance'
+      - name: 'Install Packages'
+        run: npm ci
+      - name: 'Run Checksum Test'
+        run: npm run checksum
+      - name: 'Compile Package'
+        run: npm run compile
+      - name: 'Automated Version Bump'
+        uses: 'phips28/gh-action-bump-version@v9.1.0'
+        if: github.repository == 'beefyfinance/beefy-api'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGEJSON_DIR: 'packages/address-book'
+      - name: 'Publish Package'
+        if: github.repository == 'beefyfinance/beefy-api'
+        run: npm publish

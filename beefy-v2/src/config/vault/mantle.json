@@ -1,0 +1,1569 @@
+[
+  {
+    "id": "aavev3-mantle-weth",
+    "name": "WETH",
+    "type": "standard",
+    "token": "WETH",
+    "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0xbD4101c66e814ecD27F23574566F819e88A05169",
+    "earnedToken": "mooAaveMantleWETH",
+    "earnedTokenAddress": "0xbD4101c66e814ecD27F23574566F819e88A05169",
+    "oracle": "tokens",
+    "oracleId": "WETH",
+    "status": "active",
+    "createdAt": 1771347391,
+    "platformId": "aave",
+    "assets": ["WETH"],
+    "migrationIds": [],
+    "risks": {
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "aavev3-mantle-usdt0",
+    "name": "USDT0",
+    "type": "standard",
+    "token": "USDT0",
+    "tokenAddress": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0xcb7DCb043efA02FD256b05c3724d7c6486472254",
+    "earnedToken": "mooAaveMantleUSDT0",
+    "earnedTokenAddress": "0xcb7DCb043efA02FD256b05c3724d7c6486472254",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "active",
+    "createdAt": 1771347391,
+    "platformId": "aave",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdt-wmnt-rp",
+    "name": "WMNT-USDT Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapMantleUSDT-WMNT",
+    "tokenAddress": "0x263CaB9eBf82d74b70DD681Bb6adb6D400Ae91E2",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0xBAFAc613d323FC4Eb3d881FFcf883d683D9Fa3Fb",
+    "earnedToken": "rcowUniswapMantleUSDT-WMNT",
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdt-wmnt",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "oku",
+    "assets": ["WMNT", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdt-wmnt",
+    "name": "WMNT-USDT",
+    "type": "cowcentrated",
+    "token": "WMNT-USDT",
+    "tokenAddress": "0x4cdFc22bF05209de87Ee564746Dc7E5174631d2b",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+      "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8"
+    ],
+    "earnContractAddress": "0x263CaB9eBf82d74b70DD681Bb6adb6D400Ae91E2",
+    "earnedToken": "cowUniswapMantleUSDT-WMNT",
+    "earnedTokenAddress": "0x263CaB9eBf82d74b70DD681Bb6adb6D400Ae91E2",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdt-wmnt",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["WMNT", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-wmnt-weth-rp",
+    "name": "WMNT-WETH Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapMantleWMNT-WETH",
+    "tokenAddress": "0x526B33c9b824661b2072Ea12b9Ae40B06cd2bb1A",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0x121aF5807488e950835720a598d14eB9CE0Cb8d6",
+    "earnedToken": "rcowUniswapMantleWMNT-WETH",
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-wmnt-weth",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "oku",
+    "assets": ["WMNT", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-wmnt-weth",
+    "name": "WMNT-WETH",
+    "type": "cowcentrated",
+    "token": "WMNT-WETH",
+    "tokenAddress": "0xFc60a4d05ac8C93F62276e046Ad5a098f5C7820a",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+      "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111"
+    ],
+    "earnContractAddress": "0x526B33c9b824661b2072Ea12b9Ae40B06cd2bb1A",
+    "earnedToken": "cowUniswapMantleWMNT-WETH",
+    "earnedTokenAddress": "0x526B33c9b824661b2072Ea12b9Ae40B06cd2bb1A",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-wmnt-weth",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["WMNT", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdt-weth-rp",
+    "name": "USDT-WETH Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapMantleUSDT-WETH",
+    "tokenAddress": "0xe0c2aED9398857531F0dE6ad868cfB4B7e0e375b",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0xDDf2BDCa61Ec9433D149feD9bD7Be3Fec0974e56",
+    "earnedToken": "rcowUniswapMantleUSDT-WETH",
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdt-weth",
+    "status": "active",
+    "createdAt": 1721233266,
+    "platformId": "oku",
+    "assets": ["USDT", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdt-weth",
+    "name": "USDT-WETH",
+    "type": "cowcentrated",
+    "token": "USDT-WETH",
+    "tokenAddress": "0x076eb72E74C16b208c692EEAB3750978D76B8F28",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+      "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111"
+    ],
+    "earnContractAddress": "0xe0c2aED9398857531F0dE6ad868cfB4B7e0e375b",
+    "earnedToken": "cowUniswapMantleUSDT-WETH",
+    "earnedTokenAddress": "0xe0c2aED9398857531F0dE6ad868cfB4B7e0e375b",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdt-weth",
+    "status": "active",
+    "createdAt": 1721233266,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["USDT", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdc-usdt-rp",
+    "name": "USDC-USDT Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapMantleUSDC-USDT",
+    "tokenAddress": "0x0dc153D09D3fa31bBd43912e6b9A2b88AB3277Cf",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0x2844BAdD930DA928a6B8ED0FEEB37dd4808c1fF4",
+    "earnedToken": "rcowUniswapMantleUSDC-USDT",
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdc-usdt",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "rewards",
+    "retiredAt": 1735665006,
+    "platformId": "oku",
+    "assets": ["USDC", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-usdc-usdt",
+    "name": "USDC-USDT",
+    "type": "cowcentrated",
+    "token": "USDC-USDT",
+    "tokenAddress": "0x8CFee38ab8b8f4BC2ff662E8cc8bDfb0439C9D2C",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+      "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE"
+    ],
+    "earnContractAddress": "0x0dc153D09D3fa31bBd43912e6b9A2b88AB3277Cf",
+    "earnedToken": "cowUniswapMantleUSDC-USDT",
+    "earnedTokenAddress": "0x0dc153D09D3fa31bBd43912e6b9A2b88AB3277Cf",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-usdc-usdt",
+    "status": "eol",
+    "createdAt": 1721233266,
+    "retireReason": "rewards",
+    "retiredAt": 1735665006,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["USDC", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-meth-weth-rp",
+    "name": "mETH-WETH Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapMantlemETH-WETH",
+    "tokenAddress": "0xEBDC36506adCFF3c64E7da11215D7Bf1d4700Ee3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0x6B6fB541DA71f1c53bFAD14cF619dE9a8b4b8885",
+    "earnedToken": "rcowUniswapMantlemETH-WETH",
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-meth-weth",
+    "status": "active",
+    "createdAt": 1721233266,
+    "platformId": "oku",
+    "assets": ["mETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-mantle-meth-weth",
+    "name": "mETH-WETH",
+    "type": "cowcentrated",
+    "token": "mETH-WETH",
+    "tokenAddress": "0x48EF5640E71001CaC842f5627A0bfec1EF09DeB7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+      "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111"
+    ],
+    "earnContractAddress": "0xEBDC36506adCFF3c64E7da11215D7Bf1d4700Ee3",
+    "earnedToken": "cowUniswapMantlemETH-WETH",
+    "earnedTokenAddress": "0xEBDC36506adCFF3c64E7da11215D7Bf1d4700Ee3",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-mantle-meth-weth",
+    "status": "active",
+    "createdAt": 1721233266,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["mETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "lendle-mantle-usde",
+    "name": "USDe",
+    "type": "standard",
+    "token": "USDe",
+    "tokenAddress": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0xFb038D9f7eD2e754612381af193f5570470C5182",
+    "earnedToken": "mooLendleUSDe",
+    "earnedTokenAddress": "0xFb038D9f7eD2e754612381af193f5570470C5182",
+    "oracle": "tokens",
+    "oracleId": "mantleUSDe",
+    "status": "eol",
+    "createdAt": 1714746204,
+    "retireReason": "tvl",
+    "retiredAt": 1727106785,
+    "platformId": "lendle",
+    "assets": ["USDe"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": true
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "pointStructureIds": ["ethena"],
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "moe-ena-wmnt",
+    "name": "ENA-WMNT LP",
+    "type": "standard",
+    "token": "ENA-WMNT LP",
+    "tokenAddress": "0x32C1882bAf179f6059d101AAD3feAC15B2B90dA3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x169368136E48d4Dbeecc70BE3ed79012ee689556",
+    "earnedToken": "mooMoeENA-WMNT",
+    "earnedTokenAddress": "0x169368136E48d4Dbeecc70BE3ed79012ee689556",
+    "oracle": "lps",
+    "oracleId": "moe-ena-wmnt",
+    "status": "eol",
+    "createdAt": 1714740553,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["ENA", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x58538e6A46E07434d7E7375Bc268D3cb839C0133/MNT",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdt-ena",
+    "name": "ENA-USDT LP",
+    "type": "standard",
+    "token": "ENA-USDT LP",
+    "tokenAddress": "0xFf53524D0E01A00EcEc997d2EBb5f06860068709",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0xB6B7b01b23f181f3C9a3e7220f0448224eA5C667",
+    "earnedToken": "mooMoeUSDT-ENA",
+    "earnedTokenAddress": "0xB6B7b01b23f181f3C9a3e7220f0448224eA5C667",
+    "oracle": "lps",
+    "oracleId": "moe-usdt-ena",
+    "status": "eol",
+    "createdAt": 1714740553,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["ENA", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "mshards-wmnt",
+    "name": "WMNT",
+    "type": "standard",
+    "token": "WMNT",
+    "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0x850dDE2cB6f1D5eb36968d8f5e3BE3Bb10b12D2C",
+    "earnedToken": "moomShardsWMNT",
+    "earnedTokenAddress": "0x850dDE2cB6f1D5eb36968d8f5e3BE3Bb10b12D2C",
+    "oracle": "tokens",
+    "oracleId": "WMNT",
+    "status": "eol",
+    "createdAt": 1712664921,
+    "retireReason": "rewards",
+    "retiredAt": 1720188099,
+    "platformId": "mshards",
+    "assets": ["WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "single",
+    "buyTokenUrl": "https://merchantmoe.com/trade",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdt-mshards",
+    "name": "mShards-USDT LP",
+    "type": "standard",
+    "token": "mShards-USDT LP",
+    "tokenAddress": "0x4bBf96C93EC63a4D021020Aee024aBe100597a31",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x784A2843984EDcC4740648dC91E5C7444254a397",
+    "earnedToken": "mooMoeUSDT-mShards",
+    "earnedTokenAddress": "0x784A2843984EDcC4740648dC91E5C7444254a397",
+    "oracle": "lps",
+    "oracleId": "moe-usdt-mshards",
+    "status": "eol",
+    "createdAt": 1712664921,
+    "retireReason": "rewards",
+    "retiredAt": 1720188099,
+    "platformId": "moe",
+    "assets": ["mShards", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xD7782b99671DD23203eBd4584FC71cf2B3dbB111",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0xD7782b99671DD23203eBd4584FC71cf2B3dbB111",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-lend-wmnt",
+    "name": "LEND-WMNT LP",
+    "type": "standard",
+    "token": "LEND-WMNT LP",
+    "tokenAddress": "0x30ac02b4c99D140CDE2a212ca807CBdA35D4f6b5",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0xCfA68F7dA7d3e00f0F10B66bDD2E05dB96036897",
+    "earnedToken": "mooMoeLEND-WMNT",
+    "earnedTokenAddress": "0xCfA68F7dA7d3e00f0F10B66bDD2E05dB96036897",
+    "oracle": "lps",
+    "oracleId": "moe-lend-wmnt",
+    "status": "eol",
+    "createdAt": 1712664921,
+    "retireReason": "rewards",
+    "retiredAt": 1722030032,
+    "platformId": "moe",
+    "assets": ["LEND", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x25356aeca4210eF7553140edb9b8026089E49396",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/MNT/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-lend-meth",
+    "name": "LEND-mETH LP",
+    "type": "standard",
+    "token": "LEND-mETH LP",
+    "tokenAddress": "0xFb16B5CCC62dc125834c33BF6B063c87e6e6F581",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x9f99864A33BDD154c2bCC7BF19CB758865CB63c2",
+    "earnedToken": "mooMoeLEND-mETH",
+    "earnedTokenAddress": "0x9f99864A33BDD154c2bCC7BF19CB758865CB63c2",
+    "oracle": "lps",
+    "oracleId": "moe-lend-meth",
+    "status": "active",
+    "createdAt": 1712664921,
+    "platformId": "moe",
+    "assets": ["LEND", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x25356aeca4210eF7553140edb9b8026089E49396",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x25356aeca4210eF7553140edb9b8026089E49396/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-moe-meth",
+    "name": "MOE-mETH LP",
+    "type": "standard",
+    "token": "MOE-mETH LP",
+    "tokenAddress": "0x57dbBf8ad81898F430cF45FEad615a1e049c9F76",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x2747A821552A91A54AEec5eA892cDD489eafd64f",
+    "earnedToken": "mooMoeMOE-mETH",
+    "earnedTokenAddress": "0x2747A821552A91A54AEec5eA892cDD489eafd64f",
+    "oracle": "lps",
+    "oracleId": "moe-moe-meth",
+    "status": "eol",
+    "createdAt": 1710340038,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["MOE", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x4515a45337f461a11ff0fe8abf3c606ae5dc00c9/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-wbtc-meth",
+    "name": "WBTC-mETH LP",
+    "type": "standard",
+    "token": "WBTC-mETH LP",
+    "tokenAddress": "0x198c826AF31938736539E7025d81caa7b8952094",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x55b0D110f68D8C051DC4071eBef34Fd8887E3eec",
+    "earnedToken": "mooMoeWBTC-mETH",
+    "earnedTokenAddress": "0x55b0D110f68D8C051DC4071eBef34Fd8887E3eec",
+    "oracle": "lps",
+    "oracleId": "moe-wbtc-meth",
+    "status": "eol",
+    "createdAt": 1710340038,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["WBTC", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0xcabae6f6ea1ecab08ad02fe02ce9a44f09aebfa2/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdt-meth",
+    "name": "USDT-mETH LP",
+    "type": "standard",
+    "token": "USDT-mETH LP",
+    "tokenAddress": "0x5c819961990c9F4f9fBfd4101f1D4e565B8AA0a6",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x08175349Da602674a255398516187984fEdd5738",
+    "earnedToken": "mooMoeUSDT-mETH",
+    "earnedTokenAddress": "0x08175349Da602674a255398516187984fEdd5738",
+    "oracle": "lps",
+    "oracleId": "moe-usdt-meth",
+    "status": "eol",
+    "createdAt": 1710340038,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["USDT", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201eba5cc46d216ce6dc03f6a759e8e766e956ae/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdc-meth",
+    "name": "USDC-mETH LP",
+    "type": "standard",
+    "token": "USDC-mETH LP",
+    "tokenAddress": "0xaF50CD8C03096a416Fc1B88E328Bab3E09e0F175",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x15a318Cfc01B50BD77c3a8d0dd560FDf44b5c046",
+    "earnedToken": "mooMoeUSDC-mETH",
+    "earnedTokenAddress": "0x15a318Cfc01B50BD77c3a8d0dd560FDf44b5c046",
+    "oracle": "lps",
+    "oracleId": "moe-usdc-meth",
+    "status": "eol",
+    "createdAt": 1710340038,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["USDC", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-wmnt-meth",
+    "name": "WMNT-mETH LP",
+    "type": "standard",
+    "token": "WMNT-mETH LP",
+    "tokenAddress": "0xa375ea3e1f92d62e3A71B668bAb09f7155267fa3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x699ACAD1593bfEdE9aefbF5287Daf99Eba2Cb98f",
+    "earnedToken": "mooMoeWMNT-mETH",
+    "earnedTokenAddress": "0x699ACAD1593bfEdE9aefbF5287Daf99Eba2Cb98f",
+    "oracle": "lps",
+    "oracleId": "moe-wmnt-meth",
+    "status": "eol",
+    "createdAt": 1710340038,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["WMNT", "mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/MNT/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-moe-wmnt",
+    "name": "MOE-WMNT LP",
+    "type": "standard",
+    "token": "MOE-WMNT LP",
+    "tokenAddress": "0x763868612858358f62b05691dB82Ad35a9b3E110",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x3D8C1c151A10aC2b4724A75a4b7441b72A67EB25",
+    "earnedToken": "mooMoeMOE-WMNT",
+    "earnedTokenAddress": "0x3D8C1c151A10aC2b4724A75a4b7441b72A67EB25",
+    "oracle": "lps",
+    "oracleId": "moe-moe-wmnt",
+    "status": "active",
+    "createdAt": 1708001964,
+    "platformId": "moe",
+    "assets": ["MOE", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-meth-weth",
+    "name": "mETH-WETH LP",
+    "type": "standard",
+    "token": "mETH-WETH LP",
+    "tokenAddress": "0x86e3a987187feD135D6d9C114f1857D8144F01e1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x1b7F62BE92b1DA0d621031475F3DdF5E147a4Be8",
+    "earnedToken": "mooMoemETH-WETH",
+    "earnedTokenAddress": "0x1b7F62BE92b1DA0d621031475F3DdF5E147a4Be8",
+    "oracle": "lps",
+    "oracleId": "moe-meth-weth",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["mETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0xcda86a272531e8640cd7f1a92c01839911b90bb0/0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdc-usdt",
+    "name": "USDC-USDT LP",
+    "type": "standard",
+    "token": "USDC-USDT LP",
+    "tokenAddress": "0x8E3A13418743aB1a98434551937Ea687E451B589",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x5e4b9F9d6d77217cC9D6268c48A217634B764158",
+    "earnedToken": "mooMoeUSDC-USDT",
+    "earnedTokenAddress": "0x5e4b9F9d6d77217cC9D6268c48A217634B764158",
+    "oracle": "lps",
+    "oracleId": "moe-usdc-usdt",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["USDC", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-joe-wmnt",
+    "name": "JOE-WMNT LP",
+    "type": "standard",
+    "token": "JOE-WMNT LP",
+    "tokenAddress": "0xEFC38C1B0d60725B824EBeE8D431aBFBF12BC953",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0xc53AAE13078e1d4d911d8c6331f82472C921ec78",
+    "earnedToken": "mooMoeJOE-WMNT",
+    "earnedTokenAddress": "0xc53AAE13078e1d4d911d8c6331f82472C921ec78",
+    "oracle": "lps",
+    "oracleId": "moe-joe-wmnt",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "tvl",
+    "retiredAt": 1743510776,
+    "platformId": "moe",
+    "assets": ["JOE", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdt-wmnt",
+    "name": "USDT-WMNT LP",
+    "type": "standard",
+    "token": "USDT-WMNT LP",
+    "tokenAddress": "0x4E7685Df06201521F35A182467FeEFe02C53d847",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x678C593940292efbf98222B507861dA49Fb7e294",
+    "earnedToken": "mooMoeUSDT-WMNT",
+    "earnedTokenAddress": "0x678C593940292efbf98222B507861dA49Fb7e294",
+    "oracle": "lps",
+    "oracleId": "moe-usdt-wmnt",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["USDT", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdc-wmnt",
+    "name": "USDC-WMNT LP",
+    "type": "standard",
+    "token": "USDC-WMNT LP",
+    "tokenAddress": "0x1a4d4Aa3bd8587F6e05Cc98Cf87954f7D95c11c6",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0xF2605791DE7b82a903F369364797cF10C57712F3",
+    "earnedToken": "mooMoeUSDC-WMNT",
+    "earnedTokenAddress": "0xF2605791DE7b82a903F369364797cF10C57712F3",
+    "oracle": "lps",
+    "oracleId": "moe-usdc-wmnt",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["USDC", "WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdc-weth",
+    "name": "USDC-WETH LP",
+    "type": "standard",
+    "token": "USDC-WETH LP",
+    "tokenAddress": "0x33B1d7CfFf71BBa9DD987f96AD57e0A5f7Db9Ac5",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x9D04d5A498B31b17DDc694804b37660B4aFff699",
+    "earnedToken": "mooMoeUSDC-WETH",
+    "earnedTokenAddress": "0x9D04d5A498B31b17DDc694804b37660B4aFff699",
+    "oracle": "lps",
+    "oracleId": "moe-usdc-weth",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1722030032,
+    "platformId": "moe",
+    "assets": ["USDC", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9/0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-joe-moe",
+    "name": "JOE-MOE LP",
+    "type": "standard",
+    "token": "JOE-MOE LP",
+    "tokenAddress": "0xb670D2B452D0Ecc468cccFD532482d45dDdDe2a1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0x7eC40b19A94a3FA3eB4666ee1AcAB437c165c372",
+    "earnedToken": "mooMoeJOE-MOE",
+    "earnedTokenAddress": "0x7eC40b19A94a3FA3eB4666ee1AcAB437c165c372",
+    "oracle": "lps",
+    "oracleId": "moe-joe-moe",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["JOE", "MOE"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07/0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "moe-usdt-moe",
+    "name": "MOE-USDT LP",
+    "type": "standard",
+    "token": "MOE-USDT LP",
+    "tokenAddress": "0x7d35BA038df5afDe64a1962683ffeB3e150637fF",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnContractAddress": "0xB60D74c12503881609B6E0BBB302e4f274f53c86",
+    "earnedToken": "mooMoeUSDT-MOE",
+    "earnedTokenAddress": "0xB60D74c12503881609B6E0BBB302e4f274f53c86",
+    "oracle": "lps",
+    "oracleId": "moe-usdt-moe",
+    "status": "eol",
+    "createdAt": 1708001964,
+    "retireReason": "rewards",
+    "retiredAt": 1723649360,
+    "platformId": "moe",
+    "assets": ["MOE", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  },
+  {
+    "id": "lendle-mantle-wmnt",
+    "name": "WMNT",
+    "type": "standard",
+    "token": "WMNT",
+    "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0x19f677c0b5078bC982454B95BeB4066c71cAd2a2",
+    "earnedToken": "mooLendleWMNT",
+    "earnedTokenAddress": "0x19f677c0b5078bC982454B95BeB4066c71cAd2a2",
+    "oracle": "tokens",
+    "oracleId": "WMNT",
+    "status": "active",
+    "createdAt": 1705412439,
+    "platformId": "lendle",
+    "assets": ["WMNT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://app.openocean.finance/CLASSIC#/MANTLE/MNT/WMNT",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "lendle-mantle-meth",
+    "name": "mETH",
+    "type": "standard",
+    "token": "mETH",
+    "tokenAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0xD81FD727E581fEBB2e3dCBA27CCcC080c6413FEF",
+    "earnedToken": "mooLendlemETH",
+    "earnedTokenAddress": "0xD81FD727E581fEBB2e3dCBA27CCcC080c6413FEF",
+    "oracle": "tokens",
+    "oracleId": "mETH",
+    "status": "active",
+    "createdAt": 1705412439,
+    "platformId": "lendle",
+    "assets": ["mETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://app.openocean.finance/CLASSIC#/MANTLE/MNT/METH",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "lendle-mantle-weth",
+    "name": "WETH",
+    "type": "standard",
+    "token": "WETH",
+    "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0x3b5C3f61B480bE169cCED9F44179340d97d4e961",
+    "earnedToken": "mooLendleWETH",
+    "earnedTokenAddress": "0x3b5C3f61B480bE169cCED9F44179340d97d4e961",
+    "oracle": "tokens",
+    "oracleId": "WETH",
+    "status": "eol",
+    "createdAt": 1705412439,
+    "retireReason": "tvl",
+    "retiredAt": 1743510776,
+    "platformId": "lendle",
+    "assets": ["WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://app.openocean.finance/CLASSIC#/MANTLE/MNT/WETH",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "lendle-mantle-usdt",
+    "name": "USDT",
+    "type": "standard",
+    "token": "USDT",
+    "tokenAddress": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x15f5169D7fD528f6C8bCfb0a239833D53f454fF2",
+    "earnedToken": "mooLendleUSDT",
+    "earnedTokenAddress": "0x15f5169D7fD528f6C8bCfb0a239833D53f454fF2",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "status": "eol",
+    "createdAt": 1705412439,
+    "retireReason": "tvl",
+    "retiredAt": 1743510776,
+    "platformId": "lendle",
+    "assets": ["USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://app.openocean.finance/CLASSIC#/MANTLE/MNT/USDT",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "lendle-mantle-usdc",
+    "name": "USDC",
+    "type": "standard",
+    "token": "USDC",
+    "tokenAddress": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x36f651b8F5E96B97656DCfE8529aB645D1e4C8fd",
+    "earnedToken": "mooLendleUSDC",
+    "earnedTokenAddress": "0x36f651b8F5E96B97656DCfE8529aB645D1e4C8fd",
+    "oracle": "tokens",
+    "oracleId": "USDC",
+    "status": "active",
+    "createdAt": 1705412439,
+    "platformId": "lendle",
+    "assets": ["USDC"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://app.openocean.finance/CLASSIC#/MANTLE/MNT/USDC",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  },
+  {
+    "id": "lendle-mantle-wbtc",
+    "name": "WBTC",
+    "type": "standard",
+    "token": "WBTC",
+    "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
+    "tokenDecimals": 8,
+    "earnContractAddress": "0x5226412a9C0fE6Fa88550F5268E2eaF88A2731E6",
+    "earnedToken": "mooLendleWBTC",
+    "earnedTokenAddress": "0x5226412a9C0fE6Fa88550F5268E2eaF88A2731E6",
+    "oracle": "tokens",
+    "oracleId": "WBTC",
+    "status": "eol",
+    "createdAt": 1705412439,
+    "retireReason": "rewards",
+    "retiredAt": 1722030032,
+    "platformId": "lendle",
+    "assets": ["WBTC"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://bridge.mantle.xyz/",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth"
+    }
+  }
+]

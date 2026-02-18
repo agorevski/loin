@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "dragonswap-cow-sei-usdc.n-usdc-rp",
+    "name": "USDC.n-USDC Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonswapUSDC-USDC.n",
+    "tokenAddress": "0x5e9197d5a69a976c141b3d314299022Bbf5391D4",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0x3561F2b20784b0dB2bD7170f5305b6a3932Bf84D",
+    "earnedToken": "rCowDragonswapUSDC-USDC.n",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "dragonswap-cow-sei-usdc.n-usdc",
+    "status": "eol",
+    "createdAt": 1753383403,
+    "retireReason": "tvl",
+    "retiredAt": 1770142323,
+    "platformId": "dragon",
+    "assets": ["USDCn", "USDC"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragonswap-cow-sei-usdc.n-usdc",
+    "name": "USDC.n-USDC",
+    "type": "cowcentrated",
+    "token": "USDC.n-USDC dragonswap",
+    "tokenAddress": "0x8b7bC59c92f77980d1120406a173D7C611060DA3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392"
+    ],
+    "earnContractAddress": "0x5e9197d5a69a976c141b3d314299022Bbf5391D4",
+    "earnedToken": "cowDragonswapUSDC-USDC.n",
+    "earnedTokenAddress": "0x5e9197d5a69a976c141b3d314299022Bbf5391D4",
+    "oracle": "lps",
+    "oracleId": "dragonswap-cow-sei-usdc.n-usdc",
+    "status": "eol",
+    "createdAt": 1753383403,
+    "retireReason": "tvl",
+    "retiredAt": 1770142323,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["USDCn", "USDC"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragonswap-cow-sei-usdc-wsei-rp",
+    "name": "USDC-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonswapUSDC-WSEI",
+    "tokenAddress": "0xd787Af46950a035440a66F54E62d3b0945e674A3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0xc6FBada2A0c02405A69B221fA8b0e06E07b00d3A",
+    "earnedToken": "rCowDragonswapUSDC-WSEI",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "dragonswap-cow-sei-usdc-wsei",
+    "status": "active",
+    "createdAt": 1753383353,
+    "platformId": "dragon",
+    "assets": ["USDC", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragonswap-cow-sei-usdc-wsei",
+    "name": "USDC-WSEI",
+    "type": "cowcentrated",
+    "token": "USDC-WSEI dragonswap",
+    "tokenAddress": "0xcca2352200a63eb0Aaba2D40BA69b1d32174F285",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0xd787Af46950a035440a66F54E62d3b0945e674A3",
+    "earnedToken": "cowDragonswapUSDC-WSEI",
+    "earnedTokenAddress": "0xd787Af46950a035440a66F54E62d3b0945e674A3",
+    "oracle": "lps",
+    "oracleId": "dragonswap-cow-sei-usdc-wsei",
+    "status": "active",
+    "createdAt": 1753383353,
+    "platformId": "beefy",
+    "feeTier": "0.3",
+    "assets": ["USDC", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-isei-wsei-500-rp",
+    "name": "iSEI-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonSeiiSEI-WSEI-500",
+    "tokenAddress": "0x611B6a9c0461c26Aa3ab04355e7813291652b1ad",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0xB80114171cA830e4575aD06A50aFDF392f7D67f2",
+    "earnedToken": "rcowDragoniSEI-WSEI-500",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "dragon-cow-isei-wsei-500",
+    "status": "eol",
+    "createdAt": 1730394194,
+    "retireReason": "tvl",
+    "retiredAt": 1769468077,
+    "platformId": "dragon",
+    "assets": ["iSEI", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-isei-wsei-500",
+    "name": "iSEI-WSEI",
+    "type": "cowcentrated",
+    "token": "iSEI-WSEI",
+    "tokenAddress": "0xD0553A0853C57267c1F2E212347002B052595558",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0x611B6a9c0461c26Aa3ab04355e7813291652b1ad",
+    "earnedToken": "cowDragoniSEI-WSEI-500",
+    "earnedTokenAddress": "0x611B6a9c0461c26Aa3ab04355e7813291652b1ad",
+    "oracle": "lps",
+    "oracleId": "dragon-cow-isei-wsei-500",
+    "status": "eol",
+    "createdAt": 1730394194,
+    "retireReason": "tvl",
+    "retiredAt": 1769468077,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["iSEI", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdc-wsei-rp",
+    "name": "USDC-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonSeiUSDC-WSEI",
+    "tokenAddress": "0xB99813c691d8A1825b839BA3a26642e39B63Cc06",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0xF977607D9762E3Bf4Bc592135Fc80B21B2DcCD0b",
+    "earnedToken": "rcowDragonUSDC-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdc-wsei",
+    "status": "active",
+    "createdAt": 1727260520,
+    "platformId": "dragon",
+    "assets": ["USDCn", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdc-wsei",
+    "name": "USDC-WSEI",
+    "type": "cowcentrated",
+    "token": "USDC-WSEI",
+    "tokenAddress": "0x882f62fe8E9594470D1da0f70Bc85096F6c60423",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0xB99813c691d8A1825b839BA3a26642e39B63Cc06",
+    "earnedToken": "cowDragonUSDC-WSEI",
+    "earnedTokenAddress": "0xB99813c691d8A1825b839BA3a26642e39B63Cc06",
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdc-wsei",
+    "status": "active",
+    "createdAt": 1727260520,
+    "platformId": "beefy",
+    "feeTier": "0.30",
+    "assets": ["USDCn", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdt-wsei-rp",
+    "name": "USDT-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonSeiUSDT-WSEI",
+    "tokenAddress": "0x2790E03f36Ea15256005BEB7DAD34a32052fBc92",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0x8A69092cA0097e61EF1fE3C87121cF683b16E5Ad",
+    "earnedToken": "rcowDragonUSDT-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdt-wsei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "dragon",
+    "assets": ["USDT", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdt-wsei",
+    "name": "USDT-WSEI",
+    "type": "cowcentrated",
+    "token": "USDT-WSEI",
+    "tokenAddress": "0x48904b7B93F4AF97a687168fdBfaaB80F28eAE54",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0x2790E03f36Ea15256005BEB7DAD34a32052fBc92",
+    "earnedToken": "cowDragonUSDT-WSEI",
+    "earnedTokenAddress": "0x2790E03f36Ea15256005BEB7DAD34a32052fBc92",
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdt-wsei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "tvl",
+    "retiredAt": 1744298354,
+    "platformId": "beefy",
+    "feeTier": "0.30",
+    "assets": ["USDT", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-isei-wsei-rp",
+    "name": "iSEI-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonSeiiSEI-WSEI",
+    "tokenAddress": "0xE4b150c9235755771c5aBFb807a7483c44ab17a2",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0x844fDc2AD949143Be35E65cA30BA25d36b9118a1",
+    "earnedToken": "rcowDragoniSEI-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "dragon-cow-isei-wsei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "rewards",
+    "retiredAt": 1735665006,
+    "platformId": "dragon",
+    "assets": ["iSEI", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-isei-wsei",
+    "name": "iSEI-WSEI",
+    "type": "cowcentrated",
+    "token": "iSEI-WSEI",
+    "tokenAddress": "0x9788C190C55a1C6e20597d52506bD49BB758E984",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0xE4b150c9235755771c5aBFb807a7483c44ab17a2",
+    "earnedToken": "cowDragoniSEI-WSEI",
+    "earnedTokenAddress": "0xE4b150c9235755771c5aBFb807a7483c44ab17a2",
+    "oracle": "lps",
+    "oracleId": "dragon-cow-isei-wsei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "rewards",
+    "retiredAt": 1735665006,
+    "platformId": "beefy",
+    "feeTier": "0.30",
+    "assets": ["iSEI", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdc-isei-rp",
+    "name": "iSEI-USDC Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowDragonSeiUSDC-iSEI",
+    "tokenAddress": "0x5963A36AB64e9Da637b1344e8ed514144a59dA3E",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "earnContractAddress": "0xf3791f31c6143837d9d4A3A78f3212771FdAA6c2",
+    "earnedToken": "rcowDragonUSDC-iSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdc-isei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "tvl",
+    "retiredAt": 1744925964,
+    "platformId": "dragon",
+    "assets": ["iSEI", "USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "dragon-cow-usdc-isei",
+    "name": "iSEI-USDC",
+    "type": "cowcentrated",
+    "token": "iSEI-USDC",
+    "tokenAddress": "0xdEfD8471d614C7194824c140eFE17C005CB36008",
+    "tokenDecimals": 18,
+    "tokenProviderId": "dragon",
+    "depositTokenAddresses": [
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423"
+    ],
+    "earnContractAddress": "0x5963A36AB64e9Da637b1344e8ed514144a59dA3E",
+    "earnedToken": "cowDragonUSDC-iSEI",
+    "earnedTokenAddress": "0x5963A36AB64e9Da637b1344e8ed514144a59dA3E",
+    "oracle": "lps",
+    "oracleId": "dragon-cow-usdc-isei",
+    "status": "eol",
+    "createdAt": 1727260520,
+    "retireReason": "tvl",
+    "retiredAt": 1744925964,
+    "platformId": "beefy",
+    "feeTier": "0.30",
+    "assets": ["iSEI", "USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "stargate-v2-sei-usdc",
+    "name": "USDC",
+    "type": "standard",
+    "token": "USDC",
+    "tokenAddress": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0xdA86D4168e63111055b6ffEf0AbA1ca5A9aD98B1",
+    "earnedToken": "mooStargateV2USDC",
+    "earnedTokenAddress": "0xdA86D4168e63111055b6ffEf0AbA1ca5A9aD98B1",
+    "oracle": "tokens",
+    "oracleId": "USDCn",
+    "status": "eol",
+    "createdAt": 1725883356,
+    "retireReason": "rewards",
+    "retiredAt": 1735665006,
+    "platformId": "stargate",
+    "assets": ["USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "single",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "stargate-v2-sei-usdt",
+    "name": "USDT",
+    "type": "standard",
+    "token": "USDT",
+    "tokenAddress": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x50fF3200afefd39e2bd4ad45bfEbD74C6f1C4377",
+    "earnedToken": "mooStargateV2USDT",
+    "earnedTokenAddress": "0x50fF3200afefd39e2bd4ad45bfEbD74C6f1C4377",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "status": "eol",
+    "createdAt": 1725883356,
+    "retireReason": "rewards",
+    "retiredAt": 1737731759,
+    "platformId": "stargate",
+    "assets": ["USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "single",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "yei-isei",
+    "name": "iSEI",
+    "type": "standard",
+    "token": "iSEI",
+    "tokenAddress": "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x65862C640CE6FbC3fb289cd93ee8F0dFFEBC2FFe",
+    "earnedToken": "mooYeiiSEI",
+    "earnedTokenAddress": "0x65862C640CE6FbC3fb289cd93ee8F0dFFEBC2FFe",
+    "oracle": "tokens",
+    "oracleId": "iSEI",
+    "status": "eol",
+    "createdAt": 1725602894,
+    "retireReason": "rewards",
+    "retiredAt": 1754691689,
+    "platformId": "yei",
+    "assets": ["iSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://oku.trade/app/sei/swap/0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1/0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "redstone",
+      "address": "0xF708DB0C6352d012AA093d71d407Cec1250A4CB3"
+    }
+  },
+  {
+    "id": "yei-usdt",
+    "name": "USDT",
+    "type": "standard",
+    "token": "USDT",
+    "tokenAddress": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0xcb25214EC41Ea480068638897FcBd6F1206F5521",
+    "earnedToken": "mooYeiUSDT",
+    "earnedTokenAddress": "0xcb25214EC41Ea480068638897FcBd6F1206F5521",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "status": "eol",
+    "createdAt": 1725011789,
+    "retireReason": "rewards",
+    "retiredAt": 1746801184,
+    "platformId": "yei",
+    "assets": ["USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://oku.trade/app/sei/swap/0x0000000000000000000000000000000000000000/0xb75d0b03c06a926e488e2659df1a861f860bd3d1",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth",
+      "address": "0xb4B0a33487baFbb9b90b084AC2A2A150956F4658"
+    }
+  },
+  {
+    "id": "yei-usdc",
+    "name": "USDC",
+    "type": "standard",
+    "token": "USDC",
+    "tokenAddress": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x906e60166A4B185016e53597fA12FBB1424e47d7",
+    "earnedToken": "mooYeiUSDC",
+    "earnedTokenAddress": "0x906e60166A4B185016e53597fA12FBB1424e47d7",
+    "oracle": "tokens",
+    "oracleId": "USDCn",
+    "status": "eol",
+    "createdAt": 1725011789,
+    "retireReason": "rewards",
+    "retiredAt": 1754691689,
+    "platformId": "yei",
+    "assets": ["USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://oku.trade/app/sei/swap/0x0000000000000000000000000000000000000000/0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth",
+      "address": "0x2443Be92682b72A77E562d1B364dEC6eA3dAbb0a"
+    }
+  },
+  {
+    "id": "yei-wsei",
+    "name": "WSEI",
+    "type": "standard",
+    "token": "WSEI",
+    "tokenAddress": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0x9E6B9518978bb7caf2ad70778E9AEED9eDb3DB78",
+    "earnedToken": "mooYeiWSEI",
+    "earnedTokenAddress": "0x9E6B9518978bb7caf2ad70778E9AEED9eDb3DB78",
+    "oracle": "tokens",
+    "oracleId": "WSEI",
+    "status": "eol",
+    "createdAt": 1725011789,
+    "retireReason": "tvl",
+    "retiredAt": 1744925964,
+    "platformId": "yei",
+    "assets": ["WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://oku.trade/app/sei/swap/0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1/0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "pyth",
+      "address": "0x752Df241a4abafe90aA46ec25D2c2701a3d35598"
+    }
+  },
+  {
+    "id": "uniswap-cow-sei-usdt-wsei-rp",
+    "name": "USDT-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapSeiUSDT-WSEI",
+    "tokenAddress": "0xE8d987e224e50Fb26986ccf11DD4248BF68CaF43",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0x41c8fDc1f2EB272CB51c224D4C68F277c3C7878B",
+    "earnedToken": "rcowUniswapSeiUSDT-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdt-wsei",
+    "status": "eol",
+    "createdAt": 1722597986,
+    "retireReason": "tvl",
+    "retiredAt": 1767991369,
+    "platformId": "oku",
+    "assets": ["USDT", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-usdt-wsei",
+    "name": "USDT-WSEI",
+    "type": "cowcentrated",
+    "token": "USDT-WSEI",
+    "tokenAddress": "0x0493F80f3D4DA87aA0F3713e81e84062d769e5e1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0xE8d987e224e50Fb26986ccf11DD4248BF68CaF43",
+    "earnedToken": "cowUniswapSeiUSDT-WSEI",
+    "earnedTokenAddress": "0xE8d987e224e50Fb26986ccf11DD4248BF68CaF43",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdt-wsei",
+    "status": "eol",
+    "createdAt": 1722597986,
+    "retireReason": "tvl",
+    "retiredAt": 1767991369,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["USDT", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-usdc-usdt-rp",
+    "name": "USDC-USDT Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapSeiUSDC-USDT",
+    "tokenAddress": "0x171897D0e083A5900Fbcd6B68176f5F7261EF7c2",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0xA877cD71F4aF6149240d40A9DAC4e13CB328447C",
+    "earnedToken": "rcowUniswapSeiUSDC-USDT",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdc-usdt",
+    "status": "active",
+    "createdAt": 1722597986,
+    "platformId": "oku",
+    "assets": ["USDCn", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-usdc-usdt",
+    "name": "USDC-USDT",
+    "type": "cowcentrated",
+    "token": "USDC-USDT",
+    "tokenAddress": "0x41eEa09c971294FcDE3B6E553902B04a47be7442",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1"
+    ],
+    "earnContractAddress": "0x171897D0e083A5900Fbcd6B68176f5F7261EF7c2",
+    "earnedToken": "cowUniswapSeiUSDC-USDT",
+    "earnedTokenAddress": "0x171897D0e083A5900Fbcd6B68176f5F7261EF7c2",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdc-usdt",
+    "status": "active",
+    "createdAt": 1722597986,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["USDCn", "USDT"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-weth-usdc-rp",
+    "name": "WETH-USDC Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapSeiWETH-USDC",
+    "tokenAddress": "0x0feE8c0140752C62151Aa4F9eA9F564bd40E5B90",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0xfcdCDb71FF7D0711F8F9A36032Aa3a77A659055D",
+    "earnedToken": "rcowUniswapSeiWETH-USDC",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-weth-usdc",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "oku",
+    "assets": ["WETH", "USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-weth-usdc",
+    "name": "WETH-USDC",
+    "type": "cowcentrated",
+    "token": "WETH-USDC",
+    "tokenAddress": "0x8A1a9Efb7f7F74ACe10A31F2f5f9F7E804f957b1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1"
+    ],
+    "earnContractAddress": "0x0feE8c0140752C62151Aa4F9eA9F564bd40E5B90",
+    "earnedToken": "cowUniswapSeiWETH-USDC",
+    "earnedTokenAddress": "0x0feE8c0140752C62151Aa4F9eA9F564bd40E5B90",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-weth-usdc",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["WETH", "USDCn"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-weth-wsei-rp",
+    "name": "WETH-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapSeiWETH-WSEI",
+    "tokenAddress": "0x946907408c076180bD2c6aEAd56908fe93Cc8629",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0x095D7EAF5461cbDbdAF60f5a569612C5B6e47eC6",
+    "earnedToken": "rcowUniswapSeiWETH-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-weth-wsei",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "oku",
+    "assets": ["WETH", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-weth-wsei",
+    "name": "WETH-WSEI",
+    "type": "cowcentrated",
+    "token": "WETH-WSEI",
+    "tokenAddress": "0xa3A573c8D14C93FCa8FDEcb7DB168619563D9B00",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0x946907408c076180bD2c6aEAd56908fe93Cc8629",
+    "earnedToken": "cowUniswapSeiWETH-WSEI",
+    "earnedTokenAddress": "0x946907408c076180bD2c6aEAd56908fe93Cc8629",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-weth-wsei",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["WETH", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-usdc-wsei-rp",
+    "name": "USDC-WSEI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapSeiUSDC-WSEI",
+    "tokenAddress": "0xb2158015044004366e6f72c8c82A0bd355e2ffb3",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "earnContractAddress": "0xc52eb8e790Ce2Ec4EDF08d6F0ABDbff9D1b944fA",
+    "earnedToken": "rcowUniswapSeiUSDC-WSEI",
+    "earnedTokenAddresses": [],
+    "earnedOracleIds": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdc-wsei",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "oku",
+    "assets": ["USDCn", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-sei-usdc-wsei",
+    "name": "USDC-WSEI",
+    "type": "cowcentrated",
+    "token": "USDC-WSEI",
+    "tokenAddress": "0x5cFA8dB453C9904511C4eA9eb0bfc903E36b9F5F",
+    "tokenDecimals": 18,
+    "tokenProviderId": "oku",
+    "depositTokenAddresses": [
+      "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    ],
+    "earnContractAddress": "0xb2158015044004366e6f72c8c82A0bd355e2ffb3",
+    "earnedToken": "cowUniswapSeiUSDC-WSEI",
+    "earnedTokenAddress": "0xb2158015044004366e6f72c8c82A0bd355e2ffb3",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-sei-usdc-wsei",
+    "status": "active",
+    "createdAt": 1722523990,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["USDCn", "WSEI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "sei",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  }
+]

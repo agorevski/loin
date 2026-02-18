@@ -1,0 +1,100 @@
+[
+  {
+    "itemId": "mono-text-dark",
+    "label": "Mono - Dark",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-text-light",
+    "label": "Mono - Light",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-dark-autocompound",
+    "label": "Mono Autocompound - Dark",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-light-autocompound",
+    "label": "Mono Autocompound - Light",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "autocompounding-dark",
+    "label": "Autocompounding - Dark",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "autocompounding-light",
+    "label": "Autocompounding - Light",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "qr",
+    "label": "Beefy.com QR Code",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-dark",
+    "label": "Mono - Dark - Square",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-light",
+    "label": "Mono - Light - Square",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "bifi",
+    "label": "BIFI",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mooBIFI",
+    "label": "mooBIFI",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "beqi",
+    "label": "beQI",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "bevelo",
+    "label": "beVELO",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "bes",
+    "label": "beS",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  }
+]

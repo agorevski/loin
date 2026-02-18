@@ -1,0 +1,41 @@
+[
+  {
+    "name": "shadow-ws-shadow",
+    "address": "0xF19748a0E269c6965a84f8C98ca8C47A064D4dd0",
+    "gauge": "0xD562C4E3f2BFf3168C1128551ED7c63aE0774561",
+    "decimals": "1e18",
+    "chainId": 146,
+    "beefyFee": 0.095,
+    "lp0": {
+      "address": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+      "oracle": "tokens",
+      "oracleId": "WS",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
+      "oracle": "tokens",
+      "oracleId": "SHADOW",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "shadow-beS-beGEMS1",
+    "address": "0xA41f1792fD3A811D7F9D623C91F3D499B665167e",
+    "decimals": "1e18",
+    "chainId": 146,
+    "beefyFee": 0.095,
+    "lp0": {
+      "address": "0x871A101Dcf22fE4fE37be7B654098c801CBA1c88",
+      "oracle": "tokens",
+      "oracleId": "beS",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xd70c020c48403295100884ee47db80d51BAA9d87",
+      "oracle": "tokens",
+      "oracleId": "beGEMS1",
+      "decimals": "1e18"
+    }
+  }
+]

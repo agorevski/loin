@@ -1,0 +1,11 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "boosted"
+      }
+    ],
+    "limit": 3,
+    "period": 3600
+  }
+]

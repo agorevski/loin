@@ -1,0 +1,890 @@
+[
+  {
+    "id": "pendle-plasma-splusd-29jan26",
+    "name": "splUSD 29Jan26",
+    "type": "standard",
+    "token": "splUSD-29JAN26",
+    "tokenAddress": "0x9D0676EC013cB50B7bF9b291c22B618e9fe86832",
+    "tokenDecimals": 18,
+    "tokenProviderId": "pendle",
+    "earnContractAddress": "0xB422c9215aAcA788848dfC8134Ad1d5de0652FF2",
+    "earnedToken": "mooPenpie-splUSD-29JAN26",
+    "earnedTokenAddress": "0xB422c9215aAcA788848dfC8134Ad1d5de0652FF2",
+    "oracle": "lps",
+    "oracleId": "pendle-plasma-splusd-29jan26",
+    "status": "eol",
+    "createdAt": 1761198278,
+    "retireReason": "rewards",
+    "retiredAt": 1770109260,
+    "platformId": "magpie",
+    "assets": ["splUSD"],
+    "migrationIds": ["magpie"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.pendle.finance/trade/pools/0x9D0676EC013cB50B7bF9b291c22B618e9fe86832/zap/in?chain=plasma",
+    "removeLiquidityUrl": "https://app.pendle.finance/trade/pools/0x9D0676EC013cB50B7bF9b291c22B618e9fe86832/zap/out?chain=plasma",
+    "network": "plasma"
+  },
+  {
+    "id": "lithos-wxpl-lith",
+    "name": "LITH-WXPL vLP",
+    "type": "standard",
+    "token": "vAMM-WXPL/LITH",
+    "tokenAddress": "0x7dAB98CC51835Beae6dEE43BbdA84cDb96896fb5",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lithos",
+    "earnContractAddress": "0x573F85C231a382Fa749E5Dae729dC09C36f71bA4",
+    "earnedToken": "mooLithosWXPL-LITH",
+    "earnedTokenAddress": "0x573F85C231a382Fa749E5Dae729dC09C36f71bA4",
+    "oracle": "lps",
+    "oracleId": "lithos-wxpl-lith",
+    "status": "active",
+    "createdAt": 1760678819,
+    "platformId": "lithos",
+    "assets": ["LITH", "WXPL"],
+    "migrationIds": ["plasma-lithos"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://lithos.to/pools/deposit?token0=0x6100e367285b01f48d07953803a2d8dca5d19873&token1=0xabb48792a3161e81b47ca084c0b7a22a50324a44&pool=0x7dab98cc51835beae6dee43bbda84cdb96896fb5&stable=-1&type=-1",
+    "removeLiquidityUrl": "https://lithos.to/dash",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "plasma-lithos"
+      }
+    ]
+  },
+  {
+    "id": "lithos-msusd-usdt0",
+    "name": "msUSD-USDT0 sLP",
+    "type": "standard",
+    "token": "sAMM-msUSD/USDT0",
+    "tokenAddress": "0xaa1605fbd9c2Cd3854337dB654471a45B2276c12",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lithos",
+    "earnContractAddress": "0xFF37EBCA7B998fd39b2C7867e06e1D283bAB69b8",
+    "earnedToken": "mooLithosMsUSD-USDT0",
+    "earnedTokenAddress": "0xFF37EBCA7B998fd39b2C7867e06e1D283bAB69b8",
+    "oracle": "lps",
+    "oracleId": "lithos-msusd-usdt0",
+    "status": "active",
+    "createdAt": 1760678810,
+    "platformId": "lithos",
+    "assets": ["msUSD", "USDT0"],
+    "migrationIds": ["plasma-lithos"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://lithos.to/pools/deposit?token0=0x29ad7fe4516909b9e498b5a65339e54791293234&token1=0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb&pool=0xaa1605fbd9c2cd3854337db654471a45b2276c12&stable=1&type=-1",
+    "removeLiquidityUrl": "https://lithos.to/dash",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "plasma-lithos"
+      }
+    ]
+  },
+  {
+    "id": "lithos-weth-weeth",
+    "name": "WETH-weETH sLP",
+    "type": "standard",
+    "token": "sAMM-WETH/weETH",
+    "tokenAddress": "0x82862237F37e8495D88287d72A4C0073250487E0",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lithos",
+    "earnContractAddress": "0x6Dd2abBBbbf494dd2454aEd67880B9533E2b3DA1",
+    "earnedToken": "mooLithosWETH-weETH",
+    "earnedTokenAddress": "0x6Dd2abBBbbf494dd2454aEd67880B9533E2b3DA1",
+    "oracle": "lps",
+    "oracleId": "lithos-weth-weeth",
+    "status": "eol",
+    "createdAt": 1760678802,
+    "retireReason": "tvl",
+    "retiredAt": 1765213686,
+    "platformId": "lithos",
+    "assets": ["WETH", "weETH"],
+    "migrationIds": ["plasma-lithos"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://lithos.to/pools/deposit?token0=0x9895d81bb462a195b4922ed7de0e3acd007c32cb&token1=0xa3d68b74bf0528fdd07263c60d6488749044914b&pool=0x82862237f37e8495d88287d72a4c0073250487e0&stable=1&type=-1",
+    "removeLiquidityUrl": "https://lithos.to/dash",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "plasma-lithos"
+      }
+    ]
+  },
+  {
+    "id": "lithos-usde-usdt0",
+    "name": "USDe-USDT0 sLP",
+    "type": "standard",
+    "token": "sAMM-USDe/USDT0",
+    "tokenAddress": "0x01b968C1b663C3921Da5BE3C99Ee3c9B89a40B54",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lithos",
+    "earnContractAddress": "0xd8d8aA7c6c5a42C788A04C2d168a46654A7EbB54",
+    "earnedToken": "mooLithosUSDe-USDT0",
+    "earnedTokenAddress": "0xd8d8aA7c6c5a42C788A04C2d168a46654A7EbB54",
+    "oracle": "lps",
+    "oracleId": "lithos-usde-usdt0",
+    "status": "active",
+    "createdAt": 1760593437,
+    "platformId": "lithos",
+    "assets": ["USDe", "USDT0"],
+    "migrationIds": ["plasma-lithos"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://lithos.to/pools/deposit?token0=0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34&token1=0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb&pool=0x01b968c1b663c3921da5be3c99ee3c9b89a40b54&stable=1&type=-1",
+    "removeLiquidityUrl": "https://lithos.to/dash",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "plasma-lithos"
+      }
+    ]
+  },
+  {
+    "id": "lithos-wxpl-usdt0",
+    "name": "WXPL-USDT0 vLP",
+    "type": "standard",
+    "token": "vAMM-WXPL/USDT0",
+    "tokenAddress": "0xA0926801A2abC718822a60d8Fa1bc2A51Fa09F1e",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lithos",
+    "earnContractAddress": "0x94A3725124d2E71028Ee488b88566f1fb11A90C3",
+    "earnedToken": "mooLithosWXPL-USDT0",
+    "earnedTokenAddress": "0x94A3725124d2E71028Ee488b88566f1fb11A90C3",
+    "oracle": "lps",
+    "oracleId": "lithos-wxpl-usdt0",
+    "status": "active",
+    "createdAt": 1760593428,
+    "platformId": "lithos",
+    "assets": ["WXPL", "USDT0"],
+    "migrationIds": ["plasma-lithos"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": true,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://lithos.to/pools/deposit?token0=0x6100e367285b01f48d07953803a2d8dca5d19873&token1=0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb&pool=0xa0926801a2abc718822a60d8fa1bc2a51fa09f1e&stable=-1&type=-1",
+    "removeLiquidityUrl": "https://lithos.to/dash",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "plasma-lithos"
+      }
+    ]
+  },
+  {
+    "id": "pendle-plasma-plasmausd-29jan26",
+    "name": "PlasmaUSD 29Jan26",
+    "type": "standard",
+    "token": "PlasmaUSD-29JAN26",
+    "tokenAddress": "0x7209D228CD585f4b77A031f7B902f989439AC319",
+    "tokenDecimals": 18,
+    "tokenProviderId": "pendle",
+    "earnContractAddress": "0xd7Dbea1F11727e6f99eB90f68EB37c23E1039409",
+    "earnedToken": "mooPenpie-PlasmaUSD-29JAN26",
+    "earnedTokenAddress": "0xd7Dbea1F11727e6f99eB90f68EB37c23E1039409",
+    "oracle": "lps",
+    "oracleId": "pendle-plasma-plasmausd-29jan26",
+    "status": "eol",
+    "createdAt": 1760345028,
+    "retireReason": "rewards",
+    "retiredAt": 1770109260,
+    "platformId": "magpie",
+    "assets": ["PlasmaUSD"],
+    "migrationIds": ["magpie"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.pendle.finance/trade/pools/0x7209D228CD585f4b77A031f7B902f989439AC319/zap/in?chain=plasma",
+    "removeLiquidityUrl": "https://app.pendle.finance/trade/pools/0x7209D228CD585f4b77A031f7B902f989439AC319/zap/out?chain=plasma",
+    "network": "plasma"
+  },
+  {
+    "id": "curve-plasma-usdt0-susde",
+    "name": "USD₮0/sUSDe",
+    "type": "standard",
+    "token": "sUSDeUSDT0",
+    "tokenAddress": "0x1E8D78e9b3f0152D54d32904B7933f1cFE439Df1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "curve",
+    "earnContractAddress": "0x19D1F0A1a2FE5807958b34ADBc0d0569A93727C7",
+    "earnedToken": "mooCurve-USDT0-sUSDe",
+    "earnedTokenAddress": "0x19D1F0A1a2FE5807958b34ADBc0d0569A93727C7",
+    "oracle": "lps",
+    "oracleId": "curve-plasma-usdt0-susde",
+    "status": "eol",
+    "createdAt": 1759903438,
+    "retireReason": "tvl",
+    "retiredAt": 1769468077,
+    "platformId": "curve",
+    "assets": ["USDT0", "sUSDe"],
+    "migrationIds": ["l2-convex", "l2-curve"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://www.curve.finance/dex/plasma/pools/factory-stable-ng-1/deposit",
+    "removeLiquidityUrl": "https://www.curve.finance/dex/plasma/pools/factory-stable-ng-1/withdraw",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "curve",
+        "poolAddress": "0x1E8D78e9b3f0152D54d32904B7933f1cFE439Df1",
+        "methods": [
+          {
+            "type": "dynamic-deposit",
+            "target": "0x1E8D78e9b3f0152D54d32904B7933f1cFE439Df1",
+            "coins": [
+              "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+              "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curve-plasma-usdt0-usde",
+    "name": "USD₮0/USDe",
+    "type": "standard",
+    "token": "USDT0-USDe",
+    "tokenAddress": "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+    "tokenDecimals": 18,
+    "tokenProviderId": "curve",
+    "earnContractAddress": "0x42f1A7795083eeE1f804DD4D33C5e69A0F32Bca4",
+    "earnedToken": "mooCurve-USDT0-USDe",
+    "earnedTokenAddress": "0x42f1A7795083eeE1f804DD4D33C5e69A0F32Bca4",
+    "oracle": "lps",
+    "oracleId": "curve-plasma-usdt0-usde",
+    "status": "eol",
+    "createdAt": 1759903438,
+    "retireReason": "tvl",
+    "retiredAt": 1769468077,
+    "platformId": "curve",
+    "assets": ["USDT0", "USDe"],
+    "migrationIds": ["l2-convex", "l2-curve"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": true,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://www.curve.finance/dex/plasma/pools/factory-stable-ng-0/deposit",
+    "removeLiquidityUrl": "https://www.curve.finance/dex/plasma/pools/factory-stable-ng-0/withdraw",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "curve",
+        "poolAddress": "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+        "methods": [
+          {
+            "type": "dynamic-deposit",
+            "target": "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+            "coins": [
+              "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+              "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "euler-plasma-hyperithm-usdt0",
+    "name": "USD₮0 (Hyperithm)",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x54d91365cB1eA8F454DaA43af91f9198d32b62FD",
+    "earnedToken": "mooEulerPlasmaUSDT0 (Hyperithm)",
+    "earnedTokenAddress": "0x54d91365cB1eA8F454DaA43af91f9198d32b62FD",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "eol",
+    "createdAt": 1759753279,
+    "retireReason": "Stream2025",
+    "retiredAt": 1765469790,
+    "platformId": "euler",
+    "curatorId": "hyperithm",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "underlyingPlatformUrl": "https://app.euler.finance/earn/0x66bE42a0BdA425A8C3b3c2cF4F4Cb9EDfcAEd21d?network=plasma",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "euler-plasma-246clubtelosc-usdt0",
+    "name": "USD₮0 (Hyperithm)",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x43c4a608f6Cfa2348D568f77a14389688788e8EE",
+    "earnedToken": "mooEulerPlasmaUSDT0 (246Club TelosC)",
+    "earnedTokenAddress": "0x43c4a608f6Cfa2348D568f77a14389688788e8EE",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "eol",
+    "createdAt": 1759753279,
+    "retireReason": "Stream2025",
+    "retiredAt": 1765469790,
+    "platformId": "euler",
+    "curatorId": "hyperithm",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "underlyingPlatformUrl": "https://app.euler.finance/earn/0x66bE42a0BdA425A8C3b3c2cF4F4Cb9EDfcAEd21d?network=plasma",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "euler-plasma-telosc-usdt0",
+    "name": "USD₮0 (TelosC, Surge)",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0xb58E4B1f4ba8E0c6a9f26262EE76Ea1D417E3228",
+    "earnedToken": "mooEulerPlasmaUSDT0 (TelosC)",
+    "earnedTokenAddress": "0xb58E4B1f4ba8E0c6a9f26262EE76Ea1D417E3228",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "eol",
+    "createdAt": 1758942529,
+    "retireReason": "Stream2025",
+    "retiredAt": 1765469790,
+    "platformId": "euler",
+    "curatorId": "telosc",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "underlyingPlatformUrl": "https://app.euler.finance/earn/0xa9C251F8304b1B3Fc2b9e8fcae78D94Eff82Ac66?network=plasma",
+    "pointStructureIds": ["resolv"],
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "euler-plasma-re7labs-usdt0",
+    "name": "USD₮0 (Re7 Labs, Core)",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x7b196460708DEd32eeCAc6A6946983cf6D3c4491",
+    "earnedToken": "mooEulerPlasmaUSDT0 (Re7Labs)",
+    "earnedTokenAddress": "0x7b196460708DEd32eeCAc6A6946983cf6D3c4491",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "eol",
+    "createdAt": 1758942529,
+    "retireReason": "Stream2025",
+    "retiredAt": 1765469790,
+    "platformId": "euler",
+    "curatorId": "re7-labs",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "underlyingPlatformUrl": "https://app.euler.finance/earn/0xa5EeD1615cd883dD6883ca3a385F525e3bEB4E79?network=plasma",
+    "pointStructureIds": ["resolv"],
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "euler-plasma-k3capital-usdt0",
+    "name": "USD₮0 (K3 Capital)",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x5aF45b3A8cB44B444dDf9cCEB90F5998EAc0FC97",
+    "earnedToken": "mooEulerPlasmaUSDT0 (K3Capital)",
+    "earnedTokenAddress": "0x5aF45b3A8cB44B444dDf9cCEB90F5998EAc0FC97",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "active",
+    "createdAt": 1758942529,
+    "platformId": "euler",
+    "curatorId": "k3-capital",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": true,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "underlyingPlatformUrl": "https://app.euler.finance/earn/0xe818ad0D20D504C55601b9d5e0E137314414dec4?network=plasma",
+    "pointStructureIds": ["resolv"],
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "aavev3-plasma-weth",
+    "name": "WETH",
+    "type": "standard",
+    "token": "WETH",
+    "tokenAddress": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0xa725c4F6f7DCa3148D372deA1d0e92945256De2E",
+    "earnedToken": "mooAaveV3PlasmaWETH",
+    "earnedTokenAddress": "0xa725c4F6f7DCa3148D372deA1d0e92945256De2E",
+    "oracle": "tokens",
+    "oracleId": "WETH",
+    "status": "active",
+    "createdAt": 1758942529,
+    "platformId": "aave",
+    "assets": ["WETH"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "aavev3-plasma-usdt0",
+    "name": "USD₮0",
+    "type": "standard",
+    "token": "USD₮0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x4ad02BF095B8FFB6E0aC687BEEE5610ca3EBe6b1",
+    "earnedToken": "mooAaveV3PlasmaUSDT0",
+    "earnedTokenAddress": "0x4ad02BF095B8FFB6E0aC687BEEE5610ca3EBe6b1",
+    "oracle": "tokens",
+    "oracleId": "USDT0",
+    "status": "active",
+    "createdAt": 1758942529,
+    "platformId": "aave",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lendingNoBorrow",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-xaut0-usdt0-rp",
+    "name": "XAUt0-USD₮0 Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapPlasmaXAUt0-USDT0",
+    "tokenAddress": "0x8BF038A30D3E5e16cE35973A75a3ac65d888Cc81",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x17c9feF2d672694853D12f6A976437eEE674fC16",
+    "earnedToken": "rCowUniswapPlasmaXAUt0-USDT0",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-xaut0-usdt0",
+    "status": "active",
+    "createdAt": 1758937740,
+    "platformId": "uniswap",
+    "assets": ["XAUt0", "USDT0"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-xaut0-usdt0",
+    "name": "XAUt0-USD₮0",
+    "type": "cowcentrated",
+    "token": "XAUt0-USD₮0 uniswap",
+    "tokenAddress": "0x21d5a075073e631A85Ab9C02E4b703460C572B4B",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193",
+      "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    ],
+    "earnContractAddress": "0x8BF038A30D3E5e16cE35973A75a3ac65d888Cc81",
+    "earnedToken": "cowUniswapPlasmaXAUt0-USDT0",
+    "earnedTokenAddress": "0x8BF038A30D3E5e16cE35973A75a3ac65d888Cc81",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-xaut0-usdt0",
+    "status": "active",
+    "createdAt": 1758937740,
+    "platformId": "beefy",
+    "feeTier": "0.3",
+    "assets": ["XAUt0", "USDT0"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-weth-usdt0-rp",
+    "name": "WETH-USD₮0 Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapPlasmaWETH-USDT0",
+    "tokenAddress": "0xa6186c6F879eDC2a6Fc268E4Ddd71869195C3856",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x71C193aF5DA5cc943Dbe50aeC4fCCa47711Cf990",
+    "earnedToken": "rCowUniswapPlasmaWETH-USDT0",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-weth-usdt0",
+    "status": "active",
+    "createdAt": 1758937416,
+    "platformId": "uniswap",
+    "assets": ["WETH", "USDT0"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-weth-usdt0",
+    "name": "WETH-USD₮0",
+    "type": "cowcentrated",
+    "token": "WETH-USD₮0 uniswap",
+    "tokenAddress": "0xCe4Ac514CA6a9db357CcCc105B7848d7fd37445d",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+      "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    ],
+    "earnContractAddress": "0xa6186c6F879eDC2a6Fc268E4Ddd71869195C3856",
+    "earnedToken": "cowUniswapPlasmaWETH-USDT0",
+    "earnedTokenAddress": "0xa6186c6F879eDC2a6Fc268E4Ddd71869195C3856",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-weth-usdt0",
+    "status": "active",
+    "createdAt": 1758937416,
+    "platformId": "beefy",
+    "feeTier": "0.3",
+    "assets": ["WETH", "USDT0"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-wxpl-usdt0-rp",
+    "name": "USD₮0-WXPL Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapPlasmaUSDT0-WXPL",
+    "tokenAddress": "0x60242b3c90a3F477a0FC5B4095f5946583Fbd6ce",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x79b9bCf5CFc70b8FAED5648212dB2E6e4bD9E4B7",
+    "earnedToken": "rCowUniswapPlasmaUSDT0-WXPL",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-wxpl-usdt0",
+    "status": "active",
+    "createdAt": 1758935249,
+    "platformId": "uniswap",
+    "assets": ["USDT0", "WXPL"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-plasma-wxpl-usdt0",
+    "name": "USD₮0-WXPL",
+    "type": "cowcentrated",
+    "token": "USD₮0-WXPL uniswap",
+    "tokenAddress": "0x8603C67B7Cc056ef6981a9C709854c53b699Fa66",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+      "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    ],
+    "earnContractAddress": "0x60242b3c90a3F477a0FC5B4095f5946583Fbd6ce",
+    "earnedToken": "cowUniswapPlasmaUSDT0-WXPL",
+    "earnedTokenAddress": "0x60242b3c90a3F477a0FC5B4095f5946583Fbd6ce",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-plasma-wxpl-usdt0",
+    "status": "active",
+    "createdAt": 1758935249,
+    "platformId": "beefy",
+    "feeTier": "0.3",
+    "assets": ["USDT0", "WXPL"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  }
+]

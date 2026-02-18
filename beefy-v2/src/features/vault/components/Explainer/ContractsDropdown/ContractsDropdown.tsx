@@ -1,0 +1,85 @@
+import { memo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import ExpandMore from '../../../../../images/icons/mui/ExpandMore.svg?react';
+import ExternalLinkIcon from '../../../../../images/icons/externalLinkRegular.svg?react';
+import { css } from '@repo/styles/css';
+import { DropdownProvider } from '../../../../../components/Dropdown/DropdownProvider.tsx';
+import { DropdownButtonTrigger } from '../../../../../components/Dropdown/DropdownTrigger.tsx';
+import { DropdownContent } from '../../../../../components/Dropdown/DropdownContent.tsx';
+import { styled } from '@repo/styles/jsx';
+import { ExternalLink } from '../../../../../components/Links/ExternalLink.tsx';
+
+interface ContractsDropdownProps {
+  links: {
+    label: string;
+    link: string;
+  }[];
+}
+const DropdownTrigger = styled(DropdownButtonTrigger, {
+  base: {
+    paddingInline: '8px',
+    paddingBlock: '2px',
+    borderRadius: '4px',
+  },
+});
+
+export const ContractsDropdown = memo(function ContractsDropdown({
+  links,
+}: ContractsDropdownProps) {
+  const { t } = useTranslation();
+  const [open, setOpen] = useState(false);
+
+  return (
+    <DropdownProvider variant="button" placement="bottom-end" open={open} onChange={setOpen}>
+      <DropdownTrigger borderless={true}>
+        {t('Review')}
+        <Arrow open={open} />
+      </DropdownTrigger>
+      <DropdownContent padding="small" gap="small">
+        {links.map(({ label, link }) => (
+          <DropdownLink key={label} label={label} link={link} />
+        ))}
+      </DropdownContent>
+    </DropdownProvider>
+  );
+});
+
+const Arrow = styled(ExpandMore, {
+  base: {},
+  variants: {
+    open: {
+      true: {
+        transform: 'rotate(180deg)',
+      },
+    },
+  },
+});
+
+const linkClass = css({
+  textStyle: 'body',
+  lineHeight: '1',
+  textDecoration: 'none',
+  color: 'text.dark',
+  minWidth: '106px',
+  width: 'max-content',
+  display: 'flex',
+  alignItems: 'center',
+  gap: '4px',
+  _hover: {
+    cursor: 'pointer',
+    color: 'text.lightest',
+  },
+});
+
+const iconClass = css({
+  fontSize: 'inherit',
+});
+
+const DropdownLink = memo(function DropdownLink({ label, link }: { label: string; link: string }) {
+  return (
+    <ExternalLink className={linkClass} href={link}>
+      {label}
+      <ExternalLinkIcon className={iconClass} />
+    </ExternalLink>
+  );
+});

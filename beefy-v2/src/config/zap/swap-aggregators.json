@@ -1,0 +1,274 @@
+[
+  {
+    "id": "kyber-ethereum",
+    "type": "kyber",
+    "chainId": "ethereum",
+    "priorityTokens": ["ETH", "WETH", "BIFI", "USDC", "USDT", "DAI", "WBTC", "MIM", "wstETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-polygon",
+    "type": "kyber",
+    "chainId": "polygon",
+    "priorityTokens": ["MATIC", "WMATIC", "USDC", "USDT", "DAI", "MAI", "ETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-bsc",
+    "type": "kyber",
+    "chainId": "bsc",
+    "priorityTokens": ["BNB", "WBNB", "BUSD", "USDC", "USDT", "DAI", "ETH", "BTCB"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-optimism",
+    "type": "kyber",
+    "chainId": "optimism",
+    "priorityTokens": ["MATIC", "WMATIC", "mooBIFI", "USDC", "USDT", "DAI", "MAI", "ETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-arbitrum",
+    "type": "kyber",
+    "chainId": "arbitrum",
+    "priorityTokens": [
+      "ETH",
+      "ARB",
+      "WETH",
+      "USDC",
+      "arbUSDCe",
+      "USDT",
+      "DAI",
+      "MIM",
+      "WBTC",
+      "wstETH"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-avax",
+    "type": "kyber",
+    "chainId": "avax",
+    "priorityTokens": [
+      "AVAX",
+      "WAVAX",
+      "USDC",
+      "USDCe",
+      "USDT",
+      "USDTe",
+      "DAIe",
+      "MIM",
+      "MAI",
+      "WETHe",
+      "WBTCe"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-base",
+    "type": "kyber",
+    "chainId": "base",
+    "priorityTokens": ["ETH", "WETH", "cbETH", "USDbC", "axlUSDC", "DAI", "MIM"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-linea",
+    "type": "kyber",
+    "chainId": "linea",
+    "priorityTokens": ["ETH", "WETH", "USDC", "USDT", "DAI", "WBTC", "wstETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-mantle",
+    "type": "kyber",
+    "chainId": "mantle",
+    "priorityTokens": ["MNT", "WMNT", "USDC", "USDT", "WETH", "mETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-sonic",
+    "type": "kyber",
+    "chainId": "sonic",
+    "priorityTokens": ["S", "WS", "USDCe", "WETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-berachain",
+    "type": "kyber",
+    "chainId": "berachain",
+    "priorityTokens": ["BERA", "WBERA", "USDCe"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-plasma",
+    "type": "kyber",
+    "chainId": "plasma",
+    "priorityTokens": ["XPL", "WXPL", "USDT0"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-monad",
+    "type": "kyber",
+    "chainId": "monad",
+    "priorityTokens": ["MON", "WMON", "USDC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-ethereum",
+    "type": "odos",
+    "chainId": "ethereum",
+    "priorityTokens": ["ETH", "WETH", "BIFI", "USDC", "USDT", "DAI", "WBTC", "MIM", "wstETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-zksync",
+    "type": "odos",
+    "chainId": "zksync",
+    "priorityTokens": ["ETH", "WETH", "USDC", "WBTC", "BUSD", "VC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-base",
+    "type": "odos",
+    "chainId": "base",
+    "priorityTokens": ["ETH", "WETH", "cbETH", "USDbC", "axlUSDC", "DAI", "MIM"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-mantle",
+    "type": "odos",
+    "chainId": "mantle",
+    "priorityTokens": ["MNT", "WMNT", "USDC", "USDT", "WETH", "mETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-polygon",
+    "type": "odos",
+    "chainId": "polygon",
+    "priorityTokens": ["MATIC", "WMATIC", "USDC", "USDT", "DAI", "MAI", "ETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-optimism",
+    "type": "odos",
+    "chainId": "optimism",
+    "priorityTokens": [
+      "ETH",
+      "WETH",
+      "mooBIFI",
+      "OP",
+      "opUSDCe",
+      "USDT",
+      "DAI",
+      "MAI",
+      "sUSD",
+      "sETH",
+      "WBTC",
+      "wstETH"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-avax",
+    "type": "odos",
+    "chainId": "avax",
+    "priorityTokens": [
+      "AVAX",
+      "WAVAX",
+      "USDC",
+      "USDCe",
+      "USDT",
+      "USDTe",
+      "DAIe",
+      "MIM",
+      "MAI",
+      "WETHe",
+      "WBTCe"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-linea",
+    "type": "odos",
+    "chainId": "linea",
+    "priorityTokens": ["ETH", "WETH", "USDC", "USDT", "DAI", "WBTC", "wstETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-arbitrum",
+    "type": "odos",
+    "chainId": "arbitrum",
+    "priorityTokens": ["ETH", "ARB", "WETH", "USDC", "USDT", "DAI", "MIM", "WBTC", "wstETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-bsc",
+    "type": "odos",
+    "chainId": "bsc",
+    "priorityTokens": ["BNB", "WBNB", "BUSD", "USDC", "USDT", "DAI", "ETH", "BTCB"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-sonic",
+    "type": "odos",
+    "chainId": "sonic",
+    "priorityTokens": ["S", "WS", "USDCe", "WETH"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "liquid-swap-hyperevm",
+    "type": "liquid-swap",
+    "chainId": "hyperevm",
+    "priorityTokens": ["HYPE", "WHYPE", "feUSD", "USDT0", "LIQD"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-hyperevm",
+    "type": "kyber",
+    "chainId": "hyperevm",
+    "priorityTokens": ["HYPE", "WHYPE", "feUSD", "USDT0", "LIQD"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "odos-fraxtal",
+    "type": "odos",
+    "chainId": "fraxtal",
+    "priorityTokens": ["FXS", "WFXS", "WETH", "USDC", "USDT", "DAI", "frxUSD", "frxETH", "WBTC"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  },
+  {
+    "id": "kyber-megaeth",
+    "type": "kyber",
+    "chainId": "megaeth",
+    "priorityTokens": ["USDm", "WETH", "USDT0", "cUSD"],
+    "blockedTokens": [],
+    "blockedVaults": []
+  }
+]

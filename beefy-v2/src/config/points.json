@@ -1,0 +1,652 @@
+[
+  {
+    "id": "spark",
+    "docs": "https://docs.spark.fi/points/",
+    "points": [
+      {
+        "id": "spark",
+        "name": "Spark Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "spark",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.spark.fi/points"
+      }
+    ]
+  },
+  {
+    "id": "dtrinity",
+    "docs": "https://docs.dtrinity.org/key-concepts/points-program",
+    "points": [
+      {
+        "id": "dtrinity",
+        "name": "dT Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "dtrinity",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.dtrinity.org/dlend/points/"
+      }
+    ]
+  },
+  {
+    "id": "level",
+    "docs": "https://level-money.gitbook.io/docs/rewards/what-is-level-xp",
+    "points": [
+      {
+        "id": "level",
+        "name": "Level XP"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "token-holding",
+        "tokens": ["lvlUSD", "slvlUSD"]
+      }
+    ],
+    "accounting": [
+      {
+        "id": "level",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.level.money/farm"
+      }
+    ]
+  },
+  {
+    "id": "resolv",
+    "docs": "https://docs.resolv.xyz/litepaper/using-resolv/resolv-points",
+    "points": [
+      {
+        "id": "resolv",
+        "name": "Resolv Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-lrt-api",
+        "role": "API for the LRT subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-lrt-api"
+      },
+      {
+        "id": "resolv",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.resolv.xyz/points"
+      }
+    ]
+  },
+  {
+    "id": "syrup",
+    "docs": "https://syrup.gitbook.io/syrup/about-syrup/drips-program",
+    "points": [
+      {
+        "id": "syrup",
+        "name": "Syrup Drips"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "token-holding",
+        "tokens": ["syrupUSDC"]
+      }
+    ]
+  },
+  {
+    "id": "usual",
+    "docs": "https://docs.usual.money/pre-launch-rules/pills-campaign-rules",
+    "points": [
+      {
+        "id": "usual",
+        "name": "Usual Pills"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ]
+  },
+  {
+    "id": "solv",
+    "docs": "https://app.solv.finance/points",
+    "points": [
+      {
+        "id": "solv",
+        "name": "Solv XP"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "solv",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.solv.finance/points"
+      }
+    ]
+  },
+  {
+    "id": "lombard",
+    "docs": "https://docs.lombard.finance/lbtc-liquid-bitcoin/lux-and-luminary-program",
+    "points": [
+      {
+        "id": "lombard",
+        "name": "Lombard Lux"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ]
+  },
+  {
+    "id": "babylon",
+    "docs": "https://docs.babylonlabs.io/docs/introduction/overview",
+    "points": [
+      {
+        "id": "babylon",
+        "name": "Babylon Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ]
+  },
+  {
+    "id": "bedrock",
+    "docs": "https://docs.bedrock.technology/bedrock-lrt/restaking-rewards",
+    "points": [
+      {
+        "id": "eigenlayer",
+        "name": "Eigenlayer Restaked Points"
+      },
+      {
+        "id": "bedrock-diamonds",
+        "name": "Bedrock Diamonds"
+      },
+      {
+        "id": "arbitrum-points",
+        "name": "Arbitrum $ARB Airdrop"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "token-holding",
+        "tokens": ["uniETH"]
+      }
+    ],
+    "accounting": [
+      {
+        "id": "bedrock",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.bedrock.technology/unieth/ecosystem"
+      }
+    ]
+  },
+  {
+    "id": "etherfi",
+    "docs": "https://etherfi.gitbook.io/etherfi/getting-started/loyalty-points/integrations-points#beefy",
+    "points": [
+      {
+        "id": "etherfi-loyalty",
+        "name": "EtherFi Loyalty Points"
+      },
+      {
+        "id": "eigenlayer",
+        "name": "Eigenlayer Restaked Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      },
+      {
+        "type": "token-by-provider",
+        "tokenProviderId": "pendle",
+        "tokens": ["weETH", "eETH", "weETHs"]
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-lrt-hyperindex",
+        "role": "Raw indexing of blockchain data, computes time weighted balances",
+        "url": "https://github.com/beefyfinance/beefy-lrt-hyperindex"
+      },
+      {
+        "id": "beefy-lrt-api",
+        "role": "API for the LRT subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-lrt-api"
+      },
+      {
+        "id": "submit-etherfi",
+        "role": "Submit the integration to EtherFi",
+        "url": "https://docs.google.com/forms/d/1UzzdQ6y7_LVFBig28FdVE99kp4WURr7P4yluiUl70Bs/edit?pli=1"
+      },
+      {
+        "id": "etherfi",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://claim.ether.fi"
+      }
+    ]
+  },
+  {
+    "id": "fraxtal",
+    "docs": "https://docs.frax.com/fraxtal/fraxtal-incentives/fraxtal-point-system",
+    "points": [
+      {
+        "id": "fxtl-points",
+        "name": "FXTL Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "frax",
+        "role": "Distribution of rewards"
+      }
+    ]
+  },
+  {
+    "id": "ethena",
+    "docs": "https://ethena.notion.site/Sats-Campaign-FAQ-3ae1f067ff834efc95b12148a434f668",
+    "points": [
+      {
+        "id": "ethena-sats",
+        "name": "Ethena Sats"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-lrt-api",
+        "role": "API for the LRT subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-lrt-api"
+      },
+      {
+        "id": "beefy-ethena-adapter",
+        "role": "Dedicated adapter for the Ethena Sats points",
+        "url": "https://github.com/ethena-labs/ethena_sats_adapters"
+      },
+      {
+        "id": "ethena",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.ethena.fi/join"
+      }
+    ]
+  },
+  {
+    "id": "rings",
+    "docs": "https://x.com/Rings_Protocol/status/1869027802155983085?t=1S3IsVivc-QA5YK0yaj4wA&s=19",
+    "points": [
+      {
+        "id": "rings-points",
+        "name": "Rings Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "rings",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.rings.money/"
+      }
+    ]
+  },
+  {
+    "id": "sonic-points",
+    "docs": "https://docs.soniclabs.com/funding/airdrop",
+    "points": [
+      {
+        "id": "sonic-points",
+        "name": "Sonic Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-cowcentrated-subgraph-for-sentio",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/cowcentrated-subgraph/tree/sentio-compatibility"
+      },
+      {
+        "id": "sentio-processor",
+        "role": "Indexer running the subgraph",
+        "url": "https://app.sentio.xyz/rxp/beefy-clm-sonic-sentio"
+      },
+      {
+        "id": "openblock-labs-beefy-classic-sonic",
+        "role": "Run queries on sentio to get accounting data",
+        "url": "https://app.openblocklabs.com/app/sonic-points/protocols/Beefy-Yield-Aggregator"
+      },
+      {
+        "id": "openblock-labs-beefy-clm-sonic",
+        "role": "Run queries on sentio to get accounting data",
+        "url": "https://app.openblocklabs.com/app/sonic-points/protocols/Beefy-Automated-Liquidity-Management"
+      },
+      {
+        "id": "openblock-labs-beefy-clm-sonic",
+        "role": "Run queries on sentio to get accounting data",
+        "url": "https://app.openblocklabs.com/app/sonic-points/protocols/Beefy-beS-LST"
+      },
+      {
+        "id": "sonic-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://docs.soniclabs.com/funding/airdrop"
+      }
+    ]
+  },
+  {
+    "id": "silo-points",
+    "docs": "TODO",
+    "points": [
+      {
+        "id": "silo-points",
+        "name": "Silo Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "platform",
+        "platformId": "silo",
+        "liveAfter": "2025-03-01"
+      },
+      {
+        "type": "token-holding",
+        "tokens": ["mooSiloSonicUSDCe"]
+      }
+    ],
+    "accounting": [
+      {
+        "id": "silo-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://docs.silo.finance/docs/developers/apis/position-api#points"
+      }
+    ]
+  },
+  {
+    "id": "infrared",
+    "docs": "TODO",
+    "points": [
+      {
+        "id": "infrared-points",
+        "name": "Infrared Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "platform",
+        "platformId": "infrared",
+        "liveAfter": "2025-04-01"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-lrt-api",
+        "role": "API for the LRT subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-lrt-api"
+      },
+      {
+        "id": "infrared-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "TODO"
+      }
+    ]
+  },
+  {
+    "id": "falcon-miles",
+    "docs": "https://app.falcon.finance/miles",
+    "points": [
+      {
+        "id": "falcon-miles",
+        "name": "Falcon Miles"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "token-holding",
+        "tokens": ["USDf", "sUSDf"]
+      }
+    ],
+    "accounting": [
+      {
+        "id": "falcon-miles",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.falcon.finance/miles"
+      }
+    ]
+  },
+  {
+    "id": "hybra",
+    "docs": "https://www.hybra.finance/points",
+    "points": [
+      {
+        "id": "hybra-points",
+        "name": "Hybra Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "hybra-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://www.hybra.finance/points"
+      }
+    ]
+  },
+  {
+    "id": "cap-caps",
+    "docs": "https://cap.app/caps",
+    "points": [
+      {
+        "id": "cap-caps",
+        "name": "Caps"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "token-holding",
+        "tokens": ["stcUSD-29JAN26"],
+        "liveAfter": "2025-08-01"
+      },
+      {
+        "type": "token-holding",
+        "tokens": ["cUSD-29JAN26"],
+        "liveAfter": "2025-09-04"
+      },
+      {
+        "type": "token-holding",
+        "tokens": ["stcUSD-23JUL26"],
+        "liveAfter": "2026-01-28"
+      },
+      {
+        "type": "token-holding",
+        "tokens": ["cUSD-23JUL26"],
+        "liveAfter": "2025-01-28"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-balances-api",
+        "role": "API for the balances subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-balances-api"
+      },
+      {
+        "id": "caps",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://cap.app/caps"
+      }
+    ]
+  },
+  {
+    "id": "linea-ignition",
+    "docs": "https://linea.ignition.xyz/",
+    "points": [
+      {
+        "id": "linea-ignition",
+        "name": "Linea Ignition"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "linea-ignition",
+        "role": "Linea Ignition points",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "orbiter",
+    "docs": "https://docs.orbiter.finance/welcome/quest/task-verification-specification",
+    "points": [
+      {
+        "id": "orbiter-points",
+        "name": "Orbiter Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "beefy-balances-subgraph",
+        "role": "Indexing of all balances of all beefy products",
+        "url": "https://github.com/beefyfinance/beefy-balances-subgraph"
+      },
+      {
+        "id": "beefy-balances-api",
+        "role": "API for the balances subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-balances-api"
+      },
+      {
+        "id": "beefy-api",
+        "role": "Latest LP prices",
+        "url": "https://github.com/beefyfinance/beefy-lrt-hyperindex"
+      },
+      {
+        "id": "beefy-lrt-api",
+        "role": "API for the LRT subgraph. Provides stable API.",
+        "url": "https://github.com/beefyfinance/beefy-lrt-api"
+      },
+      {
+        "id": "orbiter-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://docs.orbiter.finance/welcome/quest/task-verification-specification"
+      }
+    ]
+  },
+  {
+    "id": "re.xyz",
+    "docs": "https://docs.re.xyz/protocol/re-points",
+    "points": [
+      {
+        "id": "re-points",
+        "name": "Re Points"
+      }
+    ],
+    "eligibility": [
+      {
+        "type": "vault-whitelist"
+      }
+    ],
+    "accounting": [
+      {
+        "id": "re-points",
+        "role": "Distribution of rewards",
+        "type": "claim-rewards",
+        "url": "https://app.re.xyz/points"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debg.log*
+analyze-bundle.html
+analyze-source.svg
+
+# Generated
+node_modules/
+.cache/
+build/

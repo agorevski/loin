@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "uniswap-cow-gnosis-bcspx-sdai-rp",
+    "name": "bCSPX-sDAI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosisbCSPX-sDAI",
+    "tokenAddress": "0x69E857CCF70324969748f7cF176F5912f7013BA6",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0xEFe7a711e7C794D3C8934C243631720dBec522Eb",
+    "earnedToken": "rCowUniswapGnosisbCSPX-sDAI",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-bcspx-sdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "rewards",
+    "retiredAt": 1756838084,
+    "platformId": "uniswap",
+    "assets": ["bCSPX", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-bcspx-sdai",
+    "name": "bCSPX-sDAI",
+    "type": "cowcentrated",
+    "token": "bCSPX-sDAI uniswap",
+    "tokenAddress": "0x0439847E20dac107DDACc19A4530c694c465E9C0",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+    ],
+    "earnContractAddress": "0x69E857CCF70324969748f7cF176F5912f7013BA6",
+    "earnedToken": "cowUniswapGnosisbCSPX-sDAI",
+    "earnedTokenAddress": "0x69E857CCF70324969748f7cF176F5912f7013BA6",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-bcspx-sdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "rewards",
+    "retiredAt": 1756838084,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["bCSPX", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wbtsla-sdai-vault",
+    "name": "wbTSLA-sDAI",
+    "type": "standard",
+    "token": "wbTSLA-sDAI",
+    "tokenAddress": "0xdC5cF03C6AaF579a64E3e367fd6447e3ae312165",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x72685de19A82398496521872FF60FC85bF0b0d34",
+    "earnedToken": "mooBeefyUniswapGnosiswbTSLA-sDAI",
+    "earnedTokenAddress": "0x72685de19A82398496521872FF60FC85bF0b0d34",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wbtsla-sdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1761205953,
+    "platformId": "uniswap",
+    "assets": ["wbTSLA", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "vault-composer"
+      },
+      {
+        "strategyId": "reward-pool-to-vault"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wbtsla-sdai-rp",
+    "name": "wbTSLA-sDAI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosiswbTSLA-sDAI",
+    "tokenAddress": "0xdC5cF03C6AaF579a64E3e367fd6447e3ae312165",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0xa651c7c43a53328284747C89c56Ef5fB15A7161d",
+    "earnedToken": "rCowUniswapGnosiswbTSLA-sDAI",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wbtsla-sdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1761205953,
+    "platformId": "uniswap",
+    "assets": ["wbTSLA", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wbtsla-sdai",
+    "name": "wbTSLA-sDAI",
+    "type": "cowcentrated",
+    "token": "wbTSLA-sDAI uniswap",
+    "tokenAddress": "0x0Cf44132a7Df09ba82D5c4010e73e151d31a42Ae",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+      "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+    ],
+    "earnContractAddress": "0xdC5cF03C6AaF579a64E3e367fd6447e3ae312165",
+    "earnedToken": "cowUniswapGnosiswbTSLA-sDAI",
+    "earnedTokenAddress": "0xdC5cF03C6AaF579a64E3e367fd6447e3ae312165",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wbtsla-sdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1761205953,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["wbTSLA", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-usdc.e-sdai-rp",
+    "name": "USDC.e-sDAI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosissDAI-USDCe",
+    "tokenAddress": "0xde675EFa57d38d19429e56cF5f1114A7F9E26f8E",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x5f1b787F702910262CC2f820A63b0C474d9B0F80",
+    "earnedToken": "rCowUniswapGnosissDAI-USDCe",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-usdc.e-sdai",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "uniswap",
+    "assets": ["USDCe", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-usdc.e-sdai",
+    "name": "USDC.e-sDAI",
+    "type": "cowcentrated",
+    "token": "USDC.e-sDAI uniswap",
+    "tokenAddress": "0x5a2Fb66e66b2aF7F1c2F71c6c695492FaAB2E587",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+      "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+    ],
+    "earnContractAddress": "0xde675EFa57d38d19429e56cF5f1114A7F9E26f8E",
+    "earnedToken": "cowUniswapGnosissDAI-USDCe",
+    "earnedTokenAddress": "0xde675EFa57d38d19429e56cF5f1114A7F9E26f8E",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-usdc.e-sdai",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["USDCe", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-weth-wsteth-rp",
+    "name": "WETH-wstETH Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosiswstETH-WETH",
+    "tokenAddress": "0x8bC032a7d63BA3420C941aC82b96b1D21C83Cc76",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x267b2D785576D595b33De861aE48eA94cFD257c7",
+    "earnedToken": "rCowUniswapGnosiswstETH-WETH",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-weth-wsteth",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1769424250,
+    "platformId": "uniswap",
+    "assets": ["WETH", "wstETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-weth-wsteth",
+    "name": "WETH-wstETH",
+    "type": "cowcentrated",
+    "token": "WETH-wstETH uniswap",
+    "tokenAddress": "0xBeB0a58E627FeE7AFc795eE9BaaF9E4C934913d7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+      "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6"
+    ],
+    "earnContractAddress": "0x8bC032a7d63BA3420C941aC82b96b1D21C83Cc76",
+    "earnedToken": "cowUniswapGnosiswstETH-WETH",
+    "earnedTokenAddress": "0x8bC032a7d63BA3420C941aC82b96b1D21C83Cc76",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-weth-wsteth",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1769424250,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["WETH", "wstETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-usdc.e-wxdai-rp",
+    "name": "USDC.e-WXDAI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosisUSDCe-WXDAI",
+    "tokenAddress": "0xDcfd113031dCd122d004021fBd48de867E616C49",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0xaD3DCDCF0C01D838CBC43C67961365281d6cAD96",
+    "earnedToken": "rCowUniswapGnosisUSDCe-WXDAI",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-usdc.e-wxdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1769424250,
+    "platformId": "uniswap",
+    "assets": ["USDCe", "WXDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-usdc.e-wxdai",
+    "name": "USDC.e-WXDAI",
+    "type": "cowcentrated",
+    "token": "USDC.e-WXDAI uniswap",
+    "tokenAddress": "0xf5E40cC12f69121B0329c256A99F4ab3ebDfAA2E",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+      "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+    ],
+    "earnContractAddress": "0xDcfd113031dCd122d004021fBd48de867E616C49",
+    "earnedToken": "cowUniswapGnosisUSDCe-WXDAI",
+    "earnedTokenAddress": "0xDcfd113031dCd122d004021fBd48de867E616C49",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-usdc.e-wxdai",
+    "status": "eol",
+    "createdAt": 1744216500,
+    "retireReason": "tvl",
+    "retiredAt": 1769424250,
+    "platformId": "beefy",
+    "feeTier": "0.01",
+    "assets": ["USDCe", "WXDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wsteth-sdai-rp",
+    "name": "wstETH-sDAI Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosissDAI-wstETH",
+    "tokenAddress": "0x7740eDe700D96CE8A7EeD17C06AB82A6ec556eAe",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0xD56941F8d19b013ddB89a118fdD9B0AC7e481b55",
+    "earnedToken": "rCowUniswapGnosissDAI-wstETH",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wsteth-sdai",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "uniswap",
+    "assets": ["wstETH", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wsteth-sdai",
+    "name": "wstETH-sDAI",
+    "type": "cowcentrated",
+    "token": "wstETH-sDAI uniswap",
+    "tokenAddress": "0xe8a249626d3f3B876B887C30A3355513CB3FA9e4",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+      "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+    ],
+    "earnContractAddress": "0x7740eDe700D96CE8A7EeD17C06AB82A6ec556eAe",
+    "earnedToken": "cowUniswapGnosissDAI-wstETH",
+    "earnedTokenAddress": "0x7740eDe700D96CE8A7EeD17C06AB82A6ec556eAe",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wsteth-sdai",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["wstETH", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "pool",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wsteth-gno-rp",
+    "name": "wstETH-GNO Reward Pool",
+    "type": "gov",
+    "version": 2,
+    "token": "cowUniswapGnosisGNO-wstETH",
+    "tokenAddress": "0x2DE9aF4E68c0980e84c5B54Ce677FA4368b299F2",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "earnContractAddress": "0x56F130Cc51cE0CA96454f44BF66f1299C89ccAe7",
+    "earnedToken": "rCowUniswapGnosisGNO-wstETH",
+    "earnedTokenDecimals": [18],
+    "earnedTokenAddresses": [],
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wsteth-gno",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "uniswap",
+    "assets": ["wstETH", "GNO"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "gov-composer"
+      }
+    ]
+  },
+  {
+    "id": "uniswap-cow-gnosis-wsteth-gno",
+    "name": "wstETH-GNO",
+    "type": "cowcentrated",
+    "token": "wstETH-GNO uniswap",
+    "tokenAddress": "0x46f2dA8A69A150390a87Db78e7AaD8572c564963",
+    "tokenDecimals": 18,
+    "tokenProviderId": "uniswap",
+    "depositTokenAddresses": [
+      "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+      "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb"
+    ],
+    "earnContractAddress": "0x2DE9aF4E68c0980e84c5B54Ce677FA4368b299F2",
+    "earnedToken": "cowUniswapGnosisGNO-wstETH",
+    "earnedTokenAddress": "0x2DE9aF4E68c0980e84c5B54Ce677FA4368b299F2",
+    "oracle": "lps",
+    "oracleId": "uniswap-cow-gnosis-wsteth-gno",
+    "status": "active",
+    "createdAt": 1744216500,
+    "platformId": "beefy",
+    "feeTier": "0.05",
+    "assets": ["wstETH", "GNO"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": true,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "compounds",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "cowcentrated"
+      }
+    ]
+  },
+  {
+    "id": "balancerv3-gnosis-wagwsteth-waggno",
+    "name": "wstETH/GNO LP",
+    "type": "standard",
+    "token": "wstETH/GNO LP",
+    "tokenAddress": "0x272d6BE442E30D7c87390eDEb9B96f1E84cEcD8d",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xf1aA4012dC6f30F85110Bc9cC3887e0bc2b14ba7",
+    "earnedToken": "mooBalancerGnosiswagwstETH/wagGNO",
+    "earnedTokenAddress": "0xf1aA4012dC6f30F85110Bc9cC3887e0bc2b14ba7",
+    "oracle": "lps",
+    "oracleId": "balancerv3-gnosis-wagwsteth-waggno",
+    "status": "active",
+    "createdAt": 1739196922,
+    "platformId": "aura",
+    "assets": ["wagwstETH", "wagGNO"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v3/0x272d6be442e30d7c87390edeb9b96f1e84cecd8d/add-liquidity",
+    "network": "gnosis"
+  },
+  {
+    "id": "balancerv3-gnosis-wagwsteth-wageth",
+    "name": "wstETH/WETH LP",
+    "type": "standard",
+    "token": "wstETH/WETH LP",
+    "tokenAddress": "0x6e6bb18449fCF15B79EFa2CfA70ACF7593088029",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xC283f7Cb08E68465A07d1D1F0002A01Dfde72d2E",
+    "earnedToken": "mooBalancerGnosiswagwstETH/wagWETH",
+    "earnedTokenAddress": "0xC283f7Cb08E68465A07d1D1F0002A01Dfde72d2E",
+    "oracle": "lps",
+    "oracleId": "balancerv3-gnosis-wagwsteth-wageth",
+    "status": "active",
+    "createdAt": 1739195708,
+    "platformId": "aura",
+    "assets": ["wagwstETH", "wagETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v3/0x6e6bb18449fCF15B79EFa2CfA70ACF7593088029/add-liquidity",
+    "network": "gnosis"
+  },
+  {
+    "id": "aura-gyro-gnosis-weth-reth",
+    "name": "Gyroscope rETH-WETH",
+    "type": "standard",
+    "token": "ECLP rETH/WETH Gnosis",
+    "tokenAddress": "0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x1DE0375e770EFb9C92d7958cbb5B53c9Fb8eB1Cb",
+    "earnedToken": "mooAuraGnosisWETH-rETH",
+    "earnedTokenAddress": "0x1DE0375e770EFb9C92d7958cbb5B53c9Fb8eB1Cb",
+    "oracle": "lps",
+    "oracleId": "aura-gyro-gnosis-weth-reth",
+    "status": "eol",
+    "createdAt": 1722694393,
+    "retireReason": "rewards",
+    "retiredAt": 1736099532,
+    "platformId": "aura",
+    "assets": ["rETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://app.gyro.finance/pools/gnosis/e-clp/0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b/",
+    "removeLiquidityUrl": "https://app.gyro.finance/pools/gnosis/e-clp/0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b/",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x71e1179c5e197fa551beec85ca2ef8693c61b85b0002000000000000000000a0",
+        "poolType": "gyroe",
+        "tokens": [
+          "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+          "0xc791240D1F2dEf5938E2031364Ff4ed887133C3d"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gyro-gnosis-weth-wsteth",
+    "name": "Gyroscope wstETH-WETH",
+    "type": "standard",
+    "token": "ECLP wstETH/WETH Gnosis",
+    "tokenAddress": "0x8DD4df4Ce580b9644437f3375e54f1ab09808228",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x50583F8DCE18D4180f074bE7332b4734968246EC",
+    "earnedToken": "mooAuraGnosisWETH-wstETH",
+    "earnedTokenAddress": "0x50583F8DCE18D4180f074bE7332b4734968246EC",
+    "oracle": "lps",
+    "oracleId": "aura-gyro-gnosis-weth-wsteth",
+    "status": "active",
+    "createdAt": 1722694393,
+    "platformId": "aura",
+    "assets": ["wstETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://app.gyro.finance/pools/gnosis/e-clp/0x8dd4df4ce580b9644437f3375e54f1ab09808228/",
+    "removeLiquidityUrl": "https://app.gyro.finance/pools/gnosis/e-clp/0x8dd4df4ce580b9644437f3375e54f1ab09808228/",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x8dd4df4ce580b9644437f3375e54f1ab0980822800020000000000000000009c",
+        "poolType": "gyroe",
+        "tokens": [
+          "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-usdc.e-usdt-sdai",
+    "name": "USDC.e/USDT/sDAI",
+    "type": "standard",
+    "token": "USDC.e/USDT/sDAI Gnosis",
+    "tokenAddress": "0xfC095C811fE836Ed12f247BCf042504342B73FB7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xe21396A3F0e752AC03b195Cf140de84E58E58771",
+    "earnedToken": "mooAuraGnosisUSDC.e/USDT/sDAI",
+    "earnedTokenAddress": "0xe21396A3F0e752AC03b195Cf140de84E58E58771",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-usdc.e-usdt-sdai",
+    "status": "eol",
+    "createdAt": 1722694393,
+    "retireReason": "Balancer2025",
+    "retiredAt": 1765469790,
+    "platformId": "aura",
+    "assets": ["USDCe", "USDT", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xfc095c811fe836ed12f247bcf042504342b73fb700000000000000000000009f/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xfc095c811fe836ed12f247bcf042504342b73fb700000000000000000000009f/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xfc095c811fe836ed12f247bcf042504342b73fb700000000000000000000009f",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+          "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+        ],
+        "bptIndex": 3,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-steur-eure",
+    "name": "stEUR-EURe",
+    "type": "standard",
+    "token": "stEUR-EURe Gnosis",
+    "tokenAddress": "0x06135A9Ae830476d3a941baE9010B63732a055F4",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x78c90c28eDc5F4B266bfD40b01e7dE8Ebb3682F7",
+    "earnedToken": "mooAuraGnosisstEUR-EURe",
+    "earnedTokenAddress": "0x78c90c28eDc5F4B266bfD40b01e7dE8Ebb3682F7",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-steur-eure",
+    "status": "eol",
+    "createdAt": 1722694393,
+    "retireReason": "Balancer2025",
+    "retiredAt": 1765469790,
+    "platformId": "aura",
+    "assets": ["stEUR", "EURe"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+          "0xcB444e90D8198415266c6a2724b7900fb12FC56E"
+        ],
+        "bptIndex": 1,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-crvusd-sdai",
+    "name": "crvUSD-sDAI",
+    "type": "standard",
+    "token": "crvUSD-sDAI Gnosis",
+    "tokenAddress": "0xc9F00C3a713008DDf69b768d90d4978549bFDF94",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xf9aC09EC1Ab2e4Cd5ca2Cf9451d3A49Fd6B25CC5",
+    "earnedToken": "mooAuraGnosiscrvUSD-sDAI",
+    "earnedTokenAddress": "0xf9aC09EC1Ab2e4Cd5ca2Cf9451d3A49Fd6B25CC5",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-crvusd-sdai",
+    "status": "eol",
+    "createdAt": 1701360464,
+    "retireReason": "tvl",
+    "retiredAt": 1734101118,
+    "platformId": "aura",
+    "assets": ["crvUSD", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xc9f00c3a713008ddf69b768d90d4978549bfdf9400000000000000000000006d/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xc9f00c3a713008ddf69b768d90d4978549bfdf9400000000000000000000006d/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xc9f00c3a713008ddf69b768d90d4978549bfdf9400000000000000000000006d",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0xaBEf652195F98A91E490f047A5006B71c85f058d",
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+        ],
+        "bptIndex": 2,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-wsteth-cow",
+    "name": "wstETH-COW",
+    "type": "standard",
+    "token": "wstETH-COW Gnosis",
+    "tokenAddress": "0x4cdABE9E07ca393943AcFB9286bBbd0D0a310Ff6",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xF49dE23DF72c886946eEF19D1B751B3D997EF668",
+    "earnedToken": "mooAuraGnosiswstETH-COW",
+    "earnedTokenAddress": "0xF49dE23DF72c886946eEF19D1B751B3D997EF668",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-wsteth-cow",
+    "status": "active",
+    "createdAt": 1699446018,
+    "platformId": "aura",
+    "assets": ["wstETH", "COW"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x4cdabe9e07ca393943acfb9286bbbd0d0a310ff600020000000000000000005c/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x4cdabe9e07ca393943acfb9286bbbd0d0a310ff600020000000000000000005c/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x4cdabe9e07ca393943acfb9286bbbd0d0a310ff600020000000000000000005c",
+        "poolType": "weighted",
+        "tokens": [
+          "0x177127622c4A00F3d409B75571e12cB3c8973d3c",
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-wsteth-sdai",
+    "name": "wstETH-sDAI",
+    "type": "standard",
+    "token": "wstETH-sDAI Gnosis",
+    "tokenAddress": "0xBc2acf5E821c5c9f8667A36bB1131dAd26Ed64F9",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x21c4d71882364b395209C07A7710a9251c285d73",
+    "earnedToken": "mooAuraGnosiswstETH-sDAI",
+    "earnedTokenAddress": "0x21c4d71882364b395209C07A7710a9251c285d73",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-wsteth-sdai",
+    "status": "active",
+    "createdAt": 1699446018,
+    "platformId": "aura",
+    "assets": ["wstETH", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xbc2acf5e821c5c9f8667a36bb1131dad26ed64f9000200000000000000000063/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xbc2acf5e821c5c9f8667a36bb1131dad26ed64f9000200000000000000000063/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xbc2acf5e821c5c9f8667a36bb1131dad26ed64f9000200000000000000000063",
+        "poolType": "weighted",
+        "tokens": [
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-sdai-usdt-usdc",
+    "name": "USDC/USDT/sDAI",
+    "type": "standard",
+    "token": "USDC/USDT/sDAI Gnosis",
+    "tokenAddress": "0x7644fA5D0eA14FcF3E813Fdf93ca9544f8567655",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x4B6EDd5E8f68A7B6502AF7872CEDc5c31C343b00",
+    "earnedToken": "mooAuraGnosisUSDC/USDT/sDAI",
+    "earnedTokenAddress": "0x4B6EDd5E8f68A7B6502AF7872CEDc5c31C343b00",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-sdai-usdt-usdc",
+    "status": "eol",
+    "createdAt": 1699446018,
+    "retireReason": "rewards",
+    "retiredAt": 1727106695,
+    "platformId": "aura",
+    "assets": ["USDC", "USDT", "sDAI"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x7644fa5d0ea14fcf3e813fdf93ca9544f8567655000000000000000000000066/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x7644fa5d0ea14fcf3e813fdf93ca9544f8567655000000000000000000000066/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x7644fa5d0ea14fcf3e813fdf93ca9544f8567655000000000000000000000066",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701",
+          "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83"
+        ],
+        "bptIndex": 1,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-gno-cow",
+    "name": "COW-GNO",
+    "type": "standard",
+    "token": "COW-GNO Gnosis",
+    "tokenAddress": "0x21d4c792Ea7E38e0D0819c2011A2b1Cb7252Bd99",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x89E1dfc9088c3d9D9050eAE7AaE2fB79369F2092",
+    "earnedToken": "mooAuraGnosisGNO-COW",
+    "earnedTokenAddress": "0x89E1dfc9088c3d9D9050eAE7AaE2fB79369F2092",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-gno-cow",
+    "status": "eol",
+    "createdAt": 1698338090,
+    "retireReason": "rewards",
+    "retiredAt": 1710346058,
+    "platformId": "aura",
+    "assets": ["COW", "GNO"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x21d4c792ea7e38e0d0819c2011a2b1cb7252bd9900020000000000000000001e/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x21d4c792ea7e38e0d0819c2011a2b1cb7252bd9900020000000000000000001e/remove-liquidity",
+    "network": "gnosis"
+  },
+  {
+    "id": "aura-gnosis-sdai-eure",
+    "name": "sDAI-EURe",
+    "type": "standard",
+    "token": "sDAI-EURe Gnosis",
+    "tokenAddress": "0xDd439304A77f54B1F7854751Ac1169b279591Ef7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x3e442AF13Db47e27B48dE6Caf2708b2d180B10F9",
+    "earnedToken": "mooAuraGnosissDAI-EURe",
+    "earnedTokenAddress": "0x3e442AF13Db47e27B48dE6Caf2708b2d180B10F9",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-sdai-eure",
+    "status": "eol",
+    "createdAt": 1698338090,
+    "retireReason": "Balancer2025",
+    "retiredAt": 1765469790,
+    "platformId": "aura",
+    "assets": ["sDAI", "EURe"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701",
+          "0xcB444e90D8198415266c6a2724b7900fb12FC56E"
+        ],
+        "bptIndex": 2,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-wsteth-bal-aura",
+    "name": "wstETH/AURA/BAL",
+    "type": "standard",
+    "token": "wstETH/AURA/BAL Gnosis",
+    "tokenAddress": "0x00dF7f58e1Cf932eBe5f54De5970Fb2Bdf0ef06D",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xD40da4e7EC845eA7940b09122Ff34306d78c4C03",
+    "earnedToken": "mooAuraGnosiswstETH/AURA/BAL",
+    "earnedTokenAddress": "0xD40da4e7EC845eA7940b09122Ff34306d78c4C03",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-wsteth-bal-aura",
+    "status": "active",
+    "createdAt": 1698264180,
+    "platformId": "aura",
+    "assets": ["wstETH", "BAL", "AURA"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x00df7f58e1cf932ebe5f54de5970fb2bdf0ef06d00010000000000000000005b/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x00df7f58e1cf932ebe5f54de5970fb2bdf0ef06d00010000000000000000005b/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x00df7f58e1cf932ebe5f54de5970fb2bdf0ef06d00010000000000000000005b",
+        "poolType": "weighted",
+        "tokens": [
+          "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+          "0x7eF541E2a22058048904fE5744f9c7E4C57AF717"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-wsteth-gno",
+    "name": "wstETH-GNO",
+    "type": "standard",
+    "token": "wstETH-GNO Gnosis",
+    "tokenAddress": "0x4683e340a8049261057D5aB1b29C8d840E75695e",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0x5F603C60aDb40691939B9a740beeCeF4B0f5C146",
+    "earnedToken": "mooAuraGnosiswstETH-GNO",
+    "earnedTokenAddress": "0x5F603C60aDb40691939B9a740beeCeF4B0f5C146",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-wsteth-gno",
+    "status": "eol",
+    "createdAt": 1698264180,
+    "retireReason": "rewards",
+    "retiredAt": 1743199524,
+    "platformId": "aura",
+    "assets": ["wstETH", "GNO"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": true,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x4683e340a8049261057d5ab1b29c8d840e75695e00020000000000000000005a/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x4683e340a8049261057d5ab1b29c8d840e75695e00020000000000000000005a/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x4683e340a8049261057d5ab1b29c8d840e75695e00020000000000000000005a",
+        "poolType": "weighted",
+        "tokens": [
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+          "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-wsteth-weth",
+    "name": "wstETH-ETH",
+    "type": "standard",
+    "token": "wstETH-ETH Gnosis",
+    "tokenAddress": "0xbAd20c15A773bf03ab973302F61FAbceA5101f0A",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xa12FB8417cFf62F717235009C58140c8F91C660E",
+    "earnedToken": "mooAuraGnosiswstETH-ETH",
+    "earnedTokenAddress": "0xa12FB8417cFf62F717235009C58140c8F91C660E",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-wsteth-weth",
+    "status": "eol",
+    "createdAt": 1698264180,
+    "retireReason": "Balancer2025",
+    "retiredAt": 1765469790,
+    "platformId": "aura",
+    "assets": ["wstETH", "WETH"],
+    "risks": {
+      "updatedAt": 1765557014,
+      "complex": false,
+      "curated": false,
+      "notAudited": false,
+      "notBattleTested": false,
+      "notCorrelated": false,
+      "notTimelocked": false,
+      "notVerified": false,
+      "synthAsset": false
+    },
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xbad20c15a773bf03ab973302f61fabcea5101f0a000000000000000000000034/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xbad20c15a773bf03ab973302f61fabcea5101f0a000000000000000000000034/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xbad20c15a773bf03ab973302f61fabcea5101f0a000000000000000000000034",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+          "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6"
+        ],
+        "bptIndex": 2,
+        "hasNestedPool": false
+      }
+    ]
+  }
+]

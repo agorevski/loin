@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sonic-defive",
+    "name": "Defive",
+    "type": "uniswap-v2",
+    "routerAddress": "0xC159D904cA8C2449df0AE4836197278f2f68C725",
+    "factoryAddress": "0x47524ca6578E172878aBf6fD6f3E1Cd106c551e6",
+    "pairInitHash": "0xa2bd630981c20599e374cdb7af13220e18e2422c7dde970eff313f36d739c801",
+    "minimumLiquidity": "1000",
+    "mintFeeNumerator": "1",
+    "mintFeeDenominator": "3",
+    "swapFeeNumerator": "18",
+    "swapFeeDenominator": "10000",
+    "getAmountOutMode": "getAmountOut"
+  },
+  {
+    "id": "sonic-equalizer",
+    "name": "Equalizer",
+    "type": "solidly",
+    "routerAddress": "0xED9d262985E18710DDDAC0dfC10a3f900679063B",
+    "factoryAddress": "0xDDD9845Ba0D8f38d3045f804f67A1a8B9A528FcC",
+    "pairInitHash": "0x051c604b41e4f5c09d8eda985fa5e49ab9b1574a1aed994119102593d18fc954",
+    "minimumLiquidity": "1000",
+    "swapFeeNumerator": "200000000000000",
+    "swapFeeDenominator": "1000000000000000000",
+    "getAmountOutMode": "getAmountOut"
+  },
+  {
+    "id": "sonic-beets",
+    "type": "balancer",
+    "name": "Beets",
+    "vaultAddress": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "queryAddress": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9"
+  },
+  {
+    "id": "sonic-swapx",
+    "name": "swapx",
+    "type": "solidly",
+    "routerAddress": "0xF5F7231073b3B41c04BA655e1a7438b1a7b29c27",
+    "factoryAddress": "0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663",
+    "pairInitHash": "0x6c45999f36731ff6ab43e943fca4b5a700786bbb202116cf6633b32039161e05",
+    "minimumLiquidity": "1000",
+    "swapFeeNumerator": "1",
+    "swapFeeDenominator": "10000",
+    "getAmountOutMode": "getAmountOut"
+  },
+  {
+    "id": "sonic-shadow",
+    "name": "Shadow",
+    "type": "solidly",
+    "routerAddress": "0x1D368773735ee1E678950B7A97bcA2CafB330CDc",
+    "factoryAddress": "0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8",
+    "pairInitHash": "0x4ed7aeec7c0286cad1e282dee1c391719fc17fe923b04fb0775731e413ed3554",
+    "minimumLiquidity": "1000",
+    "swapFeeNumerator": "1",
+    "swapFeeDenominator": "10000",
+    "getAmountOutMode": "getAmountOut"
+  }
+]

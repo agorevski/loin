@@ -1,0 +1,166 @@
+{
+  "animera-boost": {
+    "title": "Animera Boost",
+    "description": "Striker Games is An indie web3 Game Studio Focused on Building The Best PvP AAA Games.",
+    "social": {
+      "twitter": "https://twitter.com/strikergameshq"
+    }
+  },
+  "begems-boost": {
+    "title": "Beefy beGEMS1 Boost",
+    "description": "Sonic Gems are airdrop points awarded exclusively by Sonic to apps building on its chain. They’re distributed based on various factors and are [redeemable for S tokens](/campaigns/begems/) at the end of each season. Beefy is issuing 80,000,000 beGEMS each season, representing its share of earned S tokens. beGEMS are liquid ERC-20 tokens — transferable, tradeable, and open to speculation.",
+    "social": {
+      "discord": "https://beefy.finance/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "shadow-beefy": {
+    "title": "Shadow × Beefy",
+    "description": "Shadow Exchange is a concentrated liquidity layer and exchange built on the Sonic network, powered by x(3,3)—a more fluid and accessible incentive model.",
+    "social": {
+      "discord": "https://discord.com/invite/shadowexchange",
+      "twitter": "https://x.com/ShadowonSonic"
+    }
+  },
+  "renzo-lido": {
+    "title": "Renzo × Lido",
+    "description": "Lido and Renzo joined forces with Beefy to bring users earnings completely denominated in ETH. Earn ezETH and wstETH on top of your ezETH-wstETH position.",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "rootstock-grant": {
+    "title": "Beefy × Rootstock",
+    "tag": {
+      "text": "Rootstock Grant"
+    },
+    "description": "Celebrate the launch of Beefy on Rootstock, Bitcoin's first and longest-lasting sidechain. Beefy users can earn grant-funded $rBTC tokens for trying out new products on Rootstock. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "arb-ltipp": {
+    "title": "Beefy × Arbitrum LTIPP",
+    "description": "Earn extra incentives awarded to Beefy CLM vaults through Arbitrum's Long Term Incentives Pilot Program ('LTIPP'). Beefy users earn additional $ARB tokens for trying out selected CLM products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your LTIPP rewards whenever you're ready.",
+    "learn": "https://beefy.com/articles/ltipp/",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "zap-v3": {
+    "title": "Beefy × Optimism Governance Fund",
+    "tag": {
+      "text": "Zap Boost",
+      "icon": "zap"
+    },
+    "description": "Celebrate the launch of ZAP V3 with Beefy's Optimism Governance Fund grant. Beefy users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
+    "learn": "https://beefy.com/articles/zap-v3/",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "offchain-zap-v3": {
+    "title": "Beefy × Optimism Governance Fund",
+    "tag": {
+      "text": "Zap Boost",
+      "icon": "zap"
+    },
+    "description": "Celebrate the launch of ZAP V3 with Beefy's Optimism Governance Fund grant. Beefy users earn additional $OP tokens for using ZAP V3-supported products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "learn": "https://beefy.com/articles/zap-v3/",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "offchain-mode-grant": {
+    "title": "Beefy × Mode Governance Fund",
+    "tag": {
+      "text": "Mode Grant"
+    },
+    "description": "Earn $OP on Optimism network for participating in Beefy vaults on Mode. Beefy users earn additional $OP tokens for using products on the Superchain. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "dao-rewards": {
+    "title": "Beefy DAO Distribution",
+    "tag": {
+      "text": "DAO Boost"
+    },
+    "description": "Earn extra incentives awarded by the Beefy DAO from its recent quarterly earnings. Beefy users earn additional tokens for using products boosted by the Beefy DAO Distribution program. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your rewards whenever you're ready.",
+    "learn": "https://snapshot.org/#/beefydao.eth/proposal/0xefe70f50c7743085e72f4c2421cc8e92c8b82fa14bfd479a26bd0a0c14c5f07e",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "pool-dao-rewards": {
+    "title": "Beefy DAO Distribution",
+    "tag": {
+      "text": "DAO Boost"
+    },
+    "description": "Earn extra incentives awarded by the Beefy DAO from its recent quarterly earnings. Beefy users earn additional tokens for using products boosted by the Beefy DAO Distribution program. Rewards accrue linearly over time depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "learn": "https://snapshot.org/#/beefydao.eth/proposal/0xefe70f50c7743085e72f4c2421cc8e92c8b82fa14bfd479a26bd0a0c14c5f07e",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "optimism-grant": {
+    "title": "Beefy × Optimism Governance Fund",
+    "description": "Earn extra incentives awarded to Beefy products on the Superchain through the first Beefy Optimism Governance Fund grant. Beefy users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply use the 'Boost Vault' button in the BOOST module to enter the boost, and then manually claim your $OP rewards whenever you're ready.",
+    "learn": "https://beefy.com/articles/beefy-helps-grow-the-optimism-community-with-a-650-000-op-grant/",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "pool-optimism-grant": {
+    "title": "Beefy × Optimism",
+    "description": "Earn extra incentives awarded to Beefy products on the Superchain through the Beefy Optimism Governance Fund grant. Beefy users earn additional $OP tokens for trying out selected products. Rewards accrue linearly over time, depending on the user's TVL. Simply click the 'Claim' tab to find details of all onchain and offchain rewards, and then manually claim your rewards whenever you're ready.",
+    "social": {
+      "discord": "https://beefy.com/discord",
+      "twitter": "https://x.com/beefyfinance"
+    }
+  },
+  "airdrop-gnosis-safe": {
+    "title": "Beefy × Safe",
+    "tag": {
+      "text": "SafeBoost"
+    },
+    "description": "Accelerating the adoption of Safe Smart Accounts and earning SAFE tokens in the process! SafeBoost is a 6-month campaign hosted by Safe and Gnosis, where Safe users are incentivized for their activities on Gnosis Chain. Users earn points based on their assets, volume, transactions and completing highlighted activities. Points translate into SAFE token rewards. As a launch partner, Beefy is pleased to be contributing incentives for Safe users on Gnosis Chain who interact with Beefy products.",
+    "learn": "https://beefy.com/articles/safeboost/",
+    "social": {
+      "discord": "https://chat.safe.global/",
+      "twitter": "https://x.com/safe"
+    }
+  },
+  "degen-boost": {
+    "title": "Beefy × Degen",
+    "tag": {
+      "text": "Boost"
+    },
+    "description": "Beefy is teaming up with Degen to reward liquidity providers who deposit in this CLM Pool with 1.5M $DEGEN in daily rewards, in addition to trading fees.",
+    "learn": "https://paragraph.xyz/@degentokenbase/degen-beefy-rewards",
+    "social": {
+      "telegram": "https://t.me/degentokenbase",
+      "twitter": "https://x.com/degentokenbase"
+    }
+  },
+  "threshold-boost": {
+    "title": "Beefy × Threshold",
+    "tag": {
+      "text": "Boost"
+    },
+    "description": "Beefy is teaming up with Threshold to reward liquidity providers who deposit in this tBTC vault with mooBIFI and T rewards.",
+    "social": {
+      "telegram": "https://t.me/thresholdnetwork",
+      "twitter": "https://twitter.com/TheTNetwork"
+    }
+  }
+}

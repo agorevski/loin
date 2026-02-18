@@ -1,0 +1,267 @@
+[
+  {
+    "id": "beefy",
+    "name": "Beefy Bridge",
+    "website": "https://app.beefy.com/bridge"
+  },
+  {
+    "id": "axelar",
+    "name": "Axelar",
+    "website": "https://axelar.network"
+  },
+  {
+    "id": "ren",
+    "name": "RenBridge",
+    "website": "https://bridge.renproject.io"
+  },
+  {
+    "id": "frax",
+    "name": "Fraxferry",
+    "website": "https://app.frax.finance/fraxferry"
+  },
+  {
+    "id": "multichain",
+    "name": "Multichain",
+    "website": "https://multichain.xyz"
+  },
+  {
+    "id": "celer",
+    "name": "Celer cBridge",
+    "tagName": "Celer",
+    "website": "https://cbridge.celer.network"
+  },
+  {
+    "id": "layer-zero",
+    "name": "LayerZero",
+    "website": "https://layerzero.network"
+  },
+  {
+    "id": "stargate",
+    "name": "Stargate",
+    "website": "https://stargate.finance"
+  },
+  {
+    "id": "wormhole",
+    "name": "Wormhole",
+    "website": "https://wormhole.com"
+  },
+  {
+    "id": "synapse",
+    "name": "Synapse",
+    "website": "https://www.synapseprotocol.com/"
+  },
+  {
+    "id": "threshold",
+    "name": "Threshold",
+    "website": "https://threshold.network/"
+  },
+  {
+    "id": "gravity",
+    "name": "Gravity",
+    "website": "https://bridge.blockscape.network/"
+  },
+  {
+    "id": "optics",
+    "name": "Optics",
+    "website": "https://optics.app/"
+  },
+  {
+    "id": "kusama",
+    "name": "Kusama",
+    "website": "https://apps.moonbeam.network/moonriver/xcm?asset=KSM"
+  },
+  {
+    "id": "bittorent",
+    "name": "Bittorent",
+    "website": "https://bttc.bittorrent.com/"
+  },
+  {
+    "id": "arbitrum-canonical",
+    "name": "Arbitrum Bridge",
+    "tagName": "Arbitrum",
+    "website": "https://bridge.arbitrum.io/"
+  },
+  {
+    "id": "fraxtal-canonical",
+    "name": "Fraxtal Bridge",
+    "tagName": "Fraxtal",
+    "website": "https://mainnet.frax.com/tools/bridge/deposit"
+  },
+  {
+    "id": "mode-canonical",
+    "name": "Mode Bridge",
+    "tagName": "Mode",
+    "website": "https://app.mode.network/"
+  },
+  {
+    "id": "avax-canonical",
+    "name": "Avax Bridge",
+    "tagName": "Avax",
+    "website": "https://core.app/bridge"
+  },
+  {
+    "id": "binance-peg",
+    "name": "Binance Pegged",
+    "tagName": "Binance",
+    "website": "https://www.bnbchain.org/en/bridge?ref=binance.ghost.io"
+  },
+  {
+    "id": "cronos-canonical",
+    "name": "Cronos Bridge",
+    "tagName": "Cronos",
+    "website": "https://cronos.org/bridge/"
+  },
+  {
+    "id": "metis-canonical",
+    "name": "Metis Brdige",
+    "tagName": "Metis",
+    "website": "https://bridge.metis.io/home"
+  },
+  {
+    "id": "optimism-canonical",
+    "name": "Optimism Bridge",
+    "tagName": "Optimism",
+    "website": "https://app.optimism.io/bridge"
+  },
+  {
+    "id": "polygon-canonical",
+    "name": "Polygon PoS Bridge",
+    "tagName": "Polygon PoS",
+    "website": "https://wallet.polygon.technology/polygon/bridge"
+  },
+  {
+    "id": "zksync-canonical",
+    "name": "zkSync Era Bridge",
+    "tagName": "zkSync",
+    "website": "https://bridge.zksync.io/"
+  },
+  {
+    "id": "zkevm-canonical",
+    "name": "Polygon zkEVM Bridge",
+    "tagName": "Polygon zkEVM",
+    "website": "https://wallet.polygon.technology/zkEVM-Bridge/bridge"
+  },
+  {
+    "id": "base-canonical",
+    "name": "Base Bridge",
+    "tagName": "Base",
+    "website": "https://bridge.base.org/deposit"
+  },
+  {
+    "id": "gnosis-canonical",
+    "name": "Gnosis xDAI Bridge",
+    "tagName": "Gnosis",
+    "website": "https://omni.gnosischain.com/bridge"
+  },
+  {
+    "id": "fuse-canonical",
+    "name": "Fuse Bridge",
+    "tagName": "Fuse",
+    "website": "https://console.fuse.io/bridge"
+  },
+  {
+    "id": "hop",
+    "name": "HOP Exchange",
+    "website": "https://app.hop.exchange"
+  },
+  {
+    "id": "wbtc-dao",
+    "name": "WBTC Dao",
+    "website": "https://wbtc.network/"
+  },
+  {
+    "id": "ibc",
+    "name": "Inter-Blockchain Communication",
+    "tagName": "IBC",
+    "website": "https://ibc.cosmos.network/main"
+  },
+  {
+    "id": "connext",
+    "name": "Connext",
+    "website": "https://www.connext.network"
+  },
+  {
+    "id": "linea-canonical",
+    "name": "Linea Bridge",
+    "tagName": "Linea",
+    "website": "https://bridge.linea.build/"
+  },
+  {
+    "id": "mantle-canonical",
+    "name": "Mantle Bridge",
+    "tagName": "Mantle",
+    "website": "https://bridge.mantle.xyz/"
+  },
+  {
+    "id": "inception",
+    "name": "Inception Bridge",
+    "tagName": "Inception",
+    "website": "https://www.inceptionlrt.com/app/bridge/"
+  },
+  {
+    "id": "manta-canonical",
+    "name": "Manta Bridge",
+    "tagName": "Manta",
+    "website": "https://pacific-bridge.manta.network/"
+  },
+  {
+    "id": "real-canonical",
+    "name": "re.al Bridge",
+    "tagName": "re.al",
+    "website": "https://www.re.al/bridge"
+  },
+  {
+    "id": "sei-canonical",
+    "name": "Sei Bridge",
+    "tagName": "sei",
+    "website": "https://app.sei.io/bridge"
+  },
+  {
+    "id": "rootstock-canonical",
+    "name": "Rootstock Bridge",
+    "tagName": "rootstock",
+    "website": "https://dapp.tokenbridge.rootstock.io/?_gl=1*1adw6q2*_gcl_au*ODQ3NTgwNDM3LjE3MjcyNjIwNDI."
+  },
+  {
+    "id": "scroll-canonical",
+    "name": "Scroll Bridge",
+    "tagName": "scroll",
+    "website": "https://scroll.io/bridge"
+  },
+  {
+    "id": "lisk-canonical",
+    "name": "Lisk Bridge",
+    "tagName": "lisk",
+    "website": "https://bridge.gelato.network/bridge/lisk"
+  },
+  {
+    "id": "sonic-canonical",
+    "name": "Sonic Bridge",
+    "tagName": "sonic",
+    "website": "https://gateway.soniclabs.com/ethereum/sonic/weth"
+  },
+  {
+    "id": "sovryn",
+    "name": "Sovryn",
+    "tagName": "sovryn",
+    "website": "https://alpha.sovryn.app/cross-chain/deposit"
+  },
+  {
+    "id": "ankr",
+    "name": "Ankr Bridge",
+    "tagName": "Ankr",
+    "website": "https://www.ankr.com/staking/bridge/"
+  },
+  {
+    "id": "chainlink-ccip",
+    "name": "Chainlink CCIP",
+    "tagName": "Chainlink CCIP",
+    "website": "https://chain.link/cross-chain"
+  },
+  {
+    "id": "idrx",
+    "name": "IDRX",
+    "tagName": "IDRX",
+    "website": "https://home.idrx.co/"
+  }
+]
