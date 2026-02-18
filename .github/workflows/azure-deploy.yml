@@ -59,6 +59,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: node-app
+          path: .
+
+      - name: Verify deployment contents
+        run: |
+          echo "=== Files to deploy ==="
+          ls -la
+          echo "=== Checking for server.js ==="
+          test -f server.js && echo "server.js found" || echo "ERROR: server.js missing!"
+          test -f index.html && echo "index.html found" || echo "ERROR: index.html missing!"
+          test -f package.json && echo "package.json found" || echo "ERROR: package.json missing!"
 
       - name: Login to Azure
         uses: azure/login@v2
