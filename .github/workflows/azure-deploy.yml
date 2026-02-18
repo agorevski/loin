@@ -36,6 +36,34 @@ jobs:
           VITE_API_ZAP_URL: https://api.loin.finance/zap
         run: npm run build
 
+      - name: Add static server to build output
+        run: |
+          cat > beefy-v2/build/server.js << 'EOF'
+          const http = require('http');
+          const fs = require('fs');
+          const path = require('path');
+          const PORT = process.env.PORT || 8080;
+          const MIME = {'.html':'text/html','.js':'application/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon','.woff2':'font/woff2','.woff':'font/woff','.ttf':'font/ttf','.map':'application/json'};
+          const ROOT = __dirname;
+          http.createServer((req, res) => {
+            let filePath = path.join(ROOT, req.url.split('?')[0]);
+            if (filePath.endsWith('/')) filePath += 'index.html';
+            const ext = path.extname(filePath);
+            fs.readFile(filePath, (err, data) => {
+              if (err) {
+                fs.readFile(path.join(ROOT, 'index.html'), (e, fallback) => {
+                  res.writeHead(200, {'Content-Type':'text/html'});
+                  res.end(fallback);
+                });
+              } else {
+                res.writeHead(200, {'Content-Type': MIME[ext] || 'application/octet-stream'});
+                res.end(data);
+              }
+            });
+          }).listen(PORT, () => console.log(`Loin serving on port ${PORT}`));
+          EOF
+          echo '{"name":"loin","version":"1.0.0","scripts":{"start":"node server.js"}}' > beefy-v2/build/package.json
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:

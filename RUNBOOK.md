@@ -40,36 +40,19 @@ A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on 
 3. Push to `main` — the workflow will build and deploy automatically
 
 ### Azure App Service Configuration
-Set these **Application Settings** in Azure Portal → `loin` → **Configuration**:
-```
-VITE_API_URL=https://api.loin.finance
-VITE_API_ZAP_URL=https://api.loin.finance/zap
-```
+Set these **Application Settings** in Azure Portal → `loin` → **Configuration** → **Application Settings**:
 
-### Startup Command (Required)
-Azure Linux Node containers expect a Node.js server by default. Since we deploy a static SPA (just HTML/JS/CSS), you **must** set a startup command or the site will hang.
+| Name | Value | Purpose |
+|------|-------|---------|
+| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `false` | Skip Oryx build — we pre-build in GitHub Actions |
+| `WEBSITE_RUN_FROM_PACKAGE` | `1` | Run directly from deployed zip (faster cold starts) |
 
-In Azure Portal → `loin` → **Configuration** → **General Settings** → **Startup Command**:
-```
-pm2 serve /home/site/wwwroot --no-daemon --spa
-```
+### Startup Command
+The GitHub Actions workflow bundles a minimal Node.js static file server (`server.js`) and `package.json` into the build output. Azure automatically detects the `package.json` and runs `npm start` → `node server.js`, which serves the SPA on port `$PORT` (8080) with fallback routing.
 
-This uses `pm2` (pre-installed on Azure Node images) to serve the static build with SPA fallback routing (all routes → `index.html`).
+**No startup command is needed** — clear it if previously set (Azure Portal → Configuration → General Settings → Startup Command → leave blank).
 
-> **⚠️ After setting the startup command, restart the App Service** (Azure Portal → `loin` → Overview → Restart). The first boot takes 1-2 minutes.
-
-If `pm2 serve` doesn't work on your Node image, use this alternative:
-```
-npx serve /home/site/wwwroot -s -l 8080
-```
-Azure Linux Node containers listen on port `8080` by default.
-
-You can also set this via Azure CLI:
-```bash
-az webapp config set --name loin --resource-group Websites \
-  --startup-file "pm2 serve /home/site/wwwroot --no-daemon --spa"
-az webapp restart --name loin --resource-group Websites
-```
+> **Note:** If you need to override, set the startup command to `node server.js`.
 
 ---
 
