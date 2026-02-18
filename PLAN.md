@@ -99,7 +99,19 @@ Fork the Beefy.com yield aggregation platform (4 projects: contracts, API, front
 
 ---
 
-## Workstream 3: Testnet Deployment & Testing
+## Workstream 3: Deployment & Hosting
+
+### Azure Web App (Frontend)
+- **URL**: `https://loin.azurewebsites.net`
+- **Runtime**: Linux / Node 20 LTS / Basic SKU / Canada Central
+- **CI/CD**: GitHub Actions (`.github/workflows/azure-deploy.yml`) — auto-deploys `beefy-v2/build/` on push to `main`
+- **Startup**: `pm2 serve /home/site/wwwroot --no-daemon --spa`
+- **Secret required**: `AZURE_WEBAPP_PUBLISH_PROFILE` in GitHub repo settings
+
+### Tenderly Virtual Testnet (Smart Contracts)
+- **RPC**: `https://virtual.arbitrum.us-west.rpc.tenderly.co/4fe3dd95-4a71-4a2c-b92a-94b277389bcb`
+- **Chain**: Arbitrum fork (chainId 42161)
+
 See [RUNBOOK.md](./RUNBOOK.md) for full deployment and testing instructions.
 
 ---

@@ -20,7 +20,7 @@ function getMiniAppDomain() {
     }
   }
 
-  return domain || 'app.loin.com';
+  return domain || 'loin.azurewebsites.net';
 }
 
 const optionalPlugins: Plugin[] = [];

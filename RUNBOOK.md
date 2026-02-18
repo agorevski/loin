@@ -5,6 +5,54 @@
 - npm/yarn available
 - A wallet with private key for testnet deployment
 - Tenderly account (for funding virtual testnet wallets)
+- Azure subscription (for hosting at loin.azurewebsites.net)
+
+---
+
+## Azure Web App Deployment
+
+### Hosting Environment
+| Setting | Value |
+|---------|-------|
+| **App Name** | `loin` |
+| **URL** | `https://loin.azurewebsites.net` |
+| **OS** | Linux |
+| **Runtime** | Node 20 LTS |
+| **SKU** | Basic |
+| **Region** | Canada Central |
+| **Resource Group** | Websites |
+
+### Project → Azure Mapping
+| Project | Type | Deployment Target |
+|---------|------|-------------------|
+| `beefy-v2` | Static SPA (Vite/React) | Azure Web App `loin` — serves `build/` output |
+| `beefy-api` | Node.js server (Koa) | Separate App Service or container (future) |
+| `beefy-dot-com` | Static site (Gatsby) | Separate Static Web App (future) |
+
+### CI/CD via GitHub Actions
+A workflow at `.github/workflows/azure-deploy.yml` auto-deploys the frontend on every push to `main` that touches `beefy-v2/`.
+
+**Setup steps:**
+1. In Azure Portal → `loin` App Service → **Deployment Center** → download the **Publish Profile**
+2. In GitHub → repo **Settings** → **Secrets and variables** → **Actions** → create secret:
+   - Name: `AZURE_WEBAPP_PUBLISH_PROFILE`
+   - Value: paste the entire publish profile XML
+3. Push to `main` — the workflow will build and deploy automatically
+
+### Azure App Service Configuration
+Set these **Application Settings** in Azure Portal → `loin` → **Configuration**:
+```
+VITE_API_URL=https://api.loin.finance
+VITE_API_ZAP_URL=https://api.loin.finance/zap
+```
+
+### Startup Command
+Since this is a static SPA, configure the startup command to serve the built files.
+In Azure Portal → `loin` → **Configuration** → **General Settings** → **Startup Command**:
+```
+pm2 serve /home/site/wwwroot --no-daemon --spa
+```
+This serves the static build with SPA fallback routing (all routes → `index.html`).
 
 ---
 

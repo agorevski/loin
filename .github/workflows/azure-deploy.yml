@@ -1,0 +1,45 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Deploy Loin Frontend to Azure
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'beefy-v2/**'
+      - '.github/workflows/azure-deploy.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: beefy-v2/package-lock.json
+
+      - name: Install dependencies
+        working-directory: beefy-v2
+        run: npm ci
+
+      - name: Build
+        working-directory: beefy-v2
+        env:
+          VITE_API_URL: https://api.loin.finance
+          VITE_API_ZAP_URL: https://api.loin.finance/zap
+        run: npm run build
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'loin'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: beefy-v2/build
