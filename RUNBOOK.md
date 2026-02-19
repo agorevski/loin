@@ -39,25 +39,24 @@ A workflow at `.github/workflows/azure-deploy.yml` auto-deploys on every push to
 
 **Deployment flow:**
 1. Checkout → Install frontend deps → `npm run build` in `beefy-v2/`
-2. Copy frontend build into `beefy-api/public/`
-3. Deploy `beefy-api/` directory (source + frontend, no node_modules) to Azure
-4. Azure Oryx detects `package.json`, runs `npm install` (with `.npmrc` for legacy-peer-deps)
-5. Oryx runs `postinstall` script to install `packages/address-book` dependencies
-6. App starts via `npm start` → `ts-node --transpile-only src/app.ts`
+2. Install API deps with `npm install --legacy-peer-deps` (includes node_modules in deploy)
+3. Copy frontend build into `beefy-api/public/`
+4. Deploy `beefy-api/` directory (source + node_modules + frontend) to Azure
+5. Azure starts app via `npm start` → `ts-node --transpile-only src/app.ts`
 
-Push to `main` — the workflow builds and deploys automatically (~8-12 minutes).
+Push to `main` — the workflow builds and deploys automatically (~10-15 minutes).
 
 ### Azure App Service Configuration
 Set these **Application Settings** in Azure Portal → `loin` → **Configuration** → **Application Settings**:
 
 | Name | Value | Purpose |
 |------|-------|---------|
-| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `true` | Let Oryx run `npm install` to install API dependencies on the server |
+| `SCM_DO_BUILD_DURING_DEPLOYMENT` | `false` | Dependencies are pre-installed in CI — skip Oryx build for faster deploys |
 
 > **Removed settings:** Do NOT set `WEBSITE_RUN_FROM_PACKAGE=1` — it creates a read-only filesystem that conflicts with file-based deploys.
 
 ### Startup Command
-The `beefy-api` serves both the API routes (e.g., `/apy`, `/vaults`, `/prices`) and the static frontend (from `public/`). Azure's Oryx detects the `package.json` `start` script and runs `ts-node --transpile-only src/app.ts`.
+The `beefy-api` serves both the API routes (e.g., `/apy`, `/vaults`, `/prices`) and the static frontend (from `public/`). The `package.json` `start` script runs `ts-node --transpile-only src/app.ts`.
 
 **Recommended startup command:** `npx ts-node --transpile-only src/app.ts`
 

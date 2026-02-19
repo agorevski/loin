@@ -34,6 +34,12 @@ jobs:
           npm ci
           npm run build
 
+      - name: Install API dependencies
+        working-directory: beefy-api
+        run: |
+          npm install --legacy-peer-deps
+          cd packages/address-book && npm install --legacy-peer-deps
+
       - name: Copy frontend build into API public directory
         run: cp -r beefy-v2/build beefy-api/public
 
@@ -43,6 +49,10 @@ jobs:
           test -f beefy-api/src/app.ts && echo "app.ts found" || echo "ERROR: app.ts missing!"
           echo "=== Frontend files ==="
           test -f beefy-api/public/index.html && echo "index.html found" || echo "ERROR: index.html missing!"
+          echo "=== node_modules ==="
+          test -d beefy-api/node_modules && echo "node_modules found" || echo "ERROR: node_modules missing!"
+          echo "=== ts-node ==="
+          test -f beefy-api/node_modules/.bin/ts-node && echo "ts-node found" || echo "ERROR: ts-node missing!"
           echo "=== package.json start script ==="
           node -e "console.log(require('./beefy-api/package.json').scripts.start)"
 
