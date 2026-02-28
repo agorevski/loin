@@ -66,6 +66,8 @@ jobs:
       - name: Disable Oryx build on Azure
         run: |
           az webapp config appsettings set --name loin --resource-group Websites --settings ENABLE_ORYX_BUILD=false SCM_DO_BUILD_DURING_DEPLOYMENT=false
+          echo "Waiting for SCM container to stabilize after settings change..."
+          sleep 60
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
