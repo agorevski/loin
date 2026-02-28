@@ -63,6 +63,10 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_D43B152B412D445EB621204A330D961D }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_626BA68E464E410E871C7CB0AC14BAD1 }}
 
+      - name: Disable Oryx build on Azure
+        run: |
+          az webapp config appsettings set --name loin --resource-group Websites --settings ENABLE_ORYX_BUILD=false SCM_DO_BUILD_DURING_DEPLOYMENT=false
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
