@@ -8,8 +8,14 @@ on:
     branches:
       - main
     paths:
-      - 'beefy-v2/**'
-      - 'beefy-api/**'
+      - 'beefy-v2/src/**'
+      - 'beefy-v2/package*.json'
+      - 'beefy-v2/tsconfig*'
+      - 'beefy-v2/vite.config.*'
+      - 'beefy-api/src/**'
+      - 'beefy-api/packages/**'
+      - 'beefy-api/package*.json'
+      - 'beefy-api/tsconfig*'
       - '.github/workflows/azure-deploy.yml'
   workflow_dispatch:
 
