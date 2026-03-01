@@ -66,7 +66,7 @@ jobs:
       - name: Configure Azure App Service
         run: |
           az webapp config appsettings set --name loin --resource-group Websites \
-            --settings ENABLE_ORYX_BUILD=false SCM_DO_BUILD_DURING_DEPLOYMENT=false
+            --settings ENABLE_ORYX_BUILD=false SCM_DO_BUILD_DURING_DEPLOYMENT=false ENABLED_CHAINS=arbitrum,ethereum
           az webapp config set --name loin --resource-group Websites \
             --startup-file 'npx ts-node --transpile-only src/app.ts'
           echo "Waiting for SCM container to stabilize after config change..."

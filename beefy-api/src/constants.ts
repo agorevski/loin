@@ -1,5 +1,5 @@
 import { ChainId } from '../packages/address-book/src/address-book';
-import { ApiChain, SupportedApiChain, fromChainId, toChainId } from './utils/chain';
+import { ApiChain, SupportedApiChain, SupportedChains, fromChainId, toChainId } from './utils/chain';
 import { mapValues, shuffle, uniq } from 'lodash';
 import { getChainRpcs } from './api/rpc/rpcs';
 
@@ -305,6 +305,13 @@ const MULTICHAIN_ENDPOINTS: Partial<Record<ApiChain, string>> = {
   megaeth: MEGAETH_VAULTS_ENDPOINT,
 } as const;
 
+// Filter MULTICHAIN_ENDPOINTS to only include enabled chains
+const FILTERED_MULTICHAIN_ENDPOINTS: Partial<Record<ApiChain, string>> = Object.fromEntries(
+  Object.entries(MULTICHAIN_ENDPOINTS).filter(([key]) =>
+    SupportedChains.includes(key as ApiChain)
+  )
+) as Partial<Record<ApiChain, string>>;
+
 const EXCLUDED_IDS_FROM_TVL = ['venus-wbnb'];
 
 /**
@@ -438,7 +445,7 @@ export {
   DAILY_HPY,
   WEEKLY_HPY,
   MULTICHAIN_RPC,
-  MULTICHAIN_ENDPOINTS,
+  FILTERED_MULTICHAIN_ENDPOINTS as MULTICHAIN_ENDPOINTS,
   SUSHI_LPF,
   PCS_LPF,
   SPOOKY_LPF,

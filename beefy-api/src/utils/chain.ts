@@ -17,8 +17,16 @@ const apiChainToAppChain: Partial<Record<ApiChain, AppChain>> = invert(appChainT
 
 export const ApiChains: ApiChain[] = Object.keys(addressBook) as ApiChain[];
 export const AppChains: AppChain[] = ApiChains.map(toAppChain);
+
+// Filter chains by ENABLED_CHAINS env var (comma-separated) if set
+const enabledChainsEnv = process.env.ENABLED_CHAINS;
+const enabledChainsSet: Set<string> | undefined = enabledChainsEnv
+  ? new Set(enabledChainsEnv.split(',').map(c => c.trim()))
+  : undefined;
+
 export const SupportedChains: ApiChain[] = Object.entries(addressBook)
   .filter(([key]) => !DEPRECATED_CHAINS.includes(key as any))
+  .filter(([key]) => !enabledChainsSet || enabledChainsSet.has(key))
   .map(([key]) => key as ApiChain);
 
 export function toAppChain(chain: AnyChain): AppChain {
